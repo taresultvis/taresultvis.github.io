@@ -40,15 +40,11 @@ function Survey() {
       }
     };
 
-
-    // Fetch thumbnails.json from public folder and set thumbnails
+    // Fetch thumbnails.json from public and set thumbnails
     fetch('/thumbnails.json')
       .then(res => res.json())
       .then((urls: string[]) => setThumbnails(urls))
-      .catch(err => {
-        console.error('Error loading thumbnails.json:', err);
-        setThumbnails([]);
-      });
+      .catch(() => setThumbnails([]));
 
     fetchData();
   }, []);

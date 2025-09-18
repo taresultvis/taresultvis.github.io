@@ -6,7 +6,6 @@ import {
   arSubKeyOrder,
   vrSubKeyOrder,
 } from "../constants";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 const ContentList = () => {
@@ -121,8 +120,8 @@ const ContentList = () => {
   };
 
   return (
-    <div className="absolute inset-0 overflow-y-auto">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-8">
+  <div className="absolute inset-0 overflow-y-auto">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-2 p-2">
         {visualRepresentations !== null && analysisResults !== null
           ? visibleThumbnails.map((thumbnail, index) => {
               const id = parseInt(
@@ -141,12 +140,12 @@ const ContentList = () => {
                 arSubKeyOrder
               );
               return (
-                <div key={index} className="border rounded-lg overflow-hidden">
-                  <LazyLoadImage
+                <div key={index} className="w-full h-full border rounded-lg overflow-hidden justify-items-center">
+                  <img
                     alt={`thumbnail-${index}`}
-                    effect="blur"
+                    loading="lazy"
                     src={thumbnail}
-                    className="w-full h-auto object-cover cursor-pointer"
+                    className="w-full h-32 object-cover object-center cursor-pointer"
                     onClick={() => setSelectedImage(thumbnail)}
                   />
                   <div className="p-2">
@@ -189,7 +188,8 @@ const ContentList = () => {
           <img
             src={selectedImage}
             alt="enlarged thumbnail"
-            className="max-w-full max-h-full"
+            className="max-w-full max-h-full cursor-pointer"
+            onClick={() => setSelectedImage(null)}
           />
         </div>
       )}

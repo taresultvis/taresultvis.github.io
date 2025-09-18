@@ -6,6 +6,7 @@ import Timeseries from "../components/Timeseries";
 import * as d3 from "d3";
 import { DataContext } from "../DataContext";
 import type { DataContextProps } from "../DataContext";
+import Instruction from "../components/Instruction";
 
 function Survey() {
   const [analysisResults, setAnalysisResults] = useState(null);
@@ -13,7 +14,9 @@ function Survey() {
   const [selectedArKeys, setSelectedArKeys] = useState<string[]>([]);
   const [selectedVrKeys, setSelectedVrKeys] = useState<string[]>([]);
   const [thumbnails, setThumbnails] = useState<string[]>([]);
-  const [figureInfo, setFigureInfo] = useState<d3.DSVRowArray<string> | null>(null as d3.DSVRowArray<string> | null);
+  const [figureInfo, setFigureInfo] = useState<d3.DSVRowArray<string> | null>(
+    null as d3.DSVRowArray<string> | null
+  );
   const [selectedYears, setSelectedYears] = useState<string[]>([]);
 
   useEffect(() => {
@@ -41,8 +44,8 @@ function Survey() {
     };
 
     // Fetch thumbnails.json from public and set thumbnails
-    fetch('/thumbnails.json')
-      .then(res => res.json())
+    fetch("/thumbnails.json")
+      .then((res) => res.json())
       .then((urls: string[]) => setThumbnails(urls))
       .catch(() => setThumbnails([]));
 
@@ -75,18 +78,20 @@ function Survey() {
 
   return (
     <DataContext.Provider value={contextValue}>
-      <div className="h-full flex flex-col">
-        
-        <div className="grow grid grid-rows-7 grid-cols-4 p-1 gap-1">
-          <div className="col-span-1 row-span-2 border">
+      <div className="w-full h-full grid grid-cols-4 p-1 gap-2">
+        <div className="col-span-1 grid grid-rows-7 border rounded">
+          <div className="w-full row-span-2">
             <Timeseries />
           </div>
-          <div className="col-span-3 row-span-1 border">Instruction </div>
-          <div className="col-span-3 row-span-1 border">Explanation</div>
-          <div className="col-span-1 row-span-6 border">
+          <div className="w-full row-span-5 relative">
             <Matrix />
           </div>
-          <div className="col-span-3 row-span-6 border relative">
+        </div>
+        <div className="col-span-3 grid grid-rows-7 gap-1">
+          <div className="w-full row-span-2 border rounded">
+            <Instruction />
+          </div>
+          <div className="w-full row-span-5 relative border rounded">
             <ContentList />
           </div>
         </div>

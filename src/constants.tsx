@@ -139,9 +139,6 @@ const vrColorRange = [d3.schemeTableau10[1], d3.schemeTableau10[3], d3.schemeTab
 const vrScale = d3.scaleOrdinal<string>().domain(vrDomain).range(vrColorRange);
 
 export const vrColorScale = (key: string): string => {
-    if (key.includes("Other")) {
-        return d3.schemeTableau10[9];
-    }
     return vrScale(key);
 };
 
@@ -160,14 +157,11 @@ export const vrIconScale = d3.scaleOrdinal<string>()
         "fa-minus-square",
     ]);
 
-const arDomain = arKeyOrder.filter(key => key !== "Other");
+const arDomain = arKeyOrder
 const arColorRange = [d3.schemeTableau10[0], d3.schemeTableau10[1], d3.schemeTableau10[2], d3.schemeTableau10[3]];
 const arScale = d3.scaleOrdinal<string>().domain(arDomain).range(arColorRange);
 
 export const arColorScale = (key: string): string => {
-    if (key.includes("Other")) {
-        return d3.schemeTableau10[9];
-    }
     return arScale(key);
 };
 
@@ -180,8 +174,23 @@ export const getProportionalColor = (currentVal: number, maxVal: number) => {
 
 
 
-export const instructionText = ""
+export const instructionTexts = [
+    "In this work, we collected 573 visual representations (figures and tables) from 187 articles which utilized the Thematic Analysis published in ACM CHI from 2012 to 2025.",
+    "This thematic analysis visual representation framework consists of two taxonomies: (1) a taxonomy of the represented content and (2) a taxonomy of visual representation type.",
+]
 
-export const explanationText = [
-    ""
+export const arTexts = [
+    "Theme (T1-T4): This category encompasses visual representations that convey high-level topics or themes derived from qualitative analysis of textual data.",
+    "Quantitative (Q1-Q3): This category includes visual representations that present numerical data or statistics related to the study, such as self-reported data or measurements.",
+    "Concept (C1-C4): This category covers visual representations that illustrate theoretical models, frameworks, design insights, or future work concepts derived from the research.",
+    "Other (O1): This category captures visual representations that do not fit into the other three categories."
+]
+
+export const vrTexts = [
+    "Table/Matrix (TM1-T3): This category includes visual representations that utilize tabular or matrix formats to organize and present data systematically.",
+    "Image (I1-I4): This category encompasses visual representations that primarily use images, such as photos, screenshots, sketches, or illustrations, to convey information.",
+    "Diagram (D1-D7): This category consists of visual representations that employ various types of diagrams, such as block diagrams, flow diagrams, network diagrams, onion diagrams, Venn diagrams, timeline diagrams, or other diagrammatic forms.",
+    "Chart (C1-C10): This category includes visual representations that utilize chart formats, such as bar charts, grouped bar charts, stacked bar charts, diverging bar charts, bar charts with range, box plots, dot plots with range, line charts, line charts with range, or other chart types.",
+    "Other (O1): This category captures visual representations that do not fit into the other four categories."
+
 ]

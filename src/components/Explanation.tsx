@@ -1,8 +1,8 @@
 import { instructionTexts } from "../constants";
 
-const Instruction = () => {
+const Explanation = () => {
   return (
-    <div className="instruction-container">
+    <div className="explanation-container">
       <ul>
         {instructionTexts.map((text, index) => (
           <li key={index}>{text}</li>
@@ -12,4 +12,4 @@ const Instruction = () => {
   );
 };
 
-export default Instruction;
+export default Explanation;

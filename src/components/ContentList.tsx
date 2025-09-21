@@ -27,7 +27,6 @@ const ContentList = () => {
     setSelectedVrKeys,
     thumbnails,
     figureInfo,
-    selectedYears,
     setSelectedYears,
   } = context;
 
@@ -194,7 +193,7 @@ const ContentList = () => {
                 (f) => parseInt(f.id) === id
               );
               // console.log(figure)
-              const title = figure ? figure.Paper : "Unknown";
+              //const title = figure ? figure.Paper : "Unknown";
               const year = figure ? figure.Year : "Unknown";
               const url = figure ? figure.URL : "";
 

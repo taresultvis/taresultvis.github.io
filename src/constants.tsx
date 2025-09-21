@@ -10,16 +10,16 @@ export const vrKeyOrder: string[] = [
 ]
 
 export const vrSubkeyToKey: any = {
-    "Table/Matrix": "Table/Matrix",
+    //"Table/Matrix": "Table/Matrix",
     "Table": "Table/Matrix",
     "Matrix": "Table/Matrix",
     "Heatmap": "Table/Matrix",
-    "Image": "Image",
+    //"Image": "Image",
     "Photo": "Image",
     "Screenshot": "Image",
     "Sketch": "Image",
     "Illustration": "Image",
-    "Diagram": "Diagram",
+    //"Diagram": "Diagram",
     "Block diagram": "Diagram",
     "Flow diagram": "Diagram",
     "Network diagram": "Diagram",
@@ -27,7 +27,7 @@ export const vrSubkeyToKey: any = {
     "Venn diagram": "Diagram",
     "Timeline diagram": "Diagram",
     "Other diagram": "Diagram",
-    "Chart": "Chart",
+    //"Chart": "Chart",
     "Bar chart": "Chart",
     "Grouped bar chart": "Chart",
     "Stacked bar chart": "Chart",
@@ -38,7 +38,7 @@ export const vrSubkeyToKey: any = {
     "Line chart": "Chart",
     "Line chart with range": "Chart",
     "Other chart": "Chart",
-    "Other": "Other"
+    //"Other": "Other"
 }
 
 export const vrSubKeyOrder: any = {
@@ -80,8 +80,8 @@ export const vrSubKeyOrder: any = {
 
 export const arKeyOrder: string[] = [
     "Theme",
-    "Quantitative",
     "Concept",
+    "Quantitative",
     "Other"
 ]
 
@@ -95,7 +95,6 @@ export const arSubkeyToKey: any = {
     "Other quantitative": "Quantitative",
     "Model/Framework": "Concept",
     "Design insight": "Concept",
-    "Future work": "Concept",
     "Other concept": "Concept",
     "Other": "Other"
 }
@@ -123,12 +122,10 @@ export const arSubKeyOrder: any = {
     "Concept": [
         "Model/Framework",
         "Design insight",
-        "Future work",
         "Other concept"
     ],
     "Model/Framework": ["Model/Framework"],
     "Design insight": ["Design insight"],
-    "Future work": ["Future work"],
     "Other concept": ["Other concept"],
     "Other": ["Other"]
 }
@@ -175,22 +172,178 @@ export const getProportionalColor = (currentVal: number, maxVal: number) => {
 
 
 export const instructionTexts = [
-    "In this work, we collected 573 visual representations (figures and tables) from 187 articles which utilized the Thematic Analysis published in ACM CHI from 2012 to 2025.",
-    "This thematic analysis visual representation framework consists of two taxonomies: (1) a taxonomy of the represented content and (2) a taxonomy of visual representation type.",
+    "In this work, we categorized visual representations of thematic analysis results in CHI papers from 2012 to 2025 with the Thematic Analysis Visual Representation Framework consists of two taxonomies: (1) a taxonomy of the represented content and (2) a taxonomy of visual representation type.",
 ]
 
-export const arTexts = [
-    "Theme (T1-T4): This category encompasses visual representations that convey high-level topics or themes derived from qualitative analysis of textual data.",
-    "Quantitative (Q1-Q3): This category includes visual representations that present numerical data or statistics related to the study, such as self-reported data or measurements.",
-    "Concept (C1-C4): This category covers visual representations that illustrate theoretical models, frameworks, design insights, or future work concepts derived from the research.",
-    "Other (O1): This category captures visual representations that do not fit into the other three categories."
+const arDefaultTexts = [
+    "Theme: Recurring patterns of meaning organized from qualitative data.",
+    "Concept: Novel conceptual artifacts developed based on the results of a thematic analysis.",
+    "Quantitative: Quantitative results derived from or reported alongside the thematic analysis.",
+    "Other: Analysis results that do not fit into the other three categories."
 ]
 
-export const vrTexts = [
-    "Table/Matrix (TM1-T3): This category includes visual representations that utilize tabular or matrix formats to organize and present data systematically.",
-    "Image (I1-I4): This category encompasses visual representations that primarily use images, such as photos, screenshots, sketches, or illustrations, to convey information.",
-    "Diagram (D1-D7): This category consists of visual representations that employ various types of diagrams, such as block diagrams, flow diagrams, network diagrams, onion diagrams, Venn diagrams, timeline diagrams, or other diagrammatic forms.",
-    "Chart (C1-C10): This category includes visual representations that utilize chart formats, such as bar charts, grouped bar charts, stacked bar charts, diverging bar charts, bar charts with range, box plots, dot plots with range, line charts, line charts with range, or other chart types.",
-    "Other (O1): This category captures visual representations that do not fit into the other four categories."
-
+const arThemeTexts = [
+    "Taxonomy: The hierarchical structure of themes and their subthemes",
+    "Definition: The definition of each theme, subtheme, or code.",
+    "Frequency: Indicates how frequently each theme was reported from the data sources.",
+    "Example: Textual (e.g., quote) or graphical examples to illustrate each theme.",
+    "Other theme: Any other visual representations related to themes."
 ]
+
+const arQuantitativeTexts = [
+    "Self-reported: Self-reported scores from experiments, such as SUS.",
+    "Measurement: Objectively measured scores from experiments, such as F1 scores.",
+    "Other quantitative: Any other visual representations related to quantitative data."
+]
+const arConceptTexts = [
+    "Model/Framework: Novel conceptual structures (e.g., framework, model).",
+    "Design insight: Actionable insights for future design, such as design considerations or implications.",
+    "Other concept: Any other visual representations related to concepts."
+]
+const arOtherTexts = [
+    "Other: Analysis results that do not fit into the other three categories."
+]
+
+export const arInstructionTexts = (arSelectedKeys: string[]) => {
+    if(arSelectedKeys.length === 0) {
+        return arDefaultTexts;
+    } else {
+        if(arSelectedKeys.includes("Theme")) {
+            return arThemeTexts;
+        }
+        else if(arSelectedKeys.includes("Quantitative")) {
+            return arQuantitativeTexts;
+        }
+        else if(arSelectedKeys.includes("Concept")) {
+            return arConceptTexts;
+        }
+        else if (arSelectedKeys.includes("Other")) {
+            return arOtherTexts;
+        }
+        else {
+            let parentKey: string = arSubkeyToKey[arSelectedKeys[0]];
+            // arSubKeyOrder[parentKey] 에서 현재 arSelectedKeys[0]의 index를 알아내기
+            let index = arSubKeyOrder[parentKey].indexOf(arSelectedKeys[0]);
+            if(index === -1) {
+                return [];
+            }
+            else {
+                if(parentKey === "Theme") {
+                    return [arThemeTexts[index]];
+                }
+                else if(parentKey === "Quantitative") {
+                    return [arQuantitativeTexts[index]];
+                }
+                else if(parentKey === "Concept") {
+                    return [arConceptTexts[index]];
+                }
+                else if(parentKey === "Other") {
+                    return [arOtherTexts[0]];
+                }
+                else {
+                    return [];
+                }
+            }
+        }
+    }
+
+}
+
+const vrDefaultTexts = [
+    "Table/Matrix: Visual representations composed of rows and columns.",
+    "Image: Visual representations that captures a scene or concept.",
+    "Diagram: Schematic visual representations that provide an overview of how things are interrelated.",
+    "Chart: Visual representations that map quantitative data to visual elements (e.g., a bar, a point).",
+    "Other: Any other visual representations that do not fit into the other categories."
+]
+
+const vrTableTexts = [
+    "Table: Grids that organize detailed, often text-based, data for precise reading and comparison.",
+    "Matrix: Grids that visually summarize data across multiple grouped categories to show relationships.",
+    "Heatmap: Matrices that use color intensity to represent the magnitude of values and reveal patterns."
+]
+
+const vrImageTexts = [
+    "Photo: Images capturing a real-world scene.",
+    "Screenshot: Images of content displayed on a computer or mobile device.",
+    "Sketch: Images which are rough or unfinished drawings.",
+    "Illustration: Graphic images generated using computer design tools."
+]
+
+const vrDiagramTexts = [
+    "Block diagram: Diagrams which lay out information schematically in blocks without interconnections.",
+    "Flow diagram: Diagrams which display processes or sequences and shows the step-by-step progression, typically with blocks and arrows.",
+    "Network diagram: Diagrams which show how entities are interconnected in many-to-many relationships with blocks.",
+    "Onion diagram: Diagrams which illustrate hierarchical structures in concentric ellipses resembling an onion.",
+    "Venn diagram: Diagrams which represent sets using overlapping shapes.",
+    "Timeline diagram: Diagrams which represent events on a line representing time.",
+    "Other diagram: Diagrams which do not fit into any of the other categories."
+]
+
+const vrChartTexts = [
+    "Bar chart: Charts that presents categorical data with rectangular bars. The length or height of each bar is proportional to the value.",
+    "Grouped bar chart: A type of bar chart that displays multiple sets of data side-by-side, grouped together under categories on the same axis.",
+    "Stacked bar chart: A type of chart that visually represents categorical data by displaying bars divided into segments.",
+    "Diverging bar chart: A type of bar chart that displays two sets of data extending in opposite directions from a central baseline.",
+    "Bar chart with range: A type of chart that displays categorical data as rectangular bars, with the addition of range symbols.",
+    "Box plot: A chart displaying the distribution of data with minimum, first quartile, median, third quartile, and maximum.",
+    "Dot plot with range: A type of chart that combines individual data points (represented as dots) with range symbols.",
+    "Line chart: A type of chart that displays data points connected by straight line segments.",
+    "Line chart with range: A type of line chart that displays connected line segments with the addition of range symbols.",
+    "Other chart: Charts that do not fit into any of the other categories."
+]
+
+const vrOtherTexts = [
+    "Other: This subcategory includes visual representations that do not fit into any of the other categories or subcategories."
+]
+
+export const vrInstructionTexts = (vrSelectedKeys: string[]) => {
+    if(vrSelectedKeys.length === 0) {
+        return vrDefaultTexts;
+    } else {
+        if(vrSelectedKeys.includes("Table/Matrix")) {
+            return vrTableTexts;
+        }
+        else if(vrSelectedKeys.includes("Image")) {
+            return vrImageTexts;
+        }
+        else if(vrSelectedKeys.includes("Diagram")) {
+            return vrDiagramTexts;
+        }
+        else if(vrSelectedKeys.includes("Chart")) {
+            return vrChartTexts;
+        }
+        else if (vrSelectedKeys.includes("Other")) {
+            return vrOtherTexts;
+        }
+        else {
+            let parentKey: string = vrSubkeyToKey[vrSelectedKeys[0]];
+            // vrSubKeyOrder[parentKey] 에서 현재 vrSelectedKeys[0]의 index를 알아내기
+            let index = vrSubKeyOrder[parentKey].indexOf(vrSelectedKeys[0]);
+            if(index === -1) {
+                return [];
+            }
+            else {
+                if(parentKey === "Table/Matrix") {
+                    return [vrTableTexts[index]];
+                }
+                else if(parentKey === "Image") {
+                    return [vrImageTexts[index]];
+                }
+                else if(parentKey === "Diagram") {
+                    return [vrDiagramTexts[index]];
+                }
+                else if(parentKey === "Chart") {
+                    return [vrChartTexts[index]];
+                }
+                else if(parentKey === "Other") {
+                    return [vrOtherTexts[0]];
+                }
+                else {
+                    return [];
+                }
+            }
+        }
+    }
+
+}

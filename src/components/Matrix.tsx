@@ -48,6 +48,34 @@ const Matrix = () => {
     selectedYears,
   } = context;
 
+  const handleVrReset = () => {
+    if (selectedVrKeys.length === 1) {
+      const currentKey = selectedVrKeys[0];
+      const parentKey = vrSubkeyToKey[currentKey];
+      if (parentKey) {
+        setSelectedVrKeys([parentKey]);
+      } else {
+        setSelectedVrKeys([]);
+      }
+    } else {
+      setSelectedVrKeys([]);
+    }
+  };
+
+  const handleArReset = () => {
+    if (selectedArKeys.length === 1) {
+      const currentKey = selectedArKeys[0];
+      const parentKey = arSubkeyToKey[currentKey];
+      if (parentKey) {
+        setSelectedArKeys([parentKey]);
+      } else {
+        setSelectedArKeys([]);
+      }
+    } else {
+      setSelectedArKeys([]);
+    }
+  };
+
   const xAxisLabels = useMemo(() => {
     if (selectedArKeys.length === 0) {
       return arKeyOrder;
@@ -154,7 +182,7 @@ const Matrix = () => {
   ]);
 
   const { xScale, yScale, margin } = useMemo(() => {
-    const margin = { top: 100, right: 80, bottom: 20, left: 100 };
+    const margin = { top: 100, right: 20, bottom: 20, left: 180 };
     if (dimensions.width === 0) {
       return {
         xScale: null,
@@ -193,17 +221,19 @@ const Matrix = () => {
     <div ref={containerRef} className="w-full h-full min-w-0 min-h-0">
       {selectedVrKeys.length > 0 && (
         <button
-          onClick={() => setSelectedVrKeys([])}
-          className="absolute bottom-0 left-0 m-2"
+          onClick={handleVrReset}
+          className="absolute top-0 left-0 m-2 flex flex-row items-center gap-1"
         >
+          <h2>Reset representation</h2>
           <ArrowUturnLeftIcon className="h-6 w-6" />
         </button>
       )}
       {selectedArKeys.length > 0 && (
         <button
-          onClick={() => setSelectedArKeys([])}
-          className="absolute top-0 right-0 m-2"
+          onClick={handleArReset}
+          className="absolute top-10 left-0 m-2 flex flex-row items-center gap-1"
         >
+          <h2>Reset content</h2>
           <ArrowUturnLeftIcon className="h-6 w-6" />
         </button>
       )}
@@ -253,10 +283,10 @@ const Matrix = () => {
                   textAnchor="start"
                   transform={`rotate(-45, ${
                     (xScale(label) ?? 0) + xScale.bandwidth() / 2
-                  }, -10)`}
+                  }, 0)`}
                   alignmentBaseline="middle"
                 >
-                  {label}
+                  {label.includes("Other") ? "Other" : label}
                 </text>
               </g>
             ))}
@@ -272,7 +302,7 @@ const Matrix = () => {
                 textAnchor="end"
                 alignmentBaseline="middle"
               >
-                {label}
+                {label.includes("Other") ? "Other" : label}
               </text>
               <foreignObject
                   x={-35}

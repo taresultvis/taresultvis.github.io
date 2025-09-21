@@ -5,7 +5,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     <div className="w-screen h-screen flex flex-col">
       <nav className="navBar w-full h-16 bg-gray-800 text-white flex items-center justify-between px-4">
         <h1 className="text-3xl font-bold underline">
-          <Link to="/">Qualitative Visualization Survey</Link>
+          <Link to="/">Visual Representations of Thematic Analysis Results @ CHI</Link>
         </h1>
         <div>
           <Link to="/survey" className="text-white px-3 py-2 rounded-md text-sm font-medium">Survey</Link>

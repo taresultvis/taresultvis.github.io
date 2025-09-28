@@ -314,9 +314,10 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 544	Exploring Collaborative Movement Improvisation Towards the Design of LuminAI — a Co-Creative AI Dance Partner	55	Figure4	2024	https://doi.org/10.1145/3613904.3642677	Diagram	Onion diagram, Venn diagram	Concept	Model/Framework
 545	Exploring Collaborative Movement Improvisation Towards the Design of LuminAI — a Co-Creative AI Dance Partner	55	Figure5	2024	https://doi.org/10.1145/3613904.3642677	Chart	Stacked bar chart	Theme	Frequency
 546	Exploring Collaborative Movement Improvisation Towards the Design of LuminAI — a Co-Creative AI Dance Partner	55	Table2	2024	https://doi.org/10.1145/3613904.3642677	Table/Matrix	Table	Concept	Design insight
-548	Exploring Media Capture of Meaningful Experiences to Support Families Living with Dementia	177	Figure1	2019	https://doi.org/10.1145/3290605.3300653	Table/Matrix	Table	Concept	Design insight
+548	Exploring Media Capture of Meaningful Experiences to Support Families Living with Dementia	177	Figure1	2019	https://doi.org/10.1145/3290605.3300653	Image	Photo	Theme	Example
 551	Exploring Media Capture of Meaningful Experiences to Support Families Living with Dementia	177	Figure3	2019	https://doi.org/10.1145/3290605.3300653	Image	Photo	Theme	Example
-557	Exploring Privacy Practices of Female mHealth Apps in a Post-Roe World	51	Table2	2024	https://doi.org/10.1145/3613904.3642521	Table/Matrix	Table	Theme	Frequency
+556	Exploring Privacy Practices of Female mHealth Apps in a Post-Roe World	51	Table1	2024	https://doi.org/10.1145/3613904.3642521	Table/Matrix	Matrix	Theme	Frequency
+557	Exploring Privacy Practices of Female mHealth Apps in a Post-Roe World	51	Table2	2024	https://doi.org/10.1145/3613904.3642521	Table/Matrix	Matrix	Theme	Frequency
 558	Exploring Privacy Practices of Female mHealth Apps in a Post-Roe World	51	Figure1	2024	https://doi.org/10.1145/3613904.3642521	Image	Screenshot	Theme	Example
 559	Exploring Privacy Practices of Female mHealth Apps in a Post-Roe World	51	Figure2	2024	https://doi.org/10.1145/3613904.3642521	Image	Screenshot	Theme	Example
 560	Exploring Privacy Practices of Female mHealth Apps in a Post-Roe World	51	Figure3	2024	https://doi.org/10.1145/3613904.3642521	Image	Screenshot	Theme	Example
@@ -372,17 +373,20 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 641	Identity Claims that Underlie Ethical Awareness and Action	118	Figure1	2021	https://doi.org/10.1145/3411764.3445375	Diagram	Network diagram	Concept	Model/Framework
 642	Identity Claims that Underlie Ethical Awareness and Action	118	Figure2	2021	https://doi.org/10.1145/3411764.3445375	Diagram	Network diagram	Concept	Model/Framework
 645	Impacts of Telemanipulation in Robotic Assisted Surgery	136	Figure2	2019	https://doi.org/10.1145/3290605.3300813	Image	Illustration	Concept	Design insight
-649	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	142	Figure2	2018	https://doi.org/10.1145/3173574.3174158	Image	Photo	Theme	Example
-650	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	142	Figure3	2018	https://doi.org/10.1145/3173574.3174158	Image	Photo	Theme	Example
-651	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	142	Figure4	2018	https://doi.org/10.1145/3173574.3174158	Image	Photo	Theme	Example
-652	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	142	Figure5	2018	https://doi.org/10.1145/3173574.3174158	Image	Photo	Theme	Example
-653	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	142	Figure6	2018	https://doi.org/10.1145/3173574.3174158	Image	Photo	Theme	Example
-654	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	142	Figure7	2018	https://doi.org/10.1145/3173574.3174158	Image	Photo	Theme	Example
+649	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	142	Figure2	2018	https://doi.org/10.1145/3173574.3174158	Image	Sketch	Theme	Example
+650	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	142	Figure3	2018	https://doi.org/10.1145/3173574.3174158	Image	Sketch	Theme	Example
+651	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	142	Figure4	2018	https://doi.org/10.1145/3173574.3174158	Image	Sketch	Theme	Example
+652	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	142	Figure5	2018	https://doi.org/10.1145/3173574.3174158	Image	Sketch	Theme	Example
+653	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	142	Figure6	2018	https://doi.org/10.1145/3173574.3174158	Image	Sketch	Theme	Example
+654	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	142	Figure7	2018	https://doi.org/10.1145/3173574.3174158	Image	Sketch	Theme	Example
 660	Infrastructuring Care: How Trans and Non-Binary People Meet Health and Well-Being Needs through Technology	73	Figure1	2023	https://doi.org/10.1145/3544548.3581040	Image	Photo	Theme	Example
 661	Infrastructuring Care: How Trans and Non-Binary People Meet Health and Well-Being Needs through Technology	73	Figure2	2023	https://doi.org/10.1145/3544548.3581040	Image	Photo	Theme	Example
 664	Inhabiting Interconnected Spaces: How Users Shape and Appropriate Their Smart Home Ecosystems	88	Figure2	2023	https://doi.org/10.1145/3544548.3581497	Image	Illustration	Theme	Example
 665	Inhabiting Interconnected Spaces: How Users Shape and Appropriate Their Smart Home Ecosystems	88	Figure3	2023	https://doi.org/10.1145/3544548.3581497	Image	Illustration	Theme	Example
-670	Innovating Novel Online Social Spaces with Diverse Middle School Girls	104	Table2	2022	https://doi.org/10.1145/3491102.3517576	Table/Matrix	Table	Concept	Model/Framework
+667	Innovating Novel Online Social Spaces with Diverse Middle School Girls	104	Figure1	2022	https://doi.org/10.1145/3491102.3517576	Other	Other	Other	Other
+668	Innovating Novel Online Social Spaces with Diverse Middle School Girls	104	Figure2	2022	https://doi.org/10.1145/3491102.3517576	Image	Photo, Screenshot, Illustration	Other	Other
+669	Innovating Novel Online Social Spaces with Diverse Middle School Girls	104	Figure3	2022	https://doi.org/10.1145/3491102.3517576	Image	Photo, Screenshot, Sketch	Other	Other
+670	Innovating Novel Online Social Spaces with Diverse Middle School Girls	104	Table2	2022	https://doi.org/10.1145/3491102.3517576	Table/Matrix	nan	Concept	Model/Framework
 678	Is it Happy? Behavioural and Narrative Frame Complexity Impact Perceptions of a Simple Furry Robot's Emotions	140	Table3	2018	https://doi.org/10.1145/3173574.3174083	Table/Matrix	Table	Quantitative	Self-reported
 687	It is too Hot: An In-Situ Study of Three Designs for Heating	182	Table2	2016	https://doi.org/10.1145/2858036.2858222	Table/Matrix	Table	Quantitative	Measurement
 690	It's Reducing a Human Being to a Percentage': Perceptions of Justice in Algorithmic Decisions	179	Figure3	2018	https://doi.org/10.1145/3173574.3173951	Chart	Dot plot with range	Quantitative	Self-reported
@@ -397,7 +401,7 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 715	Making the Write Connections: Linking Writing Support Tools with Writer Needs	147	Figure2	2025	https://doi.org/10.1145/3706598.3713161	Chart	Other chart	Quantitative	Measurement
 718	Making the Write Connections: Linking Writing Support Tools with Writer Needs	147	Table3	2025	https://doi.org/10.1145/3706598.3713161	Table/Matrix	Table	Concept	Model/Framework
 719	Making the Write Connections: Linking Writing Support Tools with Writer Needs	147	Table4	2025	https://doi.org/10.1145/3706598.3713161	Table/Matrix	Table	Theme	Taxonomy, Definition, Example
-720	Making the Write Connections: Linking Writing Support Tools with Writer Needs	147	Figure4	2025	https://doi.org/10.1145/3706598.3713161	Diagram	Photo, Screenshot, Sketch, Other	Theme	Example
+720	Making the Write Connections: Linking Writing Support Tools with Writer Needs	147	Figure4	2025	https://doi.org/10.1145/3706598.3713161	Other	Other, Photo, Screenshot, Sketch	Theme	Example
 721	Making the Write Connections: Linking Writing Support Tools with Writer Needs	147	Figure5	2025	https://doi.org/10.1145/3706598.3713161	Diagram	Network diagram	Theme	Taxonomy, Example
 722	Making the Write Connections: Linking Writing Support Tools with Writer Needs	147	Figure6	2025	https://doi.org/10.1145/3706598.3713161	Chart	Diverging bar chart	Quantitative	Self-reported
 725	Mapping Design Spaces for Audience Participation in Game Live Streaming	121	Table2	2021	https://doi.org/10.1145/3411764.3445511	Table/Matrix	Table	Theme	Example
@@ -406,7 +410,7 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 728	Mapping Design Spaces for Audience Participation in Game Live Streaming	121	Figure2	2021	https://doi.org/10.1145/3411764.3445511	Diagram	Venn diagram, Other	Theme	Taxonomy
 729	Mapping Design Spaces for Audience Participation in Game Live Streaming	121	Figure3	2021	https://doi.org/10.1145/3411764.3445511	Diagram	Venn diagram, Other	Theme	Taxonomy
 734	Memory Manipulations in Extended Reality	72	Figure3	2023	https://doi.org/10.1145/3544548.3580988	Diagram	Flow diagram	Theme	Taxonomy
-735	Memory Manipulations in Extended Reality	72	Figure4	2023	https://doi.org/10.1145/3544548.3580988	Diagram	Block diagram, Flow diagram	Theme	Taxonomy, Example
+735	Memory Manipulations in Extended Reality	72	Figure4	2023	https://doi.org/10.1145/3544548.3580988	Diagram	Flow diagram	Theme	Taxonomy, Example
 736	Memory Manipulations in Extended Reality	72	Figure5	2023	https://doi.org/10.1145/3544548.3580988	Image	Illustration	Theme	Example
 737	Memory Manipulations in Extended Reality	72	Figure6	2023	https://doi.org/10.1145/3544548.3580988	Image	Illustration	Theme	Example
 738	Memory Manipulations in Extended Reality	72	Figure7	2023	https://doi.org/10.1145/3544548.3580988	Image	Illustration	Theme	Example
@@ -459,19 +463,19 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 829	Provocations from #vanlife: Investigating Life and Work in a Community Extensively Using Technology Not Designed for Them	119	Figure8	2021	https://doi.org/10.1145/3411764.3445393	Image	Photo	Theme	Example
 830	Provocations from #vanlife: Investigating Life and Work in a Community Extensively Using Technology Not Designed for Them	119	Table4	2021	https://doi.org/10.1145/3411764.3445393	Table/Matrix	Table	Theme	Taxonomy
 833	Q-Chef: The impact of surprise-eliciting systems on food-related decision-making	93	Table2	2022	https://doi.org/10.1145/3491102.3501862	Table/Matrix	Table	Theme	Taxonomy, Definition
-834	Q-Chef: The impact of surprise-eliciting systems on food-related decision-making	93	Figure2	2022	https://doi.org/10.1145/3491102.3501862	Diagram	Bar chart	Theme	Frequency
-842	Responsible Innovation of Touchless Haptics: A Prospective Design Exploration in Social Interaction	79	Figure4	2023	https://doi.org/10.1145/3544548.3581228	Image	Illustration, Block diagram	Concept	Other concept
+834	Q-Chef: The impact of surprise-eliciting systems on food-related decision-making	93	Figure2	2022	https://doi.org/10.1145/3491102.3501862	Diagram	Other chart	Theme	Frequency
+842	Responsible Innovation of Touchless Haptics: A Prospective Design Exploration in Social Interaction	79	Figure4	2023	https://doi.org/10.1145/3544548.3581228	Image	Illustration	Concept	Other concept
 843	Responsible Innovation of Touchless Haptics: A Prospective Design Exploration in Social Interaction	79	Figure5	2023	https://doi.org/10.1145/3544548.3581228	Table/Matrix	Table	Theme	Example
 844	Responsible Innovation of Touchless Haptics: A Prospective Design Exploration in Social Interaction	79	Figure6	2023	https://doi.org/10.1145/3544548.3581228	Chart	Other chart	Quantitative	Self-reported
 845	Responsible Innovation of Touchless Haptics: A Prospective Design Exploration in Social Interaction	79	Figure7	2023	https://doi.org/10.1145/3544548.3581228	Diagram	Block diagram, Other	Theme	Definition
 846	Responsible Innovation of Touchless Haptics: A Prospective Design Exploration in Social Interaction	79	Figure8	2023	https://doi.org/10.1145/3544548.3581228	Table/Matrix	Heatmap	Theme	Frequency
-849	"Selling Glossy, Easy Futures: A Feminist Exploration of Commercial Mental-Health-focused Self-Care Apps""™ Descriptions in the Google Play Store"	120	Table3	2021	https://doi.org/10.1145/3411764.3445500	Table/Matrix	Table	Theme	Example, Frequency
-850	"Selling Glossy, Easy Futures: A Feminist Exploration of Commercial Mental-Health-focused Self-Care Apps""™ Descriptions in the Google Play Store"	120	Table4	2021	https://doi.org/10.1145/3411764.3445500	Table/Matrix	Table	Theme	Example, Frequency
-851	"Selling Glossy, Easy Futures: A Feminist Exploration of Commercial Mental-Health-focused Self-Care Apps""™ Descriptions in the Google Play Store"	120	Table5	2021	https://doi.org/10.1145/3411764.3445500	Table/Matrix	Table	Theme	Example, Frequency
+849	Selling Glossy, Easy Futures: A Feminist Exploration of Commercial Mental-Health-focused Self-Care Apps' Descriptions in the Google Play Store	120	Table3	2021	https://doi.org/10.1145/3411764.3445500	Table/Matrix	Table	Theme	Example, Frequency
+850	Selling Glossy, Easy Futures: A Feminist Exploration of Commercial Mental-Health-focused Self-Care Apps' Descriptions in the Google Play Store	120	Table4	2021	https://doi.org/10.1145/3411764.3445500	Table/Matrix	Table	Theme	Example, Frequency
+851	Selling Glossy, Easy Futures: A Feminist Exploration of Commercial Mental-Health-focused Self-Care Apps' Descriptions in the Google Play Store	120	Table5	2021	https://doi.org/10.1145/3411764.3445500	Table/Matrix	Table	Theme	Example, Frequency
 853	Sketchnote Components, Design Space Dimensions, and Strategies for Effective Visual Note Taking	171	Figure2	2021	https://doi.org/10.1145/3411764.3445508	Diagram	Block diagram, Illustration, Sketch	Theme	Example, Taxonomy, Frequency
 854	Sketchnote Components, Design Space Dimensions, and Strategies for Effective Visual Note Taking	171	Figure3	2021	https://doi.org/10.1145/3411764.3445508	Image	Sketch	Theme	Example
 855	Sketchnote Components, Design Space Dimensions, and Strategies for Effective Visual Note Taking	171	Figure4	2021	https://doi.org/10.1145/3411764.3445508	Diagram	Block diagram, Illustration, Sketch	Theme	Example
-856	Sketchnote Components, Design Space Dimensions, and Strategies for Effective Visual Note Taking	171	Figure5	2021	https://doi.org/10.1145/3411764.3445508	Table/Matrix	Table, Photo, Sketch, Other chart	Theme	Example
+856	Sketchnote Components, Design Space Dimensions, and Strategies for Effective Visual Note Taking	171	Figure5	2021	https://doi.org/10.1145/3411764.3445508	Table/Matrix	Matrix, Photo, Sketch	Theme	Example
 857	Sketchnote Components, Design Space Dimensions, and Strategies for Effective Visual Note Taking	171	Figure6	2021	https://doi.org/10.1145/3411764.3445508	Image	Sketch	Theme	Example
 858	Sketchnote Components, Design Space Dimensions, and Strategies for Effective Visual Note Taking	171	Figure7	2021	https://doi.org/10.1145/3411764.3445508	Image	Sketch	Theme	Example
 864	Socio-technical Dynamics: Cooperation of Emergent and Established Organisations in Crises and Disasters	132	Figure3	2019	https://doi.org/10.1145/3290605.3300448	Diagram	Network diagram	Theme	Other theme, Taxonomy
@@ -493,9 +497,9 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 899	Tag a Teacher: A Qualitative Analysis of WhatsApp-Based Teacher Networks in Low-Income Indian Schools	168	Figure 2	2021	https://doi.org/10.1145/3411764.3445221	Image	Screenshot	Theme	Example
 900	Tag a Teacher: A Qualitative Analysis of WhatsApp-Based Teacher Networks in Low-Income Indian Schools	168	Figure 3	2021	https://doi.org/10.1145/3411764.3445221	Image	Screenshot	Theme	Example
 905	The Design Space of Wearables for Sports and Fitness Practices	123	Table 1	2021	https://doi.org/10.1145/3411764.3445700	Table/Matrix	Table	Theme	Taxonomy, Example
-906	The Design Space of Wearables for Sports and Fitness Practices	123	Figure 1	2021	https://doi.org/10.1145/3411764.3445700	Diagram	Block diagram	Theme	Taxonomy
+906	The Design Space of Wearables for Sports and Fitness Practices	123	Figure 1	2021	https://doi.org/10.1145/3411764.3445700	Diagram	Network diagram	Theme	Taxonomy
 907	The Design Space of Wearables for Sports and Fitness Practices	123	Table 2	2021	https://doi.org/10.1145/3411764.3445700	Table/Matrix	Table	Theme	Taxonomy, Example
-908	The Design Space of Wearables for Sports and Fitness Practices	123	Figure 2	2021	https://doi.org/10.1145/3411764.3445700	Diagram	Block diagram	Theme	Taxonomy
+908	The Design Space of Wearables for Sports and Fitness Practices	123	Figure 2	2021	https://doi.org/10.1145/3411764.3445700	Diagram	Network diagram	Theme	Taxonomy
 913	The Efect of Orientation on the Readability and Comfort of 3D-Printed Braille	57	Figure 4	2024	https://doi.org/10.1145/3613904.3642719	Chart	Dot plot with range	Quantitative	Measurement
 914	The Efect of Orientation on the Readability and Comfort of 3D-Printed Braille	57	Figure 5	2024	https://doi.org/10.1145/3613904.3642719	Chart	Dot plot with range	Quantitative	Measurement
 915	The Efect of Orientation on the Readability and Comfort of 3D-Printed Braille	57	Figure 6	2024	https://doi.org/10.1145/3613904.3642719	Chart	Dot plot with range	Quantitative	Measurement

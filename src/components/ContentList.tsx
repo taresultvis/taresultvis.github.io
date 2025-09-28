@@ -122,16 +122,17 @@ const ContentList = () => {
         vrKeyOrder
       );
     }
-    // console.log(arIds, vrIds)
+    //console.log(arIds, vrIds)
     const intersection = arIds.filter((id) => vrIds.includes(id));
-    // console.log(intersection)
+    //console.log(intersection)
     const uniqueIntersection = [...new Set(intersection)];
-    // console.log(uniqueIntersection)
+    //console.log(uniqueIntersection)
+    //console.log(thumbnails)
     visibleThumbnails = thumbnails.filter((thumbnail) => {
       const id = parseInt(thumbnail.split("/").pop()?.split(".")[0] || "0");
       return uniqueIntersection.includes(id);
     });
-    // console.log(visibleThumbnails)
+    console.log(visibleThumbnails)
   }
 
   const handleVrLabelClick = (vrCategory: string) => {
@@ -212,11 +213,6 @@ const ContentList = () => {
                   />
                   <div className="p-2">
                     <div className="flex flex-wrap items-center mb-2">
-                      <span
-                        className="inline-flex items-center rounded-full bg-gray-300 px-2 py-1 text-xs font-semibold text-gray-800 mr-2 mb-1 cursor-pointer"
-                      >
-                        {id}
-                      </span>
                       <span
                         className="inline-flex items-center rounded-full bg-gray-300 px-2 py-1 text-xs font-semibold text-gray-800 mr-2 mb-1 cursor-pointer"
                         onClick={() => handleYearClick(year)}

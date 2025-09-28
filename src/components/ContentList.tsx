@@ -214,6 +214,11 @@ const ContentList = () => {
                     <div className="flex flex-wrap items-center mb-2">
                       <span
                         className="inline-flex items-center rounded-full bg-gray-300 px-2 py-1 text-xs font-semibold text-gray-800 mr-2 mb-1 cursor-pointer"
+                      >
+                        {id}
+                      </span>
+                      <span
+                        className="inline-flex items-center rounded-full bg-gray-300 px-2 py-1 text-xs font-semibold text-gray-800 mr-2 mb-1 cursor-pointer"
                         onClick={() => handleYearClick(year)}
                       >
                         {year}

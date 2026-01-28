@@ -21,7 +21,6 @@ export const vrSubkeyToKey: any = {
     "Illustration": "Image",
     //"Diagram": "Diagram",
     "Block diagram": "Diagram",
-    "Flow diagram": "Diagram",
     "Network diagram": "Diagram",
     "Onion diagram": "Diagram",
     "Venn diagram": "Diagram",
@@ -32,11 +31,10 @@ export const vrSubkeyToKey: any = {
     "Grouped bar chart": "Chart",
     "Stacked bar chart": "Chart",
     "Diverging bar chart": "Chart",
-    "Bar chart with range": "Chart",
     "Box plot": "Chart",
-    "Dot plot with range": "Chart",
+    "Dot plot": "Chart",
     "Line chart": "Chart",
-    "Line chart with range": "Chart",
+    "Range symbol": "Chart",
     "Other chart": "Chart",
     //"Other": "Other"
 }
@@ -55,7 +53,6 @@ export const vrSubKeyOrder: any = {
     ],
     "Diagram": [
         "Block diagram",
-        "Flow diagram",
         "Network diagram",
         "Onion diagram",
         "Venn diagram",
@@ -67,11 +64,10 @@ export const vrSubKeyOrder: any = {
         "Grouped bar chart",
         "Stacked bar chart",
         "Diverging bar chart",
-        "Bar chart with range",
         "Box plot",
-        "Dot plot with range",
+        "Dot plot",
         "Line chart",
-        "Line chart with range",
+        "Range symbol",
         "Other chart"
     ]
     ,
@@ -89,6 +85,7 @@ export const arSubkeyToKey: any = {
     "Taxonomy": "Theme",
     "Definition": "Theme",
     "Frequency": "Theme",
+    "Example": "Theme",
     "Other theme": "Theme",
     "Self-reported": "Quantitative",
     "Measurement": "Quantitative",
@@ -272,7 +269,7 @@ const vrImageTexts = [
 
 const vrDiagramTexts = [
     "Block diagram: Diagrams which lay out information schematically in blocks without interconnections.",
-    "Flow diagram: Diagrams which display processes or sequences and shows the step-by-step progression, typically with blocks and arrows.",
+    //"Flow diagram: Diagrams which display processes or sequences and shows the step-by-step progression, typically with blocks and arrows.",
     "Network diagram: Diagrams which show how entities are interconnected in many-to-many relationships with blocks.",
     "Onion diagram: Diagrams which illustrate hierarchical structures in concentric ellipses resembling an onion.",
     "Venn diagram: Diagrams which represent sets using overlapping shapes.",
@@ -285,11 +282,10 @@ const vrChartTexts = [
     "Grouped bar chart: A type of bar chart that displays multiple sets of data side-by-side, grouped together under categories on the same axis.",
     "Stacked bar chart: A type of chart that visually represents categorical data by displaying bars divided into segments.",
     "Diverging bar chart: A type of bar chart that displays two sets of data extending in opposite directions from a central baseline.",
-    "Bar chart with range: A type of chart that displays categorical data as rectangular bars, with the addition of range symbols.",
     "Box plot: A chart displaying the distribution of data with minimum, first quartile, median, third quartile, and maximum.",
-    "Dot plot with range: A type of chart that combines individual data points (represented as dots) with range symbols.",
+    "Dot plot: A type of chart that combines individual data points (represented as dots).",
     "Line chart: A type of chart that displays data points connected by straight line segments.",
-    "Line chart with range: A type of line chart that displays connected line segments with the addition of range symbols.",
+    "Range symbol: Visual marks that represent ranges or intervals of data.",
     "Other chart: Charts that do not fit into any of the other categories."
 ]
 

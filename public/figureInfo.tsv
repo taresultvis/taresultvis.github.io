@@ -3,10 +3,10 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 5	Responsibility Attribution in Human Interactions with Everyday AI Systems	2	Table1	2025	https://doi.org/10.1145/3706598.3713126	Table/Matrix	Table	Quantitative	Self-reported
 6	Responsibility Attribution in Human Interactions with Everyday AI Systems	2	Figure1	2025	https://doi.org/10.1145/3706598.3713126	Chart	Grouped bar chart	Quantitative	Self-reported
 7	Responsibility Attribution in Human Interactions with Everyday AI Systems	2	Table2	2025	https://doi.org/10.1145/3706598.3713126	Table/Matrix	Table	Quantitative	Self-reported
-8	Responsibility Attribution in Human Interactions with Everyday AI Systems	2	Figure2	2025	https://doi.org/10.1145/3706598.3713126	Chart	Dot plot with range	Quantitative	Self-reported
+8	Responsibility Attribution in Human Interactions with Everyday AI Systems	2	Figure2	2025	https://doi.org/10.1145/3706598.3713126	Chart	Dot plot, Range symbol	Quantitative	Self-reported
 9	Responsibility Attribution in Human Interactions with Everyday AI Systems	2	Table3	2025	https://doi.org/10.1145/3706598.3713126	Table/Matrix	Table	Quantitative	Self-reported
 10	Responsibility Attribution in Human Interactions with Everyday AI Systems	2	Table4	2025	https://doi.org/10.1145/3706598.3713126	Table/Matrix	Table	Quantitative	Self-reported
-11	Responsibility Attribution in Human Interactions with Everyday AI Systems	2	Figure3	2025	https://doi.org/10.1145/3706598.3713126	Chart	Line chart with range	Quantitative	Self-reported
+11	Responsibility Attribution in Human Interactions with Everyday AI Systems	2	Figure3	2025	https://doi.org/10.1145/3706598.3713126	Chart	Line chart, Range symbol	Quantitative	Self-reported
 13	Learning Curiosity through Play: Exploring the Role of Games and Interactive Design in Museums	3	Table2	2025	https://doi.org/10.1145/3706598.3713164	Table/Matrix	Table	Theme	Definition, Taxonomy
 14	Learning Curiosity through Play: Exploring the Role of Games and Interactive Design in Museums	3	Table3	2025	https://doi.org/10.1145/3706598.3713164	Table/Matrix	Table	Concept	Design insight
 16	Bridging AI and Humanitarianism: An HCI-Informed Framework for Responsible AI Adoption	4	Table2	2025	https://doi.org/10.1145/3706598.3713184	Table/Matrix	Table	Theme	Taxonomy
@@ -26,10 +26,10 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 41	This Game SUX: Why & How to Design Sh@*!y User Experiences	8	Figure5	2025	https://doi.org/10.1145/3706598.3713246	Image	Screenshot	Theme	Example
 42	This Game SUX: Why & How to Design Sh@*!y User Experiences	8	Figure6	2025	https://doi.org/10.1145/3706598.3713246	Image	Screenshot	Theme	Example
 50	Advancing HCI with Neuromorphic Technology: Guidelines for Designing User-Friendly Developer Tools for Neuromorphic Development	10	Figure2	2025	https://doi.org/10.1145/3706598.3713249	Diagram	Block diagram	Theme	Taxonomy, Other theme
-51	Advancing HCI with Neuromorphic Technology: Guidelines for Designing User-Friendly Developer Tools for Neuromorphic Development	10	Figure3	2025	https://doi.org/10.1145/3706598.3713249	Diagram	Flow diagram	Concept	Model/Framework
+51	Advancing HCI with Neuromorphic Technology: Guidelines for Designing User-Friendly Developer Tools for Neuromorphic Development	10	Figure3	2025	https://doi.org/10.1145/3706598.3713249	Diagram	Block diagram	Concept	Model/Framework
 52	Advancing HCI with Neuromorphic Technology: Guidelines for Designing User-Friendly Developer Tools for Neuromorphic Development	10	Table3	2025	https://doi.org/10.1145/3706598.3713249	Table/Matrix	Table	Quantitative	Self-reported
 54	Seeking Inspiration through Human-LLM Interaction	11	Table2	2025	https://doi.org/10.1145/3706598.3713259	Table/Matrix	Table	Theme	Frequency
-55	Seeking Inspiration through Human-LLM Interaction	11	Figure1	2025	https://doi.org/10.1145/3706598.3713259	Diagram	Flow diagram	Concept	Model/Framework
+55	Seeking Inspiration through Human-LLM Interaction	11	Figure1	2025	https://doi.org/10.1145/3706598.3713259	Diagram	Network diagram	Concept	Model/Framework
 57	Is This Seat Accessible for Me?: An Autoethnography of a Person With a Mobility Disability Using Interactive Seat Plans for Public Events	12	Figure2	2025	https://doi.org/10.1145/3706598.3713414	Image	Illustration	Theme	Example
 58	Is This Seat Accessible for Me?: An Autoethnography of a Person With a Mobility Disability Using Interactive Seat Plans for Public Events	12	Figure3	2025	https://doi.org/10.1145/3706598.3713414	Image	Illustration	Theme	Example
 61	Envisioning Financial Technology Support for Older Adults Through Cognitive and Life Transitions	13	Table3	2025	https://doi.org/10.1145/3706598.3713427	Table/Matrix	Table	Theme	Taxonomy, Other theme
@@ -75,15 +75,15 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 124	Folk Tales of IoT: Understanding the Impact of Stories on Users' Positive and Negative Perceptions of Smart Home IoT Devices	21	Table8	2025	https://doi.org/10.1145/3706598.3713712	Table/Matrix	Table	Quantitative	Self-reported
 125	Folk Tales of IoT: Understanding the Impact of Stories on Users' Positive and Negative Perceptions of Smart Home IoT Devices	21	Table9	2025	https://doi.org/10.1145/3706598.3713712	Table/Matrix	Table	Quantitative	Self-reported
 131	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Table1	2025	https://doi.org/10.1145/3706598.3713766	Table/Matrix	Table	Theme	Other theme, Taxonomy, Example
-132	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Figure6	2025	https://doi.org/10.1145/3706598.3713766	Chart	Bar chart with range	Quantitative	Measurement
-133	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Figure7	2025	https://doi.org/10.1145/3706598.3713766	Chart	Bar chart with range	Quantitative	Measurement
-134	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Figure8	2025	https://doi.org/10.1145/3706598.3713766	Chart	Bar chart with range	Quantitative	Self-reported
-135	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Figure9	2025	https://doi.org/10.1145/3706598.3713766	Chart	Bar chart with range	Quantitative	Self-reported
-136	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Figure10	2025	https://doi.org/10.1145/3706598.3713766	Chart	Dot plot with range	Quantitative	Measurement
-137	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Figure11	2025	https://doi.org/10.1145/3706598.3713766	Chart	Bar chart with range, Grouped bar chart	Quantitative	Self-reported
-138	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Figure12	2025	https://doi.org/10.1145/3706598.3713766	Diagram	Flow diagram	Concept	Other concept
+132	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Figure6	2025	https://doi.org/10.1145/3706598.3713766	Chart	Bar chart, Range symbol	Quantitative	Measurement
+133	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Figure7	2025	https://doi.org/10.1145/3706598.3713766	Chart	Bar chart, Range symbol	Quantitative	Measurement
+134	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Figure8	2025	https://doi.org/10.1145/3706598.3713766	Chart	Bar chart, Range symbol	Quantitative	Self-reported
+135	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Figure9	2025	https://doi.org/10.1145/3706598.3713766	Chart	Bar chart, Range symbol	Quantitative	Self-reported
+136	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Figure10	2025	https://doi.org/10.1145/3706598.3713766	Chart	Dot plot, Range symbol	Quantitative	Measurement
+137	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Figure11	2025	https://doi.org/10.1145/3706598.3713766	Chart	Grouped bar chart, Range symbol	Quantitative	Self-reported
+138	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Figure12	2025	https://doi.org/10.1145/3706598.3713766	Diagram	Network diagram	Concept	Other concept
 139	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	22	Figure13	2025	https://doi.org/10.1145/3706598.3713766	Image	Illustration	Concept	Model/Framework
-150	Sprayable Sound: Exploring the Experiential and Design Potential of Physically Spraying Sound Interaction	23	Figure9	2025	https://doi.org/10.1145/3706598.3713786	Diagram	Other diagram, Illustration	Concept	Model/Framework
+150	Sprayable Sound: Exploring the Experiential and Design Potential of Physically Spraying Sound Interaction	23	Figure9	2025	https://doi.org/10.1145/3706598.3713786	Diagram	Block diagram, Illustration	Concept	Model/Framework
 152	Perspectives on Mixed-Ability Competition	24	Table2	2025	https://doi.org/10.1145/3706598.3713867	Table/Matrix	Table	Quantitative	Self-reported
 157	Exploring Modular Prompt Design for Emotion and Mental Health Recognition	26	Figure2	2025	https://doi.org/10.1145/3706598.3713888	Diagram	Block diagram	Concept	Model/Framework
 159	Exploring Modular Prompt Design for Emotion and Mental Health Recognition	26	Figure3	2025	https://doi.org/10.1145/3706598.3713888	Chart	Grouped bar chart	Quantitative	Measurement
@@ -93,7 +93,7 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 163	Exploring Modular Prompt Design for Emotion and Mental Health Recognition	26	Figure5	2025	https://doi.org/10.1145/3706598.3713888	Table/Matrix	Heatmap	Quantitative	Measurement
 164	Exploring Modular Prompt Design for Emotion and Mental Health Recognition	26	Table4	2025	https://doi.org/10.1145/3706598.3713888	Table/Matrix	Table	Quantitative	Measurement
 168	A Qualitative Investigation of User Transitions and Frictions in Cross-Reality Applications	27	Table1	2025	https://doi.org/10.1145/3706598.3713921	Table/Matrix	Table	Theme	Frequency
-174	Designed & Discovered Euphoria: Insights from Trans-Femme Players’ Experiences of Gender Euphoria in Video Games	29	Figure1	2025	https://doi.org/10.1145/3706598.3714081	Diagram	Flow diagram	Theme	Taxonomy
+174	Designed & Discovered Euphoria: Insights from Trans-Femme Players’ Experiences of Gender Euphoria in Video Games	29	Figure1	2025	https://doi.org/10.1145/3706598.3714081	Diagram	Network diagram	Theme	Taxonomy
 175	Designed & Discovered Euphoria: Insights from Trans-Femme Players’ Experiences of Gender Euphoria in Video Games	29	Table4	2025	https://doi.org/10.1145/3706598.3714081	Table/Matrix	Table	Theme	Definition, Frequency
 176	Designed & Discovered Euphoria: Insights from Trans-Femme Players’ Experiences of Gender Euphoria in Video Games	29	Table5	2025	https://doi.org/10.1145/3706598.3714081	Table/Matrix	Table	Theme	Definition, Frequency
 177	Designed & Discovered Euphoria: Insights from Trans-Femme Players’ Experiences of Gender Euphoria in Video Games	29	Table6	2025	https://doi.org/10.1145/3706598.3714081	Table/Matrix	Table	Theme	Definition, Frequency
@@ -106,15 +106,15 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 185	Designing with Dynamics: Reflections on Co-design Workshops Between People Living with Dementia and Their Care Partners	31	Figure1	2025	https://doi.org/10.1145/3706598.3714105	Image	Photo	Theme	Example
 186	Designing with Dynamics: Reflections on Co-design Workshops Between People Living with Dementia and Their Care Partners	31	Figure2	2025	https://doi.org/10.1145/3706598.3714105	Image	Illustration	Theme	Example
 189	Auntie, Please Don't Fall for Those Smooth Talkers: How Chinese Younger Family Members Safeguard Seniors from Online Fraud	32	Table1	2025	https://doi.org/10.1145/3706598.3714137	Table/Matrix	Table	Theme	Taxonomy
-190	Auntie, Please Don't Fall for Those Smooth Talkers: How Chinese Younger Family Members Safeguard Seniors from Online Fraud	32	Figure3	2025	https://doi.org/10.1145/3706598.3714137	Diagram	Other diagram	Concept	Model/Framework
+190	Auntie, Please Don't Fall for Those Smooth Talkers: How Chinese Younger Family Members Safeguard Seniors from Online Fraud	32	Figure3	2025	https://doi.org/10.1145/3706598.3714137	Diagram	Network diagram	Concept	Model/Framework
 195	Bittersweet Snapshots of Life: Designing to Address Complex Emotions in a Reminiscence Interaction between Older Adults and a Robot	34	Figure2	2025	https://doi.org/10.1145/3706598.3714256	Image	Photo	Theme	Example
 196	Bittersweet Snapshots of Life: Designing to Address Complex Emotions in a Reminiscence Interaction between Older Adults and a Robot	34	Figure3	2025	https://doi.org/10.1145/3706598.3714256	Other	Other	Concept	Other concept
-203	’She’s Just My Life’: Digital Design to Support Women’s Self-Other Care in Relationships with their Mothers	105	Figure3	2022	https://doi.org/10.1145/3491102.3517611	Diagram	Flow diagram, Illustration	Concept	Design insight
-204	’She’s Just My Life’: Digital Design to Support Women’s Self-Other Care in Relationships with their Mothers	105	Figure4	2022	https://doi.org/10.1145/3491102.3517611	Diagram	Flow diagram, Illustration	Concept	Design insight
-205	’She’s Just My Life’: Digital Design to Support Women’s Self-Other Care in Relationships with their Mothers	105	Figure5	2022	https://doi.org/10.1145/3491102.3517611	Diagram	Flow diagram, Illustration	Concept	Design insight
-206	’She’s Just My Life’: Digital Design to Support Women’s Self-Other Care in Relationships with their Mothers	105	Figure6	2022	https://doi.org/10.1145/3491102.3517611	Diagram	Flow diagram, Illustration	Concept	Design insight
-207	’She’s Just My Life’: Digital Design to Support Women’s Self-Other Care in Relationships with their Mothers	105	Figure7	2022	https://doi.org/10.1145/3491102.3517611	Diagram	Flow diagram, Illustration	Concept	Design insight
-208	’She’s Just My Life’: Digital Design to Support Women’s Self-Other Care in Relationships with their Mothers	105	Figure8	2022	https://doi.org/10.1145/3491102.3517611	Diagram	Flow diagram, Illustration	Concept	Design insight
+203	’She’s Just My Life’: Digital Design to Support Women’s Self-Other Care in Relationships with their Mothers	105	Figure3	2022	https://doi.org/10.1145/3491102.3517611	Diagram	Illustration	Concept	Design insight
+204	’She’s Just My Life’: Digital Design to Support Women’s Self-Other Care in Relationships with their Mothers	105	Figure4	2022	https://doi.org/10.1145/3491102.3517611	Diagram	Illustration	Concept	Design insight
+205	’She’s Just My Life’: Digital Design to Support Women’s Self-Other Care in Relationships with their Mothers	105	Figure5	2022	https://doi.org/10.1145/3491102.3517611	Diagram	Illustration	Concept	Design insight
+206	’She’s Just My Life’: Digital Design to Support Women’s Self-Other Care in Relationships with their Mothers	105	Figure6	2022	https://doi.org/10.1145/3491102.3517611	Diagram	Illustration	Concept	Design insight
+207	’She’s Just My Life’: Digital Design to Support Women’s Self-Other Care in Relationships with their Mothers	105	Figure7	2022	https://doi.org/10.1145/3491102.3517611	Diagram	Illustration	Concept	Design insight
+208	’She’s Just My Life’: Digital Design to Support Women’s Self-Other Care in Relationships with their Mothers	105	Figure8	2022	https://doi.org/10.1145/3491102.3517611	Diagram	Illustration	Concept	Design insight
 211	As an Autistic Person Myself: The Bias Paradox Around Autism in LLMs	150	Figure2	2025	https://doi.org/10.1145/3706598.3713420	Chart	Grouped bar chart, Other chart	Quantitative	Measurement
 212	As an Autistic Person Myself: The Bias Paradox Around Autism in LLMs	150	Figure3	2025	https://doi.org/10.1145/3706598.3713420	Chart	Stacked bar chart	Quantitative	Measurement
 213	As an Autistic Person Myself: The Bias Paradox Around Autism in LLMs	150	Figure4	2025	https://doi.org/10.1145/3706598.3713420	Chart	Grouped bar chart	Quantitative	Measurement
@@ -157,15 +157,15 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 269	”It Is Easy Using My Apps:” Understanding Technology Use and Needs of Adults with Down Syndrome	62	Figure3	2024	https://doi.org/10.1145/3613904.3642950	Diagram	Block diagram	Theme	Example, Taxonomy
 270	”It Is Easy Using My Apps:” Understanding Technology Use and Needs of Adults with Down Syndrome	62	Figure4	2024	https://doi.org/10.1145/3613904.3642950	Diagram	Block diagram	Concept	Design insight
 277	My Perfect Platform Would Be Telepathy - Reimagining the Design of Social Media with Autistic Adults	65	Figure3	2023	https://doi.org/10.1145/3544548.3580673	Image	Photo	Theme	Example
-280	Speech is Silver, Silence is Golden  Analyzing Micro-communication Strategies between Visually Impaired Runners and their Guides	47	Figure2	2024	https://doi.org/10.1145/3613904.3642388	Diagram	Other diagram	Concept	Model/Framework
+280	Speech is Silver, Silence is Golden  Analyzing Micro-communication Strategies between Visually Impaired Runners and their Guides	47	Figure2	2024	https://doi.org/10.1145/3613904.3642388	Diagram	Block diagram	Concept	Model/Framework
 281	Speech is Silver, Silence is Golden  Analyzing Micro-communication Strategies between Visually Impaired Runners and their Guides	47	Figure3	2024	https://doi.org/10.1145/3613904.3642388	Image	Photo	Theme	Example
 282	Speech is Silver, Silence is Golden  Analyzing Micro-communication Strategies between Visually Impaired Runners and their Guides	47	Figure4	2024	https://doi.org/10.1145/3613904.3642388	Chart	Line chart	Quantitative	Measurement
 285	“This app said I had severe depression, and now I don’t know what to do”: the unintentional harms of mental health applications	39	Table2	2024	https://doi.org/10.1145/3613904.3642178	Table/Matrix	Table	Quantitative	Measurement
 286	“This app said I had severe depression, and now I don’t know what to do”: the unintentional harms of mental health applications	39	Table3	2024	https://doi.org/10.1145/3613904.3642178	Table/Matrix	Table	Quantitative	Measurement
 287	“This app said I had severe depression, and now I don’t know what to do”: the unintentional harms of mental health applications	39	Figure2	2024	https://doi.org/10.1145/3613904.3642178	Chart	Bar chart	Theme	Frequency
 288	“This app said I had severe depression, and now I don’t know what to do”: the unintentional harms of mental health applications	39	Table4	2024	https://doi.org/10.1145/3613904.3642178	Table/Matrix	Table	Theme	Example
-291	“Yeah, this graph doesn’t show that”: Analysis of Online Engagement with Misleading Data Visualizations	49	Figure2	2024	https://doi.org/10.1145/3613904.3642448	Chart	Dot plot with range	Quantitative	Measurement
-292	“Yeah, this graph doesn’t show that”: Analysis of Online Engagement with Misleading Data Visualizations	49	Figure3	2024	https://doi.org/10.1145/3613904.3642448	Chart	Dot plot with range	Quantitative	Measurement
+291	“Yeah, this graph doesn’t show that”: Analysis of Online Engagement with Misleading Data Visualizations	49	Figure2	2024	https://doi.org/10.1145/3613904.3642448	Chart	Dot plot, Range symbol	Quantitative	Measurement
+292	“Yeah, this graph doesn’t show that”: Analysis of Online Engagement with Misleading Data Visualizations	49	Figure3	2024	https://doi.org/10.1145/3613904.3642448	Chart	Dot plot, Range symbol	Quantitative	Measurement
 293	“Yeah, this graph doesn’t show that”: Analysis of Online Engagement with Misleading Data Visualizations	49	Figure4	2024	https://doi.org/10.1145/3613904.3642448	Other	Other	Theme	Taxonomy
 294	“Yeah, this graph doesn’t show that”: Analysis of Online Engagement with Misleading Data Visualizations	49	Figure5	2024	https://doi.org/10.1145/3613904.3642448	Image	Screenshot	Theme	Example
 295	“Yeah, this graph doesn’t show that”: Analysis of Online Engagement with Misleading Data Visualizations	49	Figure6	2024	https://doi.org/10.1145/3613904.3642448	Image	Screenshot	Theme	Example
@@ -199,7 +199,7 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 333	About Engaging and Governing Strategies: A Thematic Analysis of Dark Paterns in Social Networking Services	66	Figure8	2023	https://doi.org/10.1145/3544548.3580695	Image	Screenshot	Theme	Example
 334	About Engaging and Governing Strategies: A Thematic Analysis of Dark Paterns in Social Networking Services	66	Figure9	2023	https://doi.org/10.1145/3544548.3580695	Table/Matrix	Illustration, Matrix	Concept	Model/Framework
 336	Atached to “The Algorithm”: Making Sense of Algorithmic Precarity on Instagram	81	Table1	2023	https://doi.org/10.1145/3544548.3581257	Table/Matrix	Table	Theme	Definition
-337	Atached to “The Algorithm”: Making Sense of Algorithmic Precarity on Instagram	81	Figure2	2023	https://doi.org/10.1145/3544548.3581257	Diagram	Flow diagram	Concept	Model/Framework
+337	Atached to “The Algorithm”: Making Sense of Algorithmic Precarity on Instagram	81	Figure2	2023	https://doi.org/10.1145/3544548.3581257	Diagram	Network diagram	Concept	Model/Framework
 338	Atached to “The Algorithm”: Making Sense of Algorithmic Precarity on Instagram	81	Table2	2023	https://doi.org/10.1145/3544548.3581257	Table/Matrix	Table	Theme	Definition
 342	Barriers to Expertise in Citizen Science Games	102	Figure2	2022	https://doi.org/10.1145/3491102.3517541	Image	Illustration	Theme	Definition
 343	Barriers to Expertise in Citizen Science Games	102	Table3	2022	https://doi.org/10.1145/3491102.3517541	Table/Matrix	Table	Theme	Taxonomy
@@ -225,16 +225,16 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 375	Characterizing Social Insider Attacks on Facebook	180	Table1	2017	https://doi.org/10.1145/3025453.3025901	Table/Matrix	Table	Quantitative	Measurement
 376	Characterizing Social Insider Attacks on Facebook	180	Figure2	2017	https://doi.org/10.1145/3025453.3025901	Chart	Line chart	Quantitative	Measurement
 377	Characterizing Social Insider Attacks on Facebook	180	Figure3	2017	https://doi.org/10.1145/3025453.3025901	Chart	Line chart	Quantitative	Measurement
-378	Characterizing Social Insider Attacks on Facebook	180	Figure4	2017	https://doi.org/10.1145/3025453.3025901	Chart	Dot plot with range	Quantitative	Measurement
+378	Characterizing Social Insider Attacks on Facebook	180	Figure4	2017	https://doi.org/10.1145/3025453.3025901	Chart	Dot plot, Range symbol	Quantitative	Measurement
 379	Characterizing Social Insider Attacks on Facebook	180	Figure5	2017	https://doi.org/10.1145/3025453.3025901	Chart	Bar chart	Theme	Frequency
 383	CodeAid: Evaluating a Classroom Deployment of an LLM-based Programming Assistant that Balances Student and Educator	58	Table1	2024	https://doi.org/10.1145/3613904.3642773	Table/Matrix	Table	Theme	Taxonomy
 384	CodeAid: Evaluating a Classroom Deployment of an LLM-based Programming Assistant that Balances Student and Educator	58	Figure4	2024	https://doi.org/10.1145/3613904.3642773	Image	Screenshot	Other	Other
-385	CodeAid: Evaluating a Classroom Deployment of an LLM-based Programming Assistant that Balances Student and Educator	58	Figure5	2024	https://doi.org/10.1145/3613904.3642773	Diagram	Flow diagram	Concept	Model/Framework
+385	CodeAid: Evaluating a Classroom Deployment of an LLM-based Programming Assistant that Balances Student and Educator	58	Figure5	2024	https://doi.org/10.1145/3613904.3642773	Diagram	Network diagram	Concept	Model/Framework
 386	CodeAid: Evaluating a Classroom Deployment of an LLM-based Programming Assistant that Balances Student and Educator	58	Figure6	2024	https://doi.org/10.1145/3613904.3642773	Chart	Line chart, Other chart	Quantitative	Self-reported
 387	CodeAid: Evaluating a Classroom Deployment of an LLM-based Programming Assistant that Balances Student and Educator	58	Table2	2024	https://doi.org/10.1145/3613904.3642773	Table/Matrix	Table	Theme	Frequency
 388	CodeAid: Evaluating a Classroom Deployment of an LLM-based Programming Assistant that Balances Student and Educator	58	Figure7	2024	https://doi.org/10.1145/3613904.3642773	Diagram	Block diagram	Concept	Design insight
 391	CollabCoder: A Lower-barrier, Rigorous Workflow for Inductive Collaborative Qualitative Analysis with Large Language Models	154	Table1	2024	https://doi.org/10.1145/3613904.3642002	Table/Matrix	Table	Concept	Design insight
-393	CollabCoder: A Lower-barrier, Rigorous Workflow for Inductive Collaborative Qualitative Analysis with Large Language Models	154	Figure3	2024	https://doi.org/10.1145/3613904.3642002	Diagram	Flow diagram, Illustration	Concept	Model/Framework
+393	CollabCoder: A Lower-barrier, Rigorous Workflow for Inductive Collaborative Qualitative Analysis with Large Language Models	154	Figure3	2024	https://doi.org/10.1145/3613904.3642002	Diagram	Block diagram, Illustration	Concept	Model/Framework
 394	CollabCoder: A Lower-barrier, Rigorous Workflow for Inductive Collaborative Qualitative Analysis with Large Language Models	154	Figure4	2024	https://doi.org/10.1145/3613904.3642002	Image	Screenshot	Other	Other
 395	CollabCoder: A Lower-barrier, Rigorous Workflow for Inductive Collaborative Qualitative Analysis with Large Language Models	154	Figure5	2024	https://doi.org/10.1145/3613904.3642002	Image	Screenshot	Other	Other
 396	CollabCoder: A Lower-barrier, Rigorous Workflow for Inductive Collaborative Qualitative Analysis with Large Language Models	154	Figure6	2024	https://doi.org/10.1145/3613904.3642002	Image	Screenshot	Other	Other
@@ -251,7 +251,7 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 419	Contestable Camera Cars: A Speculative Design Exploration of Public AI That Is Open and Responsive to Dispute	71	Figure2	2023	https://doi.org/10.1145/3544548.3580984	Diagram	Network diagram	Concept	Model/Framework
 421	Creativity on Paid Crowdsourcing Platforms	172	Figure1	2020	https://doi.org/10.1145/3313831.3376677	Table/Matrix	Heatmap	Quantitative	Self-reported
 422	Creativity on Paid Crowdsourcing Platforms	172	Figure2	2020	https://doi.org/10.1145/3313831.3376677	Chart	Diverging bar chart	Quantitative	Self-reported
-435	Data Bias Recognition in Museum Settings: Framework Development and Contributing Factors	151	Figure9	2025	https://doi.org/10.1145/3706598.3714092	Diagram	Flow diagram	Concept	Model/Framework
+435	Data Bias Recognition in Museum Settings: Framework Development and Contributing Factors	151	Figure9	2025	https://doi.org/10.1145/3706598.3714092	Diagram	Network diagram	Concept	Model/Framework
 436	Data Bias Recognition in Museum Settings: Framework Development and Contributing Factors	151	Table1	2025	https://doi.org/10.1145/3706598.3714092	Table/Matrix	Table	Theme	Taxonomy, Definition, Example
 437	Data Bias Recognition in Museum Settings: Framework Development and Contributing Factors	151	Figure10	2025	https://doi.org/10.1145/3706598.3714092	Table/Matrix	Matrix	Theme	Other theme, Frequency
 444	Designing Brutal Multiplayer Video Games	181	Figure4	2016	https://doi.org/10.1145/2858036.2858080	Image	Photo	Theme	Example
@@ -284,9 +284,9 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 484	Disentangling Fairness Perceptions in Algorithmic Decision-Making: the Effects of Explanations, Human Oversight, and Contestability	163	Table1	2023	https://doi.org/10.1145/3544548.3581161	Table/Matrix	Table	Quantitative	Self-reported
 485	Disentangling Fairness Perceptions in Algorithmic Decision-Making: the Effects of Explanations, Human Oversight, and Contestability	163	Figure2	2023	https://doi.org/10.1145/3544548.3581161	Diagram	Block diagram	Theme	Taxonomy
 487	Disentangling Fairness Perceptions in Algorithmic Decision-Making: the Effects of Explanations, Human Oversight, and Contestability	163	Table3	2023	https://doi.org/10.1145/3544548.3581161	Table/Matrix	Matrix	Quantitative	Self-reported
-488	Disentangling Fairness Perceptions in Algorithmic Decision-Making: the Effects of Explanations, Human Oversight, and Contestability	163	Figure3	2023	https://doi.org/10.1145/3544548.3581161	Chart	Line chart with range	Quantitative	Self-reported
-489	Disentangling Fairness Perceptions in Algorithmic Decision-Making: the Effects of Explanations, Human Oversight, and Contestability	163	Figure4	2023	https://doi.org/10.1145/3544548.3581161	Chart	Line chart with range	Quantitative	Self-reported
-490	Disentangling Fairness Perceptions in Algorithmic Decision-Making: the Effects of Explanations, Human Oversight, and Contestability	163	Figure5	2023	https://doi.org/10.1145/3544548.3581161	Chart	Line chart with range	Quantitative	Self-reported
+488	Disentangling Fairness Perceptions in Algorithmic Decision-Making: the Effects of Explanations, Human Oversight, and Contestability	163	Figure3	2023	https://doi.org/10.1145/3544548.3581161	Chart	Line chart, Range symbol	Quantitative	Self-reported
+489	Disentangling Fairness Perceptions in Algorithmic Decision-Making: the Effects of Explanations, Human Oversight, and Contestability	163	Figure4	2023	https://doi.org/10.1145/3544548.3581161	Chart	Line chart, Range symbol	Quantitative	Self-reported
+490	Disentangling Fairness Perceptions in Algorithmic Decision-Making: the Effects of Explanations, Human Oversight, and Contestability	163	Figure5	2023	https://doi.org/10.1145/3544548.3581161	Chart	Line chart, Range symbol	Quantitative	Self-reported
 493	Diving into the Abyss: Exploring Deep Sea Connection and Curiosity through Virtual Reality	148	Figure2	2025	https://doi.org/10.1145/3706598.3713833	Chart	Diverging bar chart	Quantitative	Self-reported
 494	Diving into the Abyss: Exploring Deep Sea Connection and Curiosity through Virtual Reality	148	Figure3	2025	https://doi.org/10.1145/3706598.3713833	Chart	Box plot	Quantitative	Self-reported
 496	Domestic Robots and the Dream of Automation: Understanding Human Interaction and Intervention	122	Figure1	2021	https://doi.org/10.1145/3411764.3445629	Image	Photo	Theme	Example
@@ -310,7 +310,7 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 528	Evaluating ActuAir: Building Occupants’ Experiences of a Shape-Changing Air Quality Display	48	Figure7	2024	https://doi.org/10.1145/3613904.3642396	Image	Photo	Theme	Example
 529	Evaluating ActuAir: Building Occupants’ Experiences of a Shape-Changing Air Quality Display	48	Figure8	2024	https://doi.org/10.1145/3613904.3642396	Image	Photo	Theme	Example
 530	Evaluating ActuAir: Building Occupants’ Experiences of a Shape-Changing Air Quality Display	48	Table2	2024	https://doi.org/10.1145/3613904.3642396	Table/Matrix	Table	Concept	Design insight
-543	Exploring Collaborative Movement Improvisation Towards the Design of LuminAI — a Co-Creative AI Dance Partner	55	Figure3	2024	https://doi.org/10.1145/3613904.3642677	Diagram	Flow diagram	Concept	Model/Framework
+543	Exploring Collaborative Movement Improvisation Towards the Design of LuminAI — a Co-Creative AI Dance Partner	55	Figure3	2024	https://doi.org/10.1145/3613904.3642677	Diagram	Block diagram	Concept	Model/Framework
 544	Exploring Collaborative Movement Improvisation Towards the Design of LuminAI — a Co-Creative AI Dance Partner	55	Figure4	2024	https://doi.org/10.1145/3613904.3642677	Diagram	Onion diagram, Venn diagram	Concept	Model/Framework
 545	Exploring Collaborative Movement Improvisation Towards the Design of LuminAI — a Co-Creative AI Dance Partner	55	Figure5	2024	https://doi.org/10.1145/3613904.3642677	Chart	Stacked bar chart	Theme	Frequency
 546	Exploring Collaborative Movement Improvisation Towards the Design of LuminAI — a Co-Creative AI Dance Partner	55	Table2	2024	https://doi.org/10.1145/3613904.3642677	Table/Matrix	Table	Concept	Design insight
@@ -349,7 +349,7 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 602	Generative AI in Creative Practice: ML-Artist Folk Theories of Use, Harm, and Harm Reduction	50	Figure3	2024	https://doi.org/10.1145/3613904.3642461	Image	Sketch	Theme	Example
 603	Generative AI in Creative Practice: ML-Artist Folk Theories of Use, Harm, and Harm Reduction	50	Table4	2024	https://doi.org/10.1145/3613904.3642461	Table/Matrix	Table	Theme	Taxonomy, Example
 604	Generative AI in Creative Practice: ML-Artist Folk Theories of Use, Harm, and Harm Reduction	50	Table5	2024	https://doi.org/10.1145/3613904.3642461	Table/Matrix	Table	Theme	Taxonomy, Example
-605	Generative AI in Creative Practice: ML-Artist Folk Theories of Use, Harm, and Harm Reduction	50	Figure4	2024	https://doi.org/10.1145/3613904.3642461	Diagram	Flow diagram	Concept	Model/Framework
+605	Generative AI in Creative Practice: ML-Artist Folk Theories of Use, Harm, and Harm Reduction	50	Figure4	2024	https://doi.org/10.1145/3613904.3642461	Diagram	Network diagram	Concept	Model/Framework
 612	Haptic Empathy: Investigating Individual Differences in Affective Haptic Communications	152	Figure5	2025	https://doi.org/10.1145/3706598.3714139	Table/Matrix	Heatmap	Quantitative	Measurement
 613	Haptic Empathy: Investigating Individual Differences in Affective Haptic Communications	152	Table3	2025	https://doi.org/10.1145/3706598.3714139	Table/Matrix	Table	Quantitative	Measurement
 614	Haptic Empathy: Investigating Individual Differences in Affective Haptic Communications	152	Table4	2025	https://doi.org/10.1145/3706598.3714139	Table/Matrix	Table	Quantitative	Measurement
@@ -361,12 +361,12 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 622	Horse as Teacher: How human-horse interaction informs human-robot interaction	80	Table4	2023	https://doi.org/10.1145/3544548.3581245	Table/Matrix	Table	Theme	Definition, Example
 623	Horse as Teacher: How human-horse interaction informs human-robot interaction	80	Figure2	2023	https://doi.org/10.1145/3544548.3581245	Diagram	Illustration, Block diagram	Concept	Design insight
 624	Horse as Teacher: How human-horse interaction informs human-robot interaction	80	Table5	2023	https://doi.org/10.1145/3544548.3581245	Table/Matrix	Table	Concept	Design insight
-628	How Users Experience Closed Captions on Live Television: Quality Metrics Remain a Challenge	161	Figure1	2024	https://doi.org/10.1145/3613904.3641988	Chart	Grouped bar chart, Bar chart with range	Quantitative	Self-reported
+628	How Users Experience Closed Captions on Live Television: Quality Metrics Remain a Challenge	161	Figure1	2024	https://doi.org/10.1145/3613904.3641988	Chart	Grouped bar chart, Range symbol	Quantitative	Self-reported
 629	How Users Experience Closed Captions on Live Television: Quality Metrics Remain a Challenge	161	Figure2	2024	https://doi.org/10.1145/3613904.3641988	Chart	Grouped bar chart	Quantitative	Measurement
-630	How Users Experience Closed Captions on Live Television: Quality Metrics Remain a Challenge	161	Figure3	2024	https://doi.org/10.1145/3613904.3641988	Chart	Grouped bar chart, Bar chart with range	Quantitative	Self-reported
-631	How Users Experience Closed Captions on Live Television: Quality Metrics Remain a Challenge	161	Figure4	2024	https://doi.org/10.1145/3613904.3641988	Chart	Grouped bar chart, Bar chart with range	Quantitative	Self-reported
-632	How Users Experience Closed Captions on Live Television: Quality Metrics Remain a Challenge	161	Figure5	2024	https://doi.org/10.1145/3613904.3641988	Chart	Grouped bar chart, Bar chart with range	Quantitative	Self-reported
-633	How Users Experience Closed Captions on Live Television: Quality Metrics Remain a Challenge	161	Figure6	2024	https://doi.org/10.1145/3613904.3641988	Chart	Grouped bar chart, Bar chart with range	Quantitative	Self-reported
+630	How Users Experience Closed Captions on Live Television: Quality Metrics Remain a Challenge	161	Figure3	2024	https://doi.org/10.1145/3613904.3641988	Chart	Grouped bar chart, Range symbol	Quantitative	Self-reported
+631	How Users Experience Closed Captions on Live Television: Quality Metrics Remain a Challenge	161	Figure4	2024	https://doi.org/10.1145/3613904.3641988	Chart	Grouped bar chart, Range symbol	Quantitative	Self-reported
+632	How Users Experience Closed Captions on Live Television: Quality Metrics Remain a Challenge	161	Figure5	2024	https://doi.org/10.1145/3613904.3641988	Chart	Grouped bar chart, Range symbol	Quantitative	Self-reported
+633	How Users Experience Closed Captions on Live Television: Quality Metrics Remain a Challenge	161	Figure6	2024	https://doi.org/10.1145/3613904.3641988	Chart	Grouped bar chart, Range symbol	Quantitative	Self-reported
 634	How Users Experience Closed Captions on Live Television: Quality Metrics Remain a Challenge	161	Figure7	2024	https://doi.org/10.1145/3613904.3641988	Diagram	Network diagram	Theme	Taxonomy
 638	How Will VR Enter University Classrooms? Multi-stakeholders Investigation of VR in Higher Education	167	Table3	2022	https://doi.org/10.1145/3491102.3517542	Table/Matrix	Table	Theme	Example, Frequency
 640	Identity Claims that Underlie Ethical Awareness and Action	118	Table2	2021	https://doi.org/10.1145/3411764.3445375	Table/Matrix	Table	Theme	Definition
@@ -389,10 +389,10 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 670	Innovating Novel Online Social Spaces with Diverse Middle School Girls	104	Table2	2022	https://doi.org/10.1145/3491102.3517576	Table/Matrix	nan	Concept	Model/Framework
 678	Is it Happy? Behavioural and Narrative Frame Complexity Impact Perceptions of a Simple Furry Robot's Emotions	140	Table3	2018	https://doi.org/10.1145/3173574.3174083	Table/Matrix	Table	Quantitative	Self-reported
 687	It is too Hot: An In-Situ Study of Three Designs for Heating	182	Table2	2016	https://doi.org/10.1145/2858036.2858222	Table/Matrix	Table	Quantitative	Measurement
-690	It's Reducing a Human Being to a Percentage': Perceptions of Justice in Algorithmic Decisions	179	Figure3	2018	https://doi.org/10.1145/3173574.3173951	Chart	Dot plot with range	Quantitative	Self-reported
+690	It's Reducing a Human Being to a Percentage': Perceptions of Justice in Algorithmic Decisions	179	Figure3	2018	https://doi.org/10.1145/3173574.3173951	Chart	Dot plot, Range symbol	Quantitative	Self-reported
 691	It's Reducing a Human Being to a Percentage': Perceptions of Justice in Algorithmic Decisions	179	Table1	2018	https://doi.org/10.1145/3173574.3173951	Table/Matrix	Table	Quantitative	Self-reported
 693	Listening to the Voices: Describing Ethical Caveats of Conversational User Interfaces According to Experts and Frequent Users	52	Table2	2024	https://doi.org/10.1145/3613904.3642542	Table/Matrix	Table	Theme	Definition, Other
-694	Listening to the Voices: Describing Ethical Caveats of Conversational User Interfaces According to Experts and Frequent Users	52	Figure1	2024	https://doi.org/10.1145/3613904.3642542	Diagram	Other diagram	Concept	Model/Framework
+694	Listening to the Voices: Describing Ethical Caveats of Conversational User Interfaces According to Experts and Frequent Users	52	Figure1	2024	https://doi.org/10.1145/3613904.3642542	Diagram	Network diagram	Concept	Model/Framework
 695	Listening to the Voices: Describing Ethical Caveats of Conversational User Interfaces According to Experts and Frequent Users	52	Table3	2024	https://doi.org/10.1145/3613904.3642542	Table/Matrix	Table	Concept	Design insight
 700	Living with Sound Zones: A Long-term Field Study of Dynamic Sound Zones in a Domestic Context	91	Table2	2023	https://doi.org/10.1145/3544548.3581535	Table/Matrix	Table	Quantitative	Measurement
 701	Living with Sound Zones: A Long-term Field Study of Dynamic Sound Zones in a Domestic Context	91	Table3	2023	https://doi.org/10.1145/3544548.3581535	Table/Matrix	Table	Quantitative	Measurement
@@ -409,8 +409,8 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 727	Mapping Design Spaces for Audience Participation in Game Live Streaming	121	Table4	2021	https://doi.org/10.1145/3411764.3445511	Table/Matrix	Table	Theme	Example
 728	Mapping Design Spaces for Audience Participation in Game Live Streaming	121	Figure2	2021	https://doi.org/10.1145/3411764.3445511	Diagram	Venn diagram, Other	Theme	Taxonomy
 729	Mapping Design Spaces for Audience Participation in Game Live Streaming	121	Figure3	2021	https://doi.org/10.1145/3411764.3445511	Diagram	Venn diagram, Other	Theme	Taxonomy
-734	Memory Manipulations in Extended Reality	72	Figure3	2023	https://doi.org/10.1145/3544548.3580988	Diagram	Flow diagram	Theme	Taxonomy
-735	Memory Manipulations in Extended Reality	72	Figure4	2023	https://doi.org/10.1145/3544548.3580988	Diagram	Flow diagram	Theme	Taxonomy, Example
+734	Memory Manipulations in Extended Reality	72	Figure3	2023	https://doi.org/10.1145/3544548.3580988	Diagram	Network diagram	Theme	Taxonomy
+735	Memory Manipulations in Extended Reality	72	Figure4	2023	https://doi.org/10.1145/3544548.3580988	Diagram	Network diagram	Theme	Taxonomy, Example
 736	Memory Manipulations in Extended Reality	72	Figure5	2023	https://doi.org/10.1145/3544548.3580988	Image	Illustration	Theme	Example
 737	Memory Manipulations in Extended Reality	72	Figure6	2023	https://doi.org/10.1145/3544548.3580988	Image	Illustration	Theme	Example
 738	Memory Manipulations in Extended Reality	72	Figure7	2023	https://doi.org/10.1145/3544548.3580988	Image	Illustration	Theme	Example
@@ -430,11 +430,11 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 769	Negotiating Experience and Communicating Information Through Abstract Metaphor	67	Figure3	2023	https://doi.org/10.1145/3544548.3580700	Image	Screenshot	Concept	Design insight
 770	Negotiating Experience and Communicating Information Through Abstract Metaphor	67	Figure4	2023	https://doi.org/10.1145/3544548.3580700	Image	Photo	Concept	Design insight
 774	Oral History and Qualitative Analysis with Youth: Cultivating Attachments to Create Publics	146	Table1	2025	https://doi.org/10.1145/3706598.3713687	Table/Matrix	Table	Theme	Frequency
-778	PaTAT: Human-AI Collaborative Qualitative Coding with Explainable Interactive Rule Synthesis	84	Figure4	2023	https://doi.org/10.1145/3544548.3581352	Chart	Line chart with range	Quantitative	Measurement
+778	PaTAT: Human-AI Collaborative Qualitative Coding with Explainable Interactive Rule Synthesis	84	Figure4	2023	https://doi.org/10.1145/3544548.3581352	Chart	Line chart, Range symbol	Quantitative	Measurement
 780	PaTAT: Human-AI Collaborative Qualitative Coding with Explainable Interactive Rule Synthesis	84	Table2	2023	https://doi.org/10.1145/3544548.3581352	Table/Matrix	Table	Quantitative	Measurement
 781	PaTAT: Human-AI Collaborative Qualitative Coding with Explainable Interactive Rule Synthesis	84	Table3	2023	https://doi.org/10.1145/3544548.3581352	Table/Matrix	Table	Quantitative	Self-reported
 782	PaTAT: Human-AI Collaborative Qualitative Coding with Explainable Interactive Rule Synthesis	84	Figure5	2023	https://doi.org/10.1145/3544548.3581352	Diagram	Other diagram	Concept	Model/Framework
-786	Patient Perspectives on AI-Driven Predictions of Schizophrenia Relapses: Understanding Concerns and Opportunities for Self-Care and Treatment	46	Figure3	2024	https://doi.org/10.1145/3613904.3642369	Diagram	Flow diagram	Concept	Other concept
+786	Patient Perspectives on AI-Driven Predictions of Schizophrenia Relapses: Understanding Concerns and Opportunities for Self-Care and Treatment	46	Figure3	2024	https://doi.org/10.1145/3613904.3642369	Diagram	Network diagram	Concept	Other concept
 790	Playing with Power Tools: Design Toolkits and the Framing of Equity	164	Figure 1	2023	https://doi.org/10.1145/3544548.3581490	Diagram	Block diagram	Theme	Definition
 791	Playing with Power Tools: Design Toolkits and the Framing of Equity	164	Figure 2	2023	https://doi.org/10.1145/3544548.3581490	Diagram	Block diagram	Theme	Example
 792	Playing with Power Tools: Design Toolkits and the Framing of Equity	164	Figure 3	2023	https://doi.org/10.1145/3544548.3581490	Diagram	Other diagram	Theme	Example
@@ -442,8 +442,8 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 795	PoetsOfInstagram: Navigating The Practices And Challenges Of Novice Poets On Instagram	156	Table2	2024	https://doi.org/10.1145/3613904.3642173	Table/Matrix	Table	Theme	Frequency
 796	PoetsOfInstagram: Navigating The Practices And Challenges Of Novice Poets On Instagram	156	Table3	2024	https://doi.org/10.1145/3613904.3642173	Table/Matrix	Table	Quantitative	Measurement
 797	PoetsOfInstagram: Navigating The Practices And Challenges Of Novice Poets On Instagram	156	Table4	2024	https://doi.org/10.1145/3613904.3642173	Table/Matrix	Table	Theme	Frequency
-798	PoetsOfInstagram: Navigating The Practices And Challenges Of Novice Poets On Instagram	156	Figure1	2024	https://doi.org/10.1145/3613904.3642173	Diagram	Flow diagram	Concept	Model/Framework
-799	PoetsOfInstagram: Navigating The Practices And Challenges Of Novice Poets On Instagram	156	Figure2	2024	https://doi.org/10.1145/3613904.3642173	Diagram	Flow diagram	Concept	Model/Framework
+798	PoetsOfInstagram: Navigating The Practices And Challenges Of Novice Poets On Instagram	156	Figure1	2024	https://doi.org/10.1145/3613904.3642173	Diagram	Network diagram	Concept	Model/Framework
+799	PoetsOfInstagram: Navigating The Practices And Challenges Of Novice Poets On Instagram	156	Figure2	2024	https://doi.org/10.1145/3613904.3642173	Diagram	Network diagram	Concept	Model/Framework
 800	Privacy Concerns of Student Data Shared with Instructors in an Online Learning Management System	61	Figure1	2024	https://doi.org/10.1145/3613904.3642914	Chart	Stacked bar chart	Theme	Frequency
 801	Privacy Concerns of Student Data Shared with Instructors in an Online Learning Management System	61	Figure2	2024	https://doi.org/10.1145/3613904.3642914	Chart	Grouped bar chart	Theme	Frequency
 803	Privacy Considerations when Designing Social Network Systems to Support Successful Ageing	145	Table1	2017	https://doi.org/10.1145/3025453.3025861	Table/Matrix	Table	Quantitative	Self-reported
@@ -455,7 +455,7 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 813	Promoting Engagement in Remote Patient Monitoring Using Asynchronous Messaging	54	Figure4	2024	https://doi.org/10.1145/3613904.3642630	Chart	Other chart	Theme	Frequency
 814	Promoting Engagement in Remote Patient Monitoring Using Asynchronous Messaging	54	Figure5	2024	https://doi.org/10.1145/3613904.3642630	Chart	Bar chart	Theme	Frequency
 815	Promoting Engagement in Remote Patient Monitoring Using Asynchronous Messaging	54	Figure6	2024	https://doi.org/10.1145/3613904.3642630	Chart	Other chart	Theme	Other theme
-818	Promoting Engagement in Remote Patient Monitoring Using Asynchronous Messaging	54	Figure8	2024	https://doi.org/10.1145/3613904.3642630	Chart	Line chart with range	Quantitative	Measurement
+818	Promoting Engagement in Remote Patient Monitoring Using Asynchronous Messaging	54	Figure8	2024	https://doi.org/10.1145/3613904.3642630	Chart	Line chart, Range symbol	Quantitative	Measurement
 825	Provocations from #vanlife: Investigating Life and Work in a Community Extensively Using Technology Not Designed for Them	119	Figure4	2021	https://doi.org/10.1145/3411764.3445393	Image	Photo	Theme	Example
 826	Provocations from #vanlife: Investigating Life and Work in a Community Extensively Using Technology Not Designed for Them	119	Figure5	2021	https://doi.org/10.1145/3411764.3445393	Image	Photo	Theme	Example
 827	Provocations from #vanlife: Investigating Life and Work in a Community Extensively Using Technology Not Designed for Them	119	Figure6	2021	https://doi.org/10.1145/3411764.3445393	Image	Photo	Theme	Example
@@ -482,9 +482,9 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 865	Socio-technical Dynamics: Cooperation of Emergent and Established Organisations in Crises and Disasters	132	Figure4	2019	https://doi.org/10.1145/3290605.3300448	Diagram	Block diagram	Concept	Design insight
 868	Standardizing Reporting of Participant Compensation in HCI: A Systematic Literature Review and Recommendations for the Field	169	Table2	2021	https://doi.org/10.1145/3411764.3445734	Table/Matrix	Table	Theme	Definition
 870	Standardizing Reporting of Participant Compensation in HCI: A Systematic Literature Review and Recommendations for the Field	169	Table4	2021	https://doi.org/10.1145/3411764.3445734	Table/Matrix	Table	Theme	Example
-871	Standardizing Reporting of Participant Compensation in HCI: A Systematic Literature Review and Recommendations for the Field	169	Figure2	2021	https://doi.org/10.1145/3411764.3445734	Chart	Bar chart with range	Theme	Frequency
-872	Standardizing Reporting of Participant Compensation in HCI: A Systematic Literature Review and Recommendations for the Field	169	Figure3	2021	https://doi.org/10.1145/3411764.3445734	Chart	Bar chart with range	Theme	Frequency
-873	Standardizing Reporting of Participant Compensation in HCI: A Systematic Literature Review and Recommendations for the Field	169	Figure4	2021	https://doi.org/10.1145/3411764.3445734	Chart	Bar chart with range	Theme	Frequency
+871	Standardizing Reporting of Participant Compensation in HCI: A Systematic Literature Review and Recommendations for the Field	169	Figure2	2021	https://doi.org/10.1145/3411764.3445734	Chart	Bar chart, Range symbol	Theme	Frequency
+872	Standardizing Reporting of Participant Compensation in HCI: A Systematic Literature Review and Recommendations for the Field	169	Figure3	2021	https://doi.org/10.1145/3411764.3445734	Chart	Bar chart, Range symbol	Theme	Frequency
+873	Standardizing Reporting of Participant Compensation in HCI: A Systematic Literature Review and Recommendations for the Field	169	Figure4	2021	https://doi.org/10.1145/3411764.3445734	Chart	Bar chart, Range symbol	Theme	Frequency
 874	Standardizing Reporting of Participant Compensation in HCI: A Systematic Literature Review and Recommendations for the Field	169	Table5	2021	https://doi.org/10.1145/3411764.3445734	Table/Matrix	Table	Quantitative	Measurement
 875	Standardizing Reporting of Participant Compensation in HCI: A Systematic Literature Review and Recommendations for the Field	169	Table6	2021	https://doi.org/10.1145/3411764.3445734	Table/Matrix	Table	Quantitative	Measurement, Frequency
 885	Supervising Multiple Operating Rooms Using a Head-Worn display: A Longitudinal Evaluation of the Experience of Supervising Anesthesiologists and Their Co-Workers	77	Figure4	2023	https://doi.org/10.1145/3544548.3581180	Diagram	Network diagram	Theme	Taxonomy
@@ -500,29 +500,29 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 906	The Design Space of Wearables for Sports and Fitness Practices	123	Figure 1	2021	https://doi.org/10.1145/3411764.3445700	Diagram	Network diagram	Theme	Taxonomy
 907	The Design Space of Wearables for Sports and Fitness Practices	123	Table 2	2021	https://doi.org/10.1145/3411764.3445700	Table/Matrix	Table	Theme	Taxonomy, Example
 908	The Design Space of Wearables for Sports and Fitness Practices	123	Figure 2	2021	https://doi.org/10.1145/3411764.3445700	Diagram	Network diagram	Theme	Taxonomy
-913	The Efect of Orientation on the Readability and Comfort of 3D-Printed Braille	57	Figure 4	2024	https://doi.org/10.1145/3613904.3642719	Chart	Dot plot with range	Quantitative	Measurement
-914	The Efect of Orientation on the Readability and Comfort of 3D-Printed Braille	57	Figure 5	2024	https://doi.org/10.1145/3613904.3642719	Chart	Dot plot with range	Quantitative	Measurement
-915	The Efect of Orientation on the Readability and Comfort of 3D-Printed Braille	57	Figure 6	2024	https://doi.org/10.1145/3613904.3642719	Chart	Dot plot with range	Quantitative	Measurement
+913	The Efect of Orientation on the Readability and Comfort of 3D-Printed Braille	57	Figure 4	2024	https://doi.org/10.1145/3613904.3642719	Chart	Dot plot, Range symbol	Quantitative	Measurement
+914	The Efect of Orientation on the Readability and Comfort of 3D-Printed Braille	57	Figure 5	2024	https://doi.org/10.1145/3613904.3642719	Chart	Dot plot, Range symbol	Quantitative	Measurement
+915	The Efect of Orientation on the Readability and Comfort of 3D-Printed Braille	57	Figure 6	2024	https://doi.org/10.1145/3613904.3642719	Chart	Dot plot, Range symbol	Quantitative	Measurement
 916	The Efect of Orientation on the Readability and Comfort of 3D-Printed Braille	57	Table 2	2024	https://doi.org/10.1145/3613904.3642719	Table/Matrix	Table	Quantitative	Measurement
 917	The Efect of Orientation on the Readability and Comfort of 3D-Printed Braille	57	Table 3	2024	https://doi.org/10.1145/3613904.3642719	Table/Matrix	Table	Theme	Example
 918	The Efect of Orientation on the Readability and Comfort of 3D-Printed Braille	57	Table 4	2024	https://doi.org/10.1145/3613904.3642719	Table/Matrix	Table	Theme	Example
 920	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 2	2024	https://doi.org/10.1145/3613904.3642919	Image	Sketch	Theme	Example
 923	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 5	2024	https://doi.org/10.1145/3613904.3642919	Diagram	Network diagram	Concept	Model/Framework
 924	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Table 1	2024	https://doi.org/10.1145/3613904.3642919	Table/Matrix	Table	Quantitative	Measurement
-925	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 6	2024	https://doi.org/10.1145/3613904.3642919	Chart	Dot plot with range	Quantitative	Measurement
+925	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 6	2024	https://doi.org/10.1145/3613904.3642919	Chart	Dot plot, Range symbol	Quantitative	Measurement
 926	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Table 2	2024	https://doi.org/10.1145/3613904.3642919	Table/Matrix	Table	Quantitative	Measurement
-927	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 7	2024	https://doi.org/10.1145/3613904.3642919	Chart	Dot plot with range	Quantitative	Measurement
+927	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 7	2024	https://doi.org/10.1145/3613904.3642919	Chart	Dot plot, Range symbol	Quantitative	Measurement
 928	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Table 3	2024	https://doi.org/10.1145/3613904.3642919	Table/Matrix	Table	Quantitative	Measurement
-929	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 8	2024	https://doi.org/10.1145/3613904.3642919	Chart	Dot plot with range	Quantitative	Measurement
+929	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 8	2024	https://doi.org/10.1145/3613904.3642919	Chart	Dot plot, Range symbol	Quantitative	Measurement
 930	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Table 4	2024	https://doi.org/10.1145/3613904.3642919	Table/Matrix	Table	Quantitative	Measurement
-931	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 9	2024	https://doi.org/10.1145/3613904.3642919	Chart	Dot plot with range	Quantitative	Measurement
+931	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 9	2024	https://doi.org/10.1145/3613904.3642919	Chart	Dot plot, Range symbol	Quantitative	Measurement
 932	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Table 5	2024	https://doi.org/10.1145/3613904.3642919	Table/Matrix	Table	Theme	Frequency
-933	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 10	2024	https://doi.org/10.1145/3613904.3642919	Chart	Line chart with range, Other chart	Quantitative	Measurement
+933	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 10	2024	https://doi.org/10.1145/3613904.3642919	Chart	Line chart, Range symbol, Other chart	Quantitative	Measurement
 934	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 11	2024	https://doi.org/10.1145/3613904.3642919	Image	Screenshot	Theme	Example
 935	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 12	2024	https://doi.org/10.1145/3613904.3642919	Image	Screenshot	Theme	Example
 936	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 13	2024	https://doi.org/10.1145/3613904.3642919	Image	Screenshot	Theme	Example
 937	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 14	2024	https://doi.org/10.1145/3613904.3642919	Image	Screenshot	Theme	Example
-938	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 15	2024	https://doi.org/10.1145/3613904.3642919	Diagram	Flow diagram	Concept	Model/Framework
+938	The Effects of Generative AI on Design Fixation and Divergent Thinking	159	Figure 15	2024	https://doi.org/10.1145/3613904.3642919	Diagram	Network diagram	Concept	Model/Framework
 942	The Gang's All Here: How People Used Games to cope with COVID19 Quarantine	113	Figure 1	2021	https://doi.org/10.1145/3411764.3445072	Chart	Bar chart	Quantitative	Self-reported
 943	The Gang's All Here: How People Used Games to cope with COVID19 Quarantine	113	Table 3	2021	https://doi.org/10.1145/3411764.3445072	Table/Matrix	Table	Theme	Frequency
 946	The Last Decade of HCI Research on Children and Voice-based Conversational Agents	96	Table 1	2022	https://doi.org/10.1145/3491102.3502016	Table/Matrix	Table	Quantitative	Measurement
@@ -534,9 +534,9 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 952	The Last Decade of HCI Research on Children and Voice-based Conversational Agents	96	Table 5	2022	https://doi.org/10.1145/3491102.3502016	Table/Matrix	Table	Theme	Frequency
 956	The Race Towards Digital Wellbeing: Issues and Opportunities	134	Table 3	2019	https://doi.org/10.1145/3290605.3300616	Table/Matrix	Table	Theme	Taxonomy
 958	The Race Towards Digital Wellbeing: Issues and Opportunities	134	Table 4	2019	https://doi.org/10.1145/3290605.3300616	Table/Matrix	Table	Quantitative	Measurement
-959	The Race Towards Digital Wellbeing: Issues and Opportunities	134	Figure 3	2019	https://doi.org/10.1145/3290605.3300616	Chart	Dot plot with range	Quantitative	Measurement
+959	The Race Towards Digital Wellbeing: Issues and Opportunities	134	Figure 3	2019	https://doi.org/10.1145/3290605.3300616	Chart	Box plot, Line chart	Quantitative	Measurement
 960	The Race Towards Digital Wellbeing: Issues and Opportunities	134	Table 5	2019	https://doi.org/10.1145/3290605.3300616	Table/Matrix	Table	Theme	Frequency
-961	The Race Towards Digital Wellbeing: Issues and Opportunities	134	Figure 4	2019	https://doi.org/10.1145/3290605.3300616	Chart	Dot plot with range	Quantitative	Measurement
+961	The Race Towards Digital Wellbeing: Issues and Opportunities	134	Figure 4	2019	https://doi.org/10.1145/3290605.3300616	Chart	Box plot, Line chart	Quantitative	Measurement
 963	The Technology Is Enemy for Me at the Moment: How Smart Home Technologies Assert Control Beyond Intent	112	Table 2	2021	https://doi.org/10.1145/3411764.3445058	Table/Matrix	Table	Theme	Definition
 966	Things That Make Us Reminisce: Everyday Memory Cues as Opportunities for Interaction Design	184	Figure 3	2015	https://doi.org/10.1145/2702123.2702460	Table/Matrix	Table	Theme	Example
 980	Three Design Directions for a Diversity Computing Design Space	74	Table 1	2023	https://doi.org/10.1145/3544548.3581155	Table/Matrix	Table	Theme	Definition
@@ -553,7 +553,7 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 1002	Towards a Bedder Future: A Study of Using Virtual Reality while Lying Down	70	Figure 10	2023	https://doi.org/10.1145/3544548.3580963	Image	Photo, Screenshot	Theme	Example
 1003	Towards a Bedder Future: A Study of Using Virtual Reality while Lying Down	70	Table 1	2023	https://doi.org/10.1145/3544548.3580963	Table/Matrix	Table	Concept	Design insight
 1009	Towards Designing Playful Bodily Extensions	75	Table 2	2023	https://doi.org/10.1145/3544548.3581165	Table/Matrix	Table	Concept	Design insight
-1014	Towards Inclusive External Communication of Autonomous Vehicles for Pedestrians with Vision Impairments	127	Figure 3	2020	https://doi.org/10.1145/3313831.3376472	Diagram	Flow diagram	Concept	Model/Framework
+1014	Towards Inclusive External Communication of Autonomous Vehicles for Pedestrians with Vision Impairments	127	Figure 3	2020	https://doi.org/10.1145/3313831.3376472	Diagram	Network diagram	Concept	Model/Framework
 1017	Towards Inclusive External Communication of Autonomous Vehicles for Pedestrians with Vision Impairments	127	Figure 5	2020	https://doi.org/10.1145/3313831.3376472	Chart	Box plot	Quantitative	Measurement
 1018	Towards Inclusive External Communication of Autonomous Vehicles for Pedestrians with Vision Impairments	127	Figure 6	2020	https://doi.org/10.1145/3313831.3376472	Chart	Line chart	Quantitative	Measurement
 1019	Towards Inclusive External Communication of Autonomous Vehicles for Pedestrians with Vision Impairments	127	Figure 7	2020	https://doi.org/10.1145/3313831.3376472	Chart	Line chart	Quantitative	Measurement
@@ -573,5 +573,5 @@ id	Paper	PaperIndex	Item	Year	URL	RepresentationCategory	RepresentationSubcatego
 1046	Visualizing Instructions for Physical Training: Exploring VisualCues to Support Movement Learning from Instructional Videos	110	Table 3	2022	https://doi.org/10.1145/3491102.3517735	Table/Matrix	Table	Concept	Design insight
 1049	What's the Appeal? Perceptions of Review Processes for Algorithmic Decisions	166	Table 2	2022	https://doi.org/10.1145/3491102.3517606	Table/Matrix	Table	Quantitative	Measurement
 1050	What's the Appeal? Perceptions of Review Processes for Algorithmic Decisions	166	Figure 2	2022	https://doi.org/10.1145/3491102.3517606	Chart	Line chart	Quantitative	Measurement
-1051	What's the Appeal? Perceptions of Review Processes for Algorithmic Decisions	166	Figure 3	2022	https://doi.org/10.1145/3491102.3517606	Chart	Bar chart with range	Quantitative	Measurement
+1051	What's the Appeal? Perceptions of Review Processes for Algorithmic Decisions	166	Figure 3	2022	https://doi.org/10.1145/3491102.3517606	Chart	Grouped bar chart, Range symbol	Quantitative	Measurement
 1052	What's the Appeal? Perceptions of Review Processes for Algorithmic Decisions	166	Table 3	2022	https://doi.org/10.1145/3491102.3517606	Table/Matrix	Table	Quantitative	Measurement

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="w-screen h-screen flex flex-col">
-      <nav className="navBar w-full h-16 bg-gray-800 text-white flex items-center justify-between px-4">
-        <h1 className="text-3xl font-bold underline">
+      <nav className="navBar w-full h-8 bg-gray-800 text-white flex items-center justify-between px-4">
+        <h1 className="text-3xl font-bold">
           <Link to="/">Visual Representations of Thematic Analysis Results @ CHI</Link>
         </h1>
         <div>
@@ -12,7 +12,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           <Link to="/references" className="text-white px-3 py-2 rounded-md text-sm font-medium">References</Link>
         </div>
       </nav>
-      <main className="flex-grow">{children}</main>
+      <main className="grow">{children}</main>
     </div>
   );
 };

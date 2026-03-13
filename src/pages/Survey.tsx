@@ -36,8 +36,22 @@ function Survey() {
 
         const figureInfoResponse = await fetch("/figureInfo.tsv");
         const figureInfoText = await figureInfoResponse.text();
-        const figureInfoData = d3.tsvParse(figureInfoText);
-        setFigureInfo(figureInfoData);
+        
+        // Manual TSV parsing to avoid d3.tsvParse quote handling issues
+        const lines = figureInfoText.trim().split(/\r?\n/);
+        const headers = lines[0].split('\t');
+        const parsedRows = lines.slice(1).map(line => {
+          const values = line.split('\t');
+          const obj: Record<string, string> = {};
+          headers.forEach((header, i) => {
+            obj[header] = values[i] || "";
+          });
+          return obj;
+        });
+
+        const figureInfoData = Object.assign(parsedRows, { columns: headers });
+
+        setFigureInfo(figureInfoData as unknown as d3.DSVRowArray<string>);
       } catch (error) {
         console.error("Error fetching data:", error);
       }

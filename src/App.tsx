@@ -37,6 +37,7 @@ function App() {
           years: [],
           dataTags: [],
           visualTags: [],
+          taxonomyMode: 'and',
         })
       } catch (error) {
         if (!isMounted) {
@@ -127,12 +128,14 @@ function App() {
           </h1>
           <p className="hero-copy"></p>
         </div>
+        {/*
         <div className="hero-stats">
           <StatCard label="Venues" value={data.venues.length} />
           <StatCard label="Years" value={`${data.years[0]}-${data.years.at(-1)}`} wide />
           <StatCard label="Papers" value={data.totalPaperCount} />
           <StatCard label="Figures" value={data.figures.length} />
         </div>
+        */}
       </section>
 
       <FiltersPanel
@@ -144,11 +147,12 @@ function App() {
         visiblePaperCount={visiblePaperCount}
         isPending={isPending}
         onReset={() =>
-          updateFilters(() => ({
+          updateFilters((current) => ({
             venues: data.venues,
             years: [],
             dataTags: [],
             visualTags: [],
+            taxonomyMode: current.taxonomyMode,
           }))
         }
         onResetVenue={() =>
@@ -180,18 +184,6 @@ function App() {
             ...current,
             dataTags: [],
             visualTags: [],
-          }))
-        }
-        onAddDataTags={(tagKeys) =>
-          updateFilters((current) => ({
-            ...current,
-            dataTags: addMissingValues(current.dataTags, tagKeys),
-          }))
-        }
-        onAddVisualTags={(tagKeys) =>
-          updateFilters((current) => ({
-            ...current,
-            visualTags: addMissingValues(current.visualTags, tagKeys),
           }))
         }
         onToggleVenue={(venue) =>
@@ -228,6 +220,23 @@ function App() {
           updateFilters((current) => ({
             ...current,
             visualTags: toggleGroupValues(current.visualTags, tagKeys),
+          }))
+        }
+        onToggleMatrixCell={(dataTagKey, visualTagKey) =>
+          updateFilters((current) => ({
+            ...current,
+            ...toggleMatrixValues(
+              current.dataTags,
+              current.visualTags,
+              dataTagKey,
+              visualTagKey,
+            ),
+          }))
+        }
+        onToggleTaxonomyMode={() =>
+          updateFilters((current) => ({
+            ...current,
+            taxonomyMode: current.taxonomyMode === 'and' ? 'or' : 'and',
           }))
         }
       />
@@ -278,6 +287,7 @@ function App() {
           <ReferenceView
             includedPapers={visiblePapers}
             excludedPapers={hiddenPapers}
+            totalPaperCount={data.totalPaperCount}
           />
         ) : null}
         {activeTab === 'about' ? (
@@ -326,6 +336,26 @@ function toggleGroupValues<T>(list: T[], values: T[]) {
   return allSelected
     ? list.filter((entry) => !values.includes(entry))
     : addMissingValues(list, values)
+}
+
+function toggleMatrixValues<T>(
+  dataValues: T[],
+  visualValues: T[],
+  dataValue: T,
+  visualValue: T,
+) {
+  const pairSelected =
+    dataValues.includes(dataValue) && visualValues.includes(visualValue)
+
+  return pairSelected
+    ? {
+        dataTags: dataValues.filter((entry) => entry !== dataValue),
+        visualTags: visualValues.filter((entry) => entry !== visualValue),
+      }
+    : {
+        dataTags: addMissingValues(dataValues, [dataValue]),
+        visualTags: addMissingValues(visualValues, [visualValue]),
+      }
 }
 
 export default App

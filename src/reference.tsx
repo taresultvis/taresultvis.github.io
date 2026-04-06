@@ -4,9 +4,11 @@ import type { PaperRecord } from './data'
 export function ReferenceView({
   includedPapers,
   excludedPapers,
+  totalPaperCount
 }: {
   includedPapers: PaperRecord[]
   excludedPapers: PaperRecord[]
+  totalPaperCount: number
 }) {
   const [showExcluded, setShowExcluded] = useState(false)
   const papers = showExcluded ? excludedPapers : includedPapers
@@ -29,7 +31,7 @@ export function ReferenceView({
             onClick={() => setShowExcluded((current) => !current)}
             type="button"
           >
-            {papers.length} papers
+            {papers.length + "/" + totalPaperCount} papers
             <span>{showExcluded ? 'Excluded' : 'Included'}</span>
           </button>
         </div>

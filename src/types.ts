@@ -5,4 +5,5 @@ export type AppFilters = {
   years: number[]
   dataTags: string[]
   visualTags: string[]
+  taxonomyMode: 'and' | 'or'
 }

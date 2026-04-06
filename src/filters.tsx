@@ -28,14 +28,14 @@ type FiltersPanelProps = {
   onResetData: () => void
   onResetVisual: () => void
   onResetMatrix: () => void
-  onAddDataTags: (tagKeys: string[]) => void
-  onAddVisualTags: (tagKeys: string[]) => void
+  onToggleTaxonomyMode: () => void
   onToggleVenue: (venue: string) => void
   onToggleYear: (year: number) => void
   onToggleDataTag: (tagKey: string) => void
   onToggleDataGroup: (tagKeys: string[]) => void
   onToggleVisualTag: (tagKey: string) => void
   onToggleVisualGroup: (tagKeys: string[]) => void
+  onToggleMatrixCell: (dataTagKey: string, visualTagKey: string) => void
 }
 
 export function FiltersPanel({
@@ -52,23 +52,23 @@ export function FiltersPanel({
   onResetData,
   onResetVisual,
   onResetMatrix,
-  onAddDataTags,
-  onAddVisualTags,
+  onToggleTaxonomyMode,
   onToggleVenue,
   onToggleYear,
   onToggleDataTag,
   onToggleDataGroup,
   onToggleVisualTag,
   onToggleVisualGroup,
+  onToggleMatrixCell,
 }: FiltersPanelProps) {
   const [filtersOpen, setFiltersOpen] = useState(false)
   const filterPanelRef = useRef<HTMLElement | null>(null)
   const [sectionOpen, setSectionOpen] = useState({
-    venue: true,
-    year: true,
-    data: true,
-    visual: true,
-    matrix: true,
+    venue: false,
+    year: false,
+    data: false,
+    visual: false,
+    matrix: false,
   })
 
   const toggleSection = (section: keyof typeof sectionOpen) => {
@@ -154,6 +154,16 @@ export function FiltersPanel({
         </div>
         <div className="filter-panel-controls">
           {isPending ? <span className="pending-badge">Updating…</span> : null}
+          <button
+            aria-label={`Taxonomy mode ${filters.taxonomyMode.toUpperCase()}`}
+            className={`filter-mode-toggle${
+              filters.taxonomyMode === 'or' ? ' is-alt' : ''
+            }`}
+            onClick={onToggleTaxonomyMode}
+            type="button"
+          >
+            {filters.taxonomyMode.toUpperCase()}
+          </button>
           <IconActionButton
             iconClass={filtersOpen ? 'fa-chevron-up' : 'fa-chevron-down'}
             label={filtersOpen ? 'Hide filters' : 'Show filters'}
@@ -174,10 +184,10 @@ export function FiltersPanel({
           Years {filters.years.length === 0 ? 'All' : filters.years.length}
         </SummaryPill>
         <SummaryPill>
-          Data tags {filters.dataTags.length === 0 ? 'All' : filters.dataTags.length}
+          Data {filters.dataTags.length === 0 ? 'All' : filters.dataTags.length}
         </SummaryPill>
         <SummaryPill>
-          Visual tags {filters.visualTags.length === 0 ? 'All' : filters.visualTags.length}
+          Visual {filters.visualTags.length === 0 ? 'All' : filters.visualTags.length}
         </SummaryPill>
       </div>
 
@@ -326,8 +336,11 @@ export function FiltersPanel({
                 dataGroups={data.dataGroups}
                 figures={taxonomyScopeFigures}
                 filters={filters}
-                onAddDataTags={onAddDataTags}
-                onAddVisualTags={onAddVisualTags}
+                onToggleDataGroup={onToggleDataGroup}
+                onToggleDataTag={onToggleDataTag}
+                onToggleMatrixCell={onToggleMatrixCell}
+                onToggleVisualGroup={onToggleVisualGroup}
+                onToggleVisualTag={onToggleVisualTag}
                 visualGroups={data.visualGroups}
               />
             ) : null}
@@ -532,16 +545,22 @@ function OverlapMatrix({
   dataGroups,
   figures,
   filters,
+  onToggleDataGroup,
+  onToggleDataTag,
+  onToggleMatrixCell,
+  onToggleVisualGroup,
+  onToggleVisualTag,
   visualGroups,
-  onAddDataTags,
-  onAddVisualTags,
 }: {
   dataGroups: TaxonomyFilterGroup[]
   figures: FigureRecord[]
   filters: AppFilters
+  onToggleDataGroup: (tagKeys: string[]) => void
+  onToggleDataTag: (tagKey: string) => void
+  onToggleMatrixCell: (dataTagKey: string, visualTagKey: string) => void
+  onToggleVisualGroup: (tagKeys: string[]) => void
+  onToggleVisualTag: (tagKey: string) => void
   visualGroups: TaxonomyFilterGroup[]
-  onAddDataTags: (tagKeys: string[]) => void
-  onAddVisualTags: (tagKeys: string[]) => void
 }) {
   const dataOptions = dataGroups.flatMap((group) => group.options)
   const orderedVisualGroups = sortVisualGroupsForMatrix(visualGroups)
@@ -599,7 +618,7 @@ function OverlapMatrix({
                         : ''
                     }`}
                     onClick={() =>
-                      onAddDataTags(group.options.map((option) => option.key))
+                      onToggleDataGroup(group.options.map((option) => option.key))
                     }
                     type="button"
                   >
@@ -628,7 +647,7 @@ function OverlapMatrix({
                       className={`matrix-col-header-button${
                         filters.dataTags.includes(option.key) ? ' is-active' : ''
                       }`}
-                      onClick={() => onAddDataTags([option.key])}
+                      onClick={() => onToggleDataTag(option.key)}
                       title={buildTaxonomyTooltip(option.label, option.definition)}
                       type="button"
                     >
@@ -669,7 +688,7 @@ function OverlapMatrix({
                             : ''
                         }`}
                         onClick={() =>
-                          onAddVisualTags(group.options.map((option) => option.key))
+                          onToggleVisualGroup(group.options.map((option) => option.key))
                         }
                         type="button"
                       >
@@ -690,7 +709,7 @@ function OverlapMatrix({
                       className={`matrix-row-header-button${
                         filters.visualTags.includes(visualOption.key) ? ' is-active' : ''
                       }`}
-                      onClick={() => onAddVisualTags([visualOption.key])}
+                      onClick={() => onToggleVisualTag(visualOption.key)}
                       title={buildTaxonomyTooltip(
                         visualOption.label,
                         visualOption.definition,
@@ -723,10 +742,9 @@ function OverlapMatrix({
                           aria-label={`${visualOption.label} × ${dataOption.label}: ${count}`}
                           aria-pressed={active}
                           className={`matrix-cell-button${active ? ' is-active' : ''}`}
-                          onClick={() => {
-                            onAddDataTags([dataOption.key])
-                            onAddVisualTags([visualOption.key])
-                          }}
+                          onClick={() =>
+                            onToggleMatrixCell(dataOption.key, visualOption.key)
+                          }
                           style={{
                             backgroundColor:
                               count > 0
@@ -825,17 +843,17 @@ export function filterFigures(figures: FigureRecord[], filters: AppFilters) {
 
     if (
       filters.dataTags.length > 0 &&
-      !filters.dataTags.every((selectedTag) =>
-        figure.dataTags.some((tag) => tag.key === selectedTag),
-      )
+      !matchesTaxonomyMode(filters.dataTags, figure.dataTags, filters.taxonomyMode)
     ) {
       return false
     }
 
     if (
       filters.visualTags.length > 0 &&
-      !filters.visualTags.every((selectedTag) =>
-        figure.visualTags.some((tag) => tag.key === selectedTag),
+      !matchesTaxonomyMode(
+        filters.visualTags,
+        figure.visualTags,
+        filters.taxonomyMode,
       )
     ) {
       return false
@@ -886,6 +904,20 @@ export function buildYearCounts(figures: FigureRecord[], years: number[]) {
 
 export function countUniquePapers(figures: FigureRecord[]) {
   return new Set(figures.map((figure) => figure.paperIndex)).size
+}
+
+function matchesTaxonomyMode(
+  selectedKeys: string[],
+  tags: FigureRecord['dataTags'],
+  mode: AppFilters['taxonomyMode'],
+) {
+  return mode === 'and'
+    ? selectedKeys.every((selectedTag) =>
+        tags.some((tag) => tag.key === selectedTag),
+      )
+    : selectedKeys.some((selectedTag) =>
+        tags.some((tag) => tag.key === selectedTag),
+      )
 }
 
 function buildTaxonomyCounts(

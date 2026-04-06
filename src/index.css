@@ -251,6 +251,35 @@ img {
   gap: 0.45rem;
 }
 
+.filter-mode-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3rem;
+  height: 2.35rem;
+  padding: 0 0.72rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease,
+    color 160ms ease;
+}
+
+.filter-mode-toggle:hover {
+  transform: translateY(-1px);
+  border-color: var(--line-strong);
+  background: white;
+}
+
+.filter-mode-toggle.is-alt {
+  background: rgba(94, 86, 83, 0.1);
+  border-color: rgba(94, 86, 83, 0.24);
+}
+
 .filter-panel-body {
   display: grid;
   grid-template-columns: 1fr;

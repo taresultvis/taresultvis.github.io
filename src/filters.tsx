@@ -61,7 +61,7 @@ export function FiltersPanel({
   onToggleVisualTag,
   onToggleVisualGroup,
 }: FiltersPanelProps) {
-  const [filtersOpen, setFiltersOpen] = useState(true)
+  const [filtersOpen, setFiltersOpen] = useState(false)
   const filterPanelRef = useRef<HTMLElement | null>(null)
   const [sectionOpen, setSectionOpen] = useState({
     venue: true,

@@ -11,7 +11,7 @@ import { loadAppData, type FigureRecord } from './data'
 import { ReferenceView } from './reference'
 import { FigureModal, SurveyView } from './survey'
 import type { AppFilters, TabId } from './types'
-import { StatCard, TabButton } from './ui'
+import { TabButton } from './ui'
 
 function App() {
   const [activeTab, setActiveTab] = useState<TabId>('survey')

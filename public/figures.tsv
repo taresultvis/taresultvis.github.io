@@ -1,0 +1,638 @@
+index	paper	venue	item	paperIndex
+1	'It Is Not Always Discovery Time': Four Pragmatic Approaches in Designing AI Systems	CHI	Figure1	1
+2	'It Is Not Always Discovery Time': Four Pragmatic Approaches in Designing AI Systems	CHI	Figure2	1
+3	'She's Just My Life': Digital Design to Support Women's Self-Other Care in Relationships with their Mothers	CHI	Figure3	3
+4	'She's Just My Life': Digital Design to Support Women's Self-Other Care in Relationships with their Mothers	CHI	Figure4	3
+5	'She's Just My Life': Digital Design to Support Women's Self-Other Care in Relationships with their Mothers	CHI	Figure5	3
+6	'She's Just My Life': Digital Design to Support Women's Self-Other Care in Relationships with their Mothers	CHI	Figure6	3
+7	'She's Just My Life': Digital Design to Support Women's Self-Other Care in Relationships with their Mothers	CHI	Figure7	3
+8	'She's Just My Life': Digital Design to Support Women's Self-Other Care in Relationships with their Mothers	CHI	Figure8	3
+9	"Auntie, Please Don't Fall for Those Smooth Talkers": How Chinese Younger Family Members Safeguard Seniors from Online Fraud	CHI	Table1	5
+10	"Auntie, Please Don't Fall for Those Smooth Talkers": How Chinese Younger Family Members Safeguard Seniors from Online Fraud	CHI	Figure3	5
+11	"Don't Forget the Teachers": Towards an Educator-Centered Understanding of Harms from Large Language Models in Education	CHI	Table3	6
+12	"Don't Forget the Teachers": Towards an Educator-Centered Understanding of Harms from Large Language Models in Education	CHI	Table4	6
+13	"Even Though I Went Through Everything, I Didn't Feel Like I Learned a Lot": Insights From Experiences of Non-Computer Science Students Learning to Code	CHI	Figure1	8
+14	"Human, All Too Human": NOAA Weather Radio and the Emotional Impact of Synthetic Voices	CHI	Table1	9
+15	"Human, All Too Human": NOAA Weather Radio and the Emotional Impact of Synthetic Voices	CHI	Figure3	9
+16	"Human, All Too Human": NOAA Weather Radio and the Emotional Impact of Synthetic Voices	CHI	Figure4	9
+17	"I Don't Want To Shoot The Android": Players Translate Real-Life Moral Intuitions to In-Game Decisions in Detroit: Become Human	CHI	Figure4	11
+18	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Figure1	13
+19	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Figure2	13
+20	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Figure3	13
+21	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Figure4	13
+22	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Figure5	13
+23	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Table3	13
+24	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Figure6	13
+25	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Figure7	13
+26	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Figure8	13
+27	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Figure9	13
+28	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Figure10	13
+29	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Figure11	13
+30	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Figure12	13
+31	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Figure13	13
+32	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Figure14	13
+33	"I See You!": A Design Framework for Interface Cues about Agent Visual Perception from a Thematic Analysis of Videogames	CHI	Figure15	13
+34	"I Want to Be Unique From Other Robots": Positioning Girls as Co-creators of Social Robots in Culturally-Responsive Computing Education	CHI	Figure2	14
+35	"I Will Not Drink With You Today": A Topic-Guided Thematic Analysis of Addiction Recovery on Reddit	CHI	Table1	15
+36	"I Will Not Drink With You Today": A Topic-Guided Thematic Analysis of Addiction Recovery on Reddit	CHI	Table2	15
+37	"If It's Important It Will Be A Headline": Cybersecurity Information Seeking in Older Adults	CHI	Table1	17
+38	"If It's Important It Will Be A Headline": Cybersecurity Information Seeking in Older Adults	CHI	Figure2	17
+39	"Is This Seat Accessible for Me?": An Autoethnography of a Person With a Mobility Disability Using Interactive Seat Plans for Public Events	CHI	Figure2	18
+40	"Is This Seat Accessible for Me?": An Autoethnography of a Person With a Mobility Disability Using Interactive Seat Plans for Public Events	CHI	Figure3	18
+41	"It Is Easy Using My Apps:" Understanding Technology Use and Needs of Adults with Down Syndrome	CHI	Figure3	19
+42	"It Is Easy Using My Apps:" Understanding Technology Use and Needs of Adults with Down Syndrome	CHI	Figure4	19
+43	"Obviously, Nothing's Gonna Happen in Five Minutes": How Adolescents and Young Adults Infrastructure Resources to Learn Type 1 Diabetes Management	CHI	Table2	22
+44	"Obviously, Nothing's Gonna Happen in Five Minutes": How Adolescents and Young Adults Infrastructure Resources to Learn Type 1 Diabetes Management	CHI	Figure2	22
+45	"React", "Command", or "Instruct"? Teachers Mental Models on End-User Development	CHI	Table2	23
+46	"React", "Command", or "Instruct"? Teachers Mental Models on End-User Development	CHI	Table3	23
+47	"React", "Command", or "Instruct"? Teachers Mental Models on End-User Development	CHI	Table4	23
+48	"React", "Command", or "Instruct"? Teachers Mental Models on End-User Development	CHI	Table5	23
+49	"React", "Command", or "Instruct"? Teachers Mental Models on End-User Development	CHI	Table6	23
+50	"Speech is Silver, Silence is Golden " Analyzing Micro-communication Strategies between Visually Impaired Runners and their Guides	CHI	Figure2	24
+51	"This app said I had severe depression, and now I don't know what to do": the unintentional harms of mental health applications	CHI	Figure2	25
+52	"Through the Looking Glass, and What We Found There": A Comprehensive Study of User Experiences with Pass-Through Devices in Everyday Activities	CHI	Figure6	26
+53	"Ultimately, it's a matter of safety, and resisting ostracization": Understanding Neurodivergent Masking with Online Communities	CHI	Figure2	27
+54	"Yeah, this graph doesn't show that": Analysis of Online Engagement with Misleading Data Visualizations	CHI	Figure4	28
+55	"Yeah, this graph doesn't show that": Analysis of Online Engagement with Misleading Data Visualizations	CHI	Figure5	28
+56	"Yeah, this graph doesn't show that": Analysis of Online Engagement with Misleading Data Visualizations	CHI	Figure6	28
+57	"Yeah, this graph doesn't show that": Analysis of Online Engagement with Misleading Data Visualizations	CHI	Figure7	28
+58	"Yeah, this graph doesn't show that": Analysis of Online Engagement with Misleading Data Visualizations	CHI	Figure8	28
+59	(Re)discovering Sexual Pleasure after Cancer: Understanding the Design Space	CHI	Figure2	29
+60	(Re)discovering Sexual Pleasure after Cancer: Understanding the Design Space	CHI	Figure3	29
+61	(Re)discovering Sexual Pleasure after Cancer: Understanding the Design Space	CHI	Figure4	29
+62	(Re)discovering Sexual Pleasure after Cancer: Understanding the Design Space	CHI	Figure5	29
+63	(Re)discovering Sexual Pleasure after Cancer: Understanding the Design Space	CHI	Figure6	29
+64	(Re)discovering Sexual Pleasure after Cancer: Understanding the Design Space	CHI	Figure7	29
+65	A Change of Scenery: Transformative Insights from Retrospective VR Embodied Perspective-Taking of Conflict With a Close Other	CHI	Figure3	30
+66	A Framework for Speechreading Acquisition Tools	CHI	Figure1	31
+67	A Framework for Speechreading Acquisition Tools	CHI	Figure2	31
+68	A Framework for Speechreading Acquisition Tools	CHI	Figure3	31
+69	A Framework for Speechreading Acquisition Tools	CHI	Figure4	31
+70	A Framework for Speechreading Acquisition Tools	CHI	Figure5	31
+72	A Need-Finding Study with Users of Geospatial Data	CHI	Figure6	32
+73	A Need-Finding Study with Users of Geospatial Data	CHI	Figure7	32
+74	A Qualitative Investigation of User Transitions and Frictions in Cross-Reality Applications	CHI	Table1	33
+75	A Stakeholder Value Framework for Augmentative and Alternative Communication	CHI	Table3	34
+76	A Stakeholder Value Framework for Augmentative and Alternative Communication	CHI	Table4	34
+77	A Stakeholder Value Framework for Augmentative and Alternative Communication	CHI	Table5	34
+78	A Stakeholder Value Framework for Augmentative and Alternative Communication	CHI	Table6	34
+79	A Stakeholder Value Framework for Augmentative and Alternative Communication	CHI	Table7	34
+80	A Stakeholder Value Framework for Augmentative and Alternative Communication	CHI	Table8	34
+81	A Taxonomy of Linguistic Expressions That Contribute To Anthropomorphism of Language Technologies	CHI	Figure1	36
+82	A Taxonomy of Linguistic Expressions That Contribute To Anthropomorphism of Language Technologies	CHI	Table2	36
+83	About Engaging and Governing Strategies: A Thematic Analysis of Dark Patterns in Social Networking Services	CHI	Table1	37
+84	About Engaging and Governing Strategies: A Thematic Analysis of Dark Patterns in Social Networking Services	CHI	Table2	37
+85	About Engaging and Governing Strategies: A Thematic Analysis of Dark Patterns in Social Networking Services	CHI	Figure2	37
+86	About Engaging and Governing Strategies: A Thematic Analysis of Dark Patterns in Social Networking Services	CHI	Figure3	37
+87	About Engaging and Governing Strategies: A Thematic Analysis of Dark Patterns in Social Networking Services	CHI	Figure4	37
+88	About Engaging and Governing Strategies: A Thematic Analysis of Dark Patterns in Social Networking Services	CHI	Figure5	37
+89	About Engaging and Governing Strategies: A Thematic Analysis of Dark Patterns in Social Networking Services	CHI	Figure6	37
+90	About Engaging and Governing Strategies: A Thematic Analysis of Dark Patterns in Social Networking Services	CHI	Figure7	37
+91	About Engaging and Governing Strategies: A Thematic Analysis of Dark Patterns in Social Networking Services	CHI	Figure8	37
+92	About Engaging and Governing Strategies: A Thematic Analysis of Dark Patterns in Social Networking Services	CHI	Figure9	37
+93	Advancing HCI with Neuromorphic Technology: Guidelines for Designing User-Friendly Developer Tools for Neuromorphic Development	CHI	Figure2	38
+94	Advancing HCI with Neuromorphic Technology: Guidelines for Designing User-Friendly Developer Tools for Neuromorphic Development	CHI	Figure3	38
+97	Attached to "The Algorithm": Making Sense of Algorithmic Precarity on Instagram	CHI	Table2	41
+98	Barriers to Expertise in Citizen Science Games	CHI	Figure2	42
+99	Barriers to Expertise in Citizen Science Games	CHI	Table3	42
+100	Barriers to Photosensitive Accessibility in Virtual Reality	CHI	Table2	43
+101	Barriers to Photosensitive Accessibility in Virtual Reality	CHI	Figure1	43
+102	Barriers to Photosensitive Accessibility in Virtual Reality	CHI	Figure2	43
+103	Beyond Vacuuming: How Can We Exploit Domestic Robots' Idle Time?	CHI	Figure3	45
+104	Beyond Vacuuming: How Can We Exploit Domestic Robots' Idle Time?	CHI	Figure4	45
+105	Beyond Vacuuming: How Can We Exploit Domestic Robots' Idle Time?	CHI	Figure5	45
+106	Beyond Vacuuming: How Can We Exploit Domestic Robots' Idle Time?	CHI	Figure6	45
+107	Beyond Vacuuming: How Can We Exploit Domestic Robots' Idle Time?	CHI	Figure7	45
+108	Beyond Vacuuming: How Can We Exploit Domestic Robots' Idle Time?	CHI	Figure8	45
+109	Beyond Vacuuming: How Can We Exploit Domestic Robots' Idle Time?	CHI	Figure9	45
+110	Beyond Vacuuming: How Can We Exploit Domestic Robots' Idle Time?	CHI	Figure10	45
+111	Beyond Vacuuming: How Can We Exploit Domestic Robots' Idle Time?	CHI	Figure11	45
+112	Beyond Vacuuming: How Can We Exploit Domestic Robots' Idle Time?	CHI	Figure12	45
+113	Beyond Vacuuming: How Can We Exploit Domestic Robots' Idle Time?	CHI	Figure13	45
+114	Beyond Vacuuming: How Can We Exploit Domestic Robots' Idle Time?	CHI	Figure14	45
+115	Beyond Vacuuming: How Can We Exploit Domestic Robots' Idle Time?	CHI	Table2	45
+116	Beyond Vacuuming: How Can We Exploit Domestic Robots' Idle Time?	CHI	Figure15	45
+117	Bittersweet Snapshots of Life: Designing to Address Complex Emotions in a Reminiscence Interaction between Older Adults and a Robot	CHI	Figure2	46
+119	Bones of Contention: Social Acceptance of Digital Cemetery Technologies	CHI	Table3	47
+120	Bridging AI and Humanitarianism: An HCI-Informed Framework for Responsible AI Adoption	CHI	Table2	49
+121	Building an Ethics-Focused Action Plan: Roles, Process Moves, and Trajectories	CHI	Table2	50
+122	Building an Ethics-Focused Action Plan: Roles, Process Moves, and Trajectories	CHI	Table3	50
+125	Characterizing Social Insider Attacks on Facebook	CHI	Figure5	52
+126	CodeAid: Evaluating a Classroom Deployment of an LLM-based Programming Assistant that Balances Student and Educator Needs	CHI	Table1	53
+127	CodeAid: Evaluating a Classroom Deployment of an LLM-based Programming Assistant that Balances Student and Educator Needs	CHI	Figure8	53
+133	Collaborative or Simply Uncaged? Understanding Human-Cobot Interactions in Automation	CHI	Figure3	55
+134	Comic-making to Study Game-making: Using Comics in Qualitative Longitudinal Research on Game Development	CHI	Figure7	56
+135	Communication, Collaboration, and Coordination in a Co-located Shared Augmented Reality Game: Perspectives From Deaf and Hard of Hearing People	CHI	Figure6	57
+136	Contestable Camera Cars: A Speculative Design Exploration of Public AI That Is Open and Responsive to Dispute	CHI	Table2	58
+137	Contestable Camera Cars: A Speculative Design Exploration of Public AI That Is Open and Responsive to Dispute	CHI	Figure2	58
+138	Crafting Champions: An Observation Study of Esports Coaching Processes	CHI	Figure2	59
+139	Crafting Champions: An Observation Study of Esports Coaching Processes	CHI	Figure3	59
+140	Crafting Champions: An Observation Study of Esports Coaching Processes	CHI	Figure4	59
+141	Crafting Champions: An Observation Study of Esports Coaching Processes	CHI	Figure5	59
+142	Democratic Moderation: Exploring the Use and Perception of Votekicking in Social Virtual Reality	CHI	Table1	61
+143	Democratic Moderation: Exploring the Use and Perception of Votekicking in Social Virtual Reality	CHI	Table2	61
+144	Designed & Discovered Euphoria: Insights from Trans-Femme Players' Experiences of Gender Euphoria in Video Games	CHI	Figure1	62
+145	Designed & Discovered Euphoria: Insights from Trans-Femme Players' Experiences of Gender Euphoria in Video Games	CHI	Table4	62
+146	Designed & Discovered Euphoria: Insights from Trans-Femme Players' Experiences of Gender Euphoria in Video Games	CHI	Table5	62
+147	Designed & Discovered Euphoria: Insights from Trans-Femme Players' Experiences of Gender Euphoria in Video Games	CHI	Table6	62
+148	Designed & Discovered Euphoria: Insights from Trans-Femme Players' Experiences of Gender Euphoria in Video Games	CHI	Figure2	62
+149	Designed & Discovered Euphoria: Insights from Trans-Femme Players' Experiences of Gender Euphoria in Video Games	CHI	Figure3	62
+150	Designed & Discovered Euphoria: Insights from Trans-Femme Players' Experiences of Gender Euphoria in Video Games	CHI	Figure4	62
+151	Designed & Discovered Euphoria: Insights from Trans-Femme Players' Experiences of Gender Euphoria in Video Games	CHI	Figure5	62
+152	Designing Brutal Multiplayer Video Games	CHI	Figure4	63
+153	Designing Brutal Multiplayer Video Games	CHI	Figure5	63
+154	Designing Brutal Multiplayer Video Games	CHI	Figure6	63
+155	Designing Brutal Multiplayer Video Games	CHI	Figure7	63
+156	Designing Brutal Multiplayer Video Games	CHI	Figure8	63
+157	Designing Brutal Multiplayer Video Games	CHI	Figure9	63
+158	Designing Tools and Interfaces for Ecological Restoration: An Investigation into the Opportunities and Constraints for Technological Interventions	CHI	Figure2	64
+159	Designing with Dynamics: Reflections on Co-design Workshops Between People Living with Dementia and Their Care Partners	CHI	Figure1	65
+161	Dimensions of UX Practice that Shape Ethical Awareness	CHI	Table2	66
+162	Dimensions of UX Practice that Shape Ethical Awareness	CHI	Table3	66
+163	Dirty Data in the Newsroom: Comparing Data Preparation in Journalism and Data Science	CHI	Figure2	67
+164	Dirty Data in the Newsroom: Comparing Data Preparation in Journalism and Data Science	CHI	Figure3	67
+165	Documents in Your Hands: Exploring Interaction Techniques for Spatial Arrangement of Augmented Reality Documents	CHI	Figure6	68
+166	Documents in Your Hands: Exploring Interaction Techniques for Spatial Arrangement of Augmented Reality Documents	CHI	Figure7	68
+167	Documents in Your Hands: Exploring Interaction Techniques for Spatial Arrangement of Augmented Reality Documents	CHI	Figure8	68
+168	Documents in Your Hands: Exploring Interaction Techniques for Spatial Arrangement of Augmented Reality Documents	CHI	Figure9	68
+169	Documents in Your Hands: Exploring Interaction Techniques for Spatial Arrangement of Augmented Reality Documents	CHI	Figure10	68
+170	Documents in Your Hands: Exploring Interaction Techniques for Spatial Arrangement of Augmented Reality Documents	CHI	Figure11	68
+171	Documents in Your Hands: Exploring Interaction Techniques for Spatial Arrangement of Augmented Reality Documents	CHI	Figure12	68
+172	Documents in Your Hands: Exploring Interaction Techniques for Spatial Arrangement of Augmented Reality Documents	CHI	Figure13	68
+173	Documents in Your Hands: Exploring Interaction Techniques for Spatial Arrangement of Augmented Reality Documents	CHI	Figure14	68
+174	Documents in Your Hands: Exploring Interaction Techniques for Spatial Arrangement of Augmented Reality Documents	CHI	Figure15	68
+175	Documents in Your Hands: Exploring Interaction Techniques for Spatial Arrangement of Augmented Reality Documents	CHI	Figure16	68
+176	Domestic Robots and the Dream of Automation: Understanding Human Interaction and Intervention	CHI	Figure1	69
+177	Domestic Robots and the Dream of Automation: Understanding Human Interaction and Intervention	CHI	Figure2	69
+178	Domestic Robots and the Dream of Automation: Understanding Human Interaction and Intervention	CHI	Figure3	69
+179	Don't You Know That You're Toxic: Normalization of Toxicity in Online Gaming	CHI	Figure3	70
+180	Educator Perceptions of XRAuthor: An Accessible Tool for Authoring Learning Content with Different Immersion Levels	CHI	Table1	72
+181	Educator Perceptions of XRAuthor: An Accessible Tool for Authoring Learning Content with Different Immersion Levels	CHI	Figure3	72
+182	Eliciting and Analysing Users' Envisioned Dialogues with Perfect Voice Assistants	CHI	Figure3	73
+183	Eliciting and Analysing Users' Envisioned Dialogues with Perfect Voice Assistants	CHI	Table3	73
+184	Encountering Friction, Understanding Crises: How Do Digital Natives Make Sense of Crisis Maps?	CHI	Figure2	74
+185	Encountering Friction, Understanding Crises: How Do Digital Natives Make Sense of Crisis Maps?	CHI	Figure3	74
+186	Encountering Friction, Understanding Crises: How Do Digital Natives Make Sense of Crisis Maps?	CHI	Figure4	74
+187	Envisioning Financial Technology Support for Older Adults Through Cognitive and Life Transitions	CHI	Table3	75
+188	Envisioning Financial Technology Support for Older Adults Through Cognitive and Life Transitions	CHI	Figure1	75
+189	Envisioning Narrative Intelligence: A Creative Visual Storytelling Anthology	CHI	Figure2	76
+190	Envisioning Narrative Intelligence: A Creative Visual Storytelling Anthology	CHI	Figure3	76
+191	Envisioning Narrative Intelligence: A Creative Visual Storytelling Anthology	CHI	Figure4	76
+192	Envisioning Narrative Intelligence: A Creative Visual Storytelling Anthology	CHI	Figure5	76
+193	Envisioning Narrative Intelligence: A Creative Visual Storytelling Anthology	CHI	Figure6	76
+194	Envisioning Narrative Intelligence: A Creative Visual Storytelling Anthology	CHI	Figure7	76
+195	Envisioning Narrative Intelligence: A Creative Visual Storytelling Anthology	CHI	Table3	76
+196	Evaluating ActuAir: Building Occupants' Experiences of a Shape-Changing Air Quality Display	CHI	Figure3	77
+198	Evaluating ActuAir: Building Occupants' Experiences of a Shape-Changing Air Quality Display	CHI	Figure5	77
+199	Evaluating ActuAir: Building Occupants' Experiences of a Shape-Changing Air Quality Display	CHI	Figure6	77
+202	Evaluating ActuAir: Building Occupants' Experiences of a Shape-Changing Air Quality Display	CHI	Table2	77
+204	Exploring Collaborative Movement Improvisation Towards the Design of LuminAI—a Co-Creative AI Dance Partner	CHI	Figure3	79
+205	Exploring Collaborative Movement Improvisation Towards the Design of LuminAI—a Co-Creative AI Dance Partner	CHI	Figure4	79
+206	Exploring Collaborative Movement Improvisation Towards the Design of LuminAI—a Co-Creative AI Dance Partner	CHI	Figure5	79
+207	Exploring Flow in Real-World Knowledge Work Using Discrete cEEGrid Sensors	CHI	Table1	80
+208	Exploring Flow in Real-World Knowledge Work Using Discrete cEEGrid Sensors	CHI	Figure5	80
+209	Exploring Flow in Real-World Knowledge Work Using Discrete cEEGrid Sensors	CHI	Figure6	80
+210	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	CHI	Table1	81
+211	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	CHI	Figure6	81
+212	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	CHI	Figure7	81
+213	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	CHI	Figure8	81
+214	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	CHI	Figure9	81
+215	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	CHI	Figure10	81
+216	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	CHI	Figure11	81
+217	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	CHI	Figure12	81
+218	Exploring Joint Effects of Locomotion Continuity and Wayfinding Assistance in Non-Embodied VR Game Navigation	CHI	Figure13	81
+219	Exploring Modular Prompt Design for Emotion and Mental Health Recognition	CHI	Figure2	82
+220	Exploring Modular Prompt Design for Emotion and Mental Health Recognition	CHI	Figure3	82
+221	Exploring Modular Prompt Design for Emotion and Mental Health Recognition	CHI	Figure4	82
+222	Exploring Modular Prompt Design for Emotion and Mental Health Recognition	CHI	Table2	82
+223	Exploring Modular Prompt Design for Emotion and Mental Health Recognition	CHI	Table3	82
+224	Exploring Modular Prompt Design for Emotion and Mental Health Recognition	CHI	Figure5	82
+225	Exploring Privacy Practices of Female mHealth Apps in a Post-Roe World	CHI	Table1	83
+226	Exploring Privacy Practices of Female mHealth Apps in a Post-Roe World	CHI	Table2	83
+227	Exploring Privacy Practices of Female mHealth Apps in a Post-Roe World	CHI	Figure1	83
+228	Exploring Privacy Practices of Female mHealth Apps in a Post-Roe World	CHI	Figure2	83
+229	Exploring Privacy Practices of Female mHealth Apps in a Post-Roe World	CHI	Figure3	83
+230	Exploring Privacy Practices of Female mHealth Apps in a Post-Roe World	CHI	Figure4	83
+231	Exploring the Design of Tailored Virtual Reality Experiences for People with Dementia	CHI	Figure2	85
+235	Extended Reality (XR) Remote Research: a Survey of Drawbacks and Opportunities	CHI	Table1	87
+236	Extended Reality (XR) Remote Research: a Survey of Drawbacks and Opportunities	CHI	Table2	87
+237	Extended Reality (XR) Remote Research: a Survey of Drawbacks and Opportunities	CHI	Table3	87
+238	Extended Reality (XR) Remote Research: a Survey of Drawbacks and Opportunities	CHI	Table4	87
+239	Extended Reality (XR) Remote Research: a Survey of Drawbacks and Opportunities	CHI	Table5	87
+240	Extended Reality (XR) Remote Research: a Survey of Drawbacks and Opportunities	CHI	Table6	87
+241	Fear, Fun or None: A Qualitative Quest Towards Unlocking Cybersecurity Attitudes	CHI	Figure3	88
+242	Fear, Fun or None: A Qualitative Quest Towards Unlocking Cybersecurity Attitudes	CHI	Figure4	88
+243	Fear, Fun or None: A Qualitative Quest Towards Unlocking Cybersecurity Attitudes	CHI	Figure5	88
+244	Fear, Fun or None: A Qualitative Quest Towards Unlocking Cybersecurity Attitudes	CHI	Figure6	88
+248	Folk Tales of IoT: Understanding the Impact of Stories on Users' Positive and Negative Perceptions of Smart Home IoT Devices	CHI	Table5	89
+249	Folk Tales of IoT: Understanding the Impact of Stories on Users' Positive and Negative Perceptions of Smart Home IoT Devices	CHI	Fiugre2	89
+250	Folk Tales of IoT: Understanding the Impact of Stories on Users' Positive and Negative Perceptions of Smart Home IoT Devices	CHI	Figure3	89
+251	Folk Tales of IoT: Understanding the Impact of Stories on Users' Positive and Negative Perceptions of Smart Home IoT Devices	CHI	Figure4	89
+252	Folk Tales of IoT: Understanding the Impact of Stories on Users' Positive and Negative Perceptions of Smart Home IoT Devices	CHI	Table6	89
+256	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure2	90
+257	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure3	90
+258	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure4	90
+259	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure5	90
+260	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure6	90
+261	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure7	90
+262	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure8	90
+263	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure9	90
+264	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure10	90
+265	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure11	90
+266	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure12	90
+267	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure13	90
+268	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure14	90
+269	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure15	90
+270	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure16	90
+271	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Table1	90
+272	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure17	90
+273	From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles	CHI	Figure18	90
+274	From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling	CHI	Figure2	91
+275	From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling	CHI	Figure3	91
+276	From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling	CHI	Figure4	91
+277	From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling	CHI	Figure5	91
+278	From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling	CHI	Figure6	91
+279	From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling	CHI	Figure7	91
+280	From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling	CHI	Figure8	91
+281	From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling	CHI	Figure9	91
+282	From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling	CHI	Figure10	91
+283	From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling	CHI	Figure11	91
+284	From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling	CHI	Figure12	91
+285	From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling	CHI	Figure13	91
+286	From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling	CHI	Figure14	91
+287	From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling	CHI	Figure15	91
+288	From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling	CHI	Figure16	91
+289	From Exploration to End of Life: Unpacking Sustainability in Physicalization Practices	CHI	Figure2	92
+290	Generative AI in Creative Practice: ML-Artist Folk Theories of T2I Use, Harm, and Harm-Reduction	CHI	Table2	95
+291	Generative AI in Creative Practice: ML-Artist Folk Theories of T2I Use, Harm, and Harm-Reduction	CHI	Table3	95
+292	Generative AI in Creative Practice: ML-Artist Folk Theories of T2I Use, Harm, and Harm-Reduction	CHI	Figure1	95
+293	Generative AI in Creative Practice: ML-Artist Folk Theories of T2I Use, Harm, and Harm-Reduction	CHI	Figure2	95
+294	Generative AI in Creative Practice: ML-Artist Folk Theories of T2I Use, Harm, and Harm-Reduction	CHI	Figure3	95
+295	Generative AI in Creative Practice: ML-Artist Folk Theories of T2I Use, Harm, and Harm-Reduction	CHI	Table4	95
+296	Generative AI in Creative Practice: ML-Artist Folk Theories of T2I Use, Harm, and Harm-Reduction	CHI	Table5	95
+297	Generative AI in Creative Practice: ML-Artist Folk Theories of T2I Use, Harm, and Harm-Reduction	CHI	Figure4	95
+298	Good Performance Isn't Enough to Trust AI: Lessons from Logistics Experts on their Long-Term Collaboration with an AI Planning System	CHI	Figure2	96
+299	Horse as Teacher: How human-horse interaction informs human-robot interaction	CHI	Table1	97
+300	Horse as Teacher: How human-horse interaction informs human-robot interaction	CHI	Table2	97
+301	Horse as Teacher: How human-horse interaction informs human-robot interaction	CHI	Table3	97
+302	Horse as Teacher: How human-horse interaction informs human-robot interaction	CHI	Table4	97
+303	Horse as Teacher: How human-horse interaction informs human-robot interaction	CHI	Figure2	97
+304	Horse as Teacher: How human-horse interaction informs human-robot interaction	CHI	Table5	97
+305	How to get away with cyberattacks: An argumentative approach to cyberattacks' legitimization by common users	CHI	Table1	99
+306	How to get away with cyberattacks: An argumentative approach to cyberattacks' legitimization by common users	CHI	Table2	99
+307	Human-Precision Medicine Interaction: Public Perceptions of Polygenic Risk Score for Genetic Health Prediction	CHI	Table2	102
+308	Human-Precision Medicine Interaction: Public Perceptions of Polygenic Risk Score for Genetic Health Prediction	CHI	Figure7	102
+309	Human-Precision Medicine Interaction: Public Perceptions of Polygenic Risk Score for Genetic Health Prediction	CHI	Figure8	102
+310	Identity Claims that Underlie Ethical Awareness and Action	CHI	Table2	103
+311	Identity Claims that Underlie Ethical Awareness and Action	CHI	Figure1	103
+312	Identity Claims that Underlie Ethical Awareness and Action	CHI	Figure2	103
+313	Impacts of Telemanipulation in Robotic Assisted Surgery	CHI	Figure2	104
+314	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	CHI	Figure2	105
+315	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	CHI	Figure3	105
+316	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	CHI	Figure4	105
+317	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	CHI	Figure5	105
+318	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	CHI	Figure6	105
+319	In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities	CHI	Figure7	105
+320	Infrastructuring Care: How Trans and Non-Binary People Meet Health and Well-Being Needs through Technology	CHI	Figure1	107
+321	Infrastructuring Care: How Trans and Non-Binary People Meet Health and Well-Being Needs through Technology	CHI	Figure2	107
+322	Inhabiting Interconnected Spaces: How Users Shape and Appropriate Their Smart Home Ecosystems	CHI	Figure1	108
+323	Inhabiting Interconnected Spaces: How Users Shape and Appropriate Their Smart Home Ecosystems	CHI	Figure2	108
+324	Inhabiting Interconnected Spaces: How Users Shape and Appropriate Their Smart Home Ecosystems	CHI	Figure3	108
+325	Innovating Novel Online Social Spaces with Diverse Middle School Girls: Ideation and Collaboration in a Synchronous Virtual Design Workshop	CHI	Table2	109
+326	Interpersonal Synchrony Over a Distance - the Effect of Network Noise on Synchronization and its Prosocial Consequences	CHI	Figure9	111
+327	Intra, Extra, Read all about it! How Readers Interpret Visualizations with Intra- and Extratextual Information	CHI	Table2	112
+328	Intra, Extra, Read all about it! How Readers Interpret Visualizations with Intra- and Extratextual Information	CHI	Table3	112
+329	Investigating Car Drivers' Information Demand after Safety and Security Critical Incidents	CHI	Table2	113
+330	Investigating Car Drivers' Information Demand after Safety and Security Critical Incidents	CHI	Figure2	113
+331	Investigating Car Drivers' Information Demand after Safety and Security Critical Incidents	CHI	Figure5	113
+332	Kaleidoscope: A Reflective Documentation Tool for a User Interface Design Course	CHI	Table1	116
+333	Kills, Deaths, and (Computational) Assists: Identifying Opportunities for Computational Support in Esport Learning	CHI	Table4	118
+334	Kills, Deaths, and (Computational) Assists: Identifying Opportunities for Computational Support in Esport Learning	CHI	Table5	118
+335	Learning Curiosity through Play: Exploring the Role of Games and Interactive Design in Museums	CHI	Table2	119
+336	Learning Curiosity through Play: Exploring the Role of Games and Interactive Design in Museums	CHI	Table3	119
+337	Listening to the Voices: Describing Ethical Caveats of Conversational User Interfaces According to Experts and Frequent Users	CHI	Table2	121
+338	Listening to the Voices: Describing Ethical Caveats of Conversational User Interfaces According to Experts and Frequent Users	CHI	Figure1	121
+339	Listening to the Voices: Describing Ethical Caveats of Conversational User Interfaces According to Experts and Frequent Users	CHI	Table3	121
+340	"My Perfect Platform Would Be Telepathy" - Reimagining the Design of Social Media with Autistic Adults	CHI	Figure3	21
+341	Low-Resourced Languages and Online Knowledge Repositories: A Need-Finding Study.	CHI	Figure4	124
+342	Low-Resourced Languages and Online Knowledge Repositories: A Need-Finding Study.	CHI	Figure5	124
+343	Mapping Design Spaces for Audience Participation in Game Live Streaming	CHI	Table2	126
+344	Mapping Design Spaces for Audience Participation in Game Live Streaming	CHI	Table3	126
+345	Mapping Design Spaces for Audience Participation in Game Live Streaming	CHI	Table4	126
+346	Mapping Design Spaces for Audience Participation in Game Live Streaming	CHI	Figure2	126
+347	Mapping Design Spaces for Audience Participation in Game Live Streaming	CHI	Figure3	126
+348	Memory Manipulations in Extended Reality	CHI	Figure3	127
+349	Memory Manipulations in Extended Reality	CHI	Figure4	127
+350	Memory Manipulations in Extended Reality	CHI	Figure5	127
+351	Memory Manipulations in Extended Reality	CHI	Figure6	127
+352	Memory Manipulations in Extended Reality	CHI	Figure7	127
+353	Mental Models of AI Agents in a Cooperative Game Setting	CHI	Table2	128
+354	Mold-It: Understanding how Physical Shapes affect Interaction with Handheld Freeform Devices	CHI	Figure3	130
+355	Mold-It: Understanding how Physical Shapes affect Interaction with Handheld Freeform Devices	CHI	Figure4	130
+356	Mold-It: Understanding how Physical Shapes affect Interaction with Handheld Freeform Devices	CHI	Figure5	130
+357	Mold-It: Understanding how Physical Shapes affect Interaction with Handheld Freeform Devices	CHI	Figure6	130
+358	Mold-It: Understanding how Physical Shapes affect Interaction with Handheld Freeform Devices	CHI	Figure7	130
+359	Mold-It: Understanding how Physical Shapes affect Interaction with Handheld Freeform Devices	CHI	Figure8	130
+360	Mold-It: Understanding how Physical Shapes affect Interaction with Handheld Freeform Devices	CHI	Table1	130
+361	Mold-It: Understanding how Physical Shapes affect Interaction with Handheld Freeform Devices	CHI	Figure10	130
+362	Mold-It: Understanding how Physical Shapes affect Interaction with Handheld Freeform Devices	CHI	Figure11	130
+363	Multi-stakeholder Perspectives on Mental Health Screening Tools for Children	CHI	Table2	131
+364	Negotiating Experience and Communicating Information Through Abstract Metaphor	CHI	Figure2	134
+365	Negotiating Experience and Communicating Information Through Abstract Metaphor	CHI	Figure3	134
+366	Negotiating Experience and Communicating Information Through Abstract Metaphor	CHI	Figure4	134
+368	Patient Perspectives on AI-Driven Predictions of Schizophrenia Relapses: Understanding Concerns and Opportunities for Self-Care and Treatment	CHI	Figure3	137
+371	Playing with Robots: Performing Arts Techniques for Designing and Understanding Robot Group Movement	CHI	Figure12	141
+372	Privacy Concerns of Student Data Shared with Instructors in an Online Learning Management System	CHI	Figure1	142
+373	Privacy Concerns of Student Data Shared with Instructors in an Online Learning Management System	CHI	Figure2	142
+374	Privacy Lies: Understanding How, When, and Why People Lie to Protect Their Privacy in Multiple Online Contexts	CHI	Table2	144
+375	Privacy Lies: Understanding How, When, and Why People Lie to Protect Their Privacy in Multiple Online Contexts	CHI	Table3	144
+376	Promoting Engagement in Remote Patient Monitoring Using Asynchronous Messaging	CHI	Figure5	145
+377	Promoting Engagement in Remote Patient Monitoring Using Asynchronous Messaging	CHI	Figure6	145
+379	Provocations from #vanlife: Investigating Life and Work in a Community Extensively Using Technology Not Designed for Them	CHI	Figure4	146
+380	Provocations from #vanlife: Investigating Life and Work in a Community Extensively Using Technology Not Designed for Them	CHI	Figure5	146
+381	Provocations from #vanlife: Investigating Life and Work in a Community Extensively Using Technology Not Designed for Them	CHI	Figure6	146
+382	Provocations from #vanlife: Investigating Life and Work in a Community Extensively Using Technology Not Designed for Them	CHI	Figure7	146
+383	Provocations from #vanlife: Investigating Life and Work in a Community Extensively Using Technology Not Designed for Them	CHI	Figure8	146
+384	Provocations from #vanlife: Investigating Life and Work in a Community Extensively Using Technology Not Designed for Them	CHI	Table4	146
+385	Q-Chef: The impact of surprise-eliciting systems on food-related decision-making	CHI	Table2	147
+386	Q-Chef: The impact of surprise-eliciting systems on food-related decision-making	CHI	Figure2	147
+387	Responsible Innovation of Touchless Haptics: A Prospective Design Exploration in Social Interaction	CHI	Figure4	149
+388	Responsible Innovation of Touchless Haptics: A Prospective Design Exploration in Social Interaction	CHI	Figure5	149
+389	Responsible Innovation of Touchless Haptics: A Prospective Design Exploration in Social Interaction	CHI	Figure6	149
+390	Responsible Innovation of Touchless Haptics: A Prospective Design Exploration in Social Interaction	CHI	Figure7	149
+391	Responsible Innovation of Touchless Haptics: A Prospective Design Exploration in Social Interaction	CHI	Figure8	149
+392	Saying No to "Yes Means Yes": Limitations of Affirmative Consent for Mitigating Unwanted Behavior Online According to Women and LGBTQIA+ Stakeholders	CHI	Table1	150
+393	Saying No to "Yes Means Yes": Limitations of Affirmative Consent for Mitigating Unwanted Behavior Online According to Women and LGBTQIA+ Stakeholders	CHI	Table2	150
+394	Seeking Inspiration through Human-LLM Interaction	CHI	Table2	151
+395	Seeking Inspiration through Human-LLM Interaction	CHI	Figure1	151
+396	Selling Glossy, Easy Futures: A Feminist Exploration of Commercial Mental-Health-focused Self-Care Apps' Descriptions in the Google Play Store	CHI	Table3	152
+397	Selling Glossy, Easy Futures: A Feminist Exploration of Commercial Mental-Health-focused Self-Care Apps' Descriptions in the Google Play Store	CHI	Table4	152
+398	Selling Glossy, Easy Futures: A Feminist Exploration of Commercial Mental-Health-focused Self-Care Apps' Descriptions in the Google Play Store	CHI	Table5	152
+399	Snap, Sweat, and Sketch: Designing Home Exercise Experiences for Augmented Reality Head-mounted Displays	CHI	Figure5	154
+400	Snap, Sweat, and Sketch: Designing Home Exercise Experiences for Augmented Reality Head-mounted Displays	CHI	Figure6	154
+401	Snap, Sweat, and Sketch: Designing Home Exercise Experiences for Augmented Reality Head-mounted Displays	CHI	Figure7	154
+402	Snap, Sweat, and Sketch: Designing Home Exercise Experiences for Augmented Reality Head-mounted Displays	CHI	Figure8	154
+403	Snap, Sweat, and Sketch: Designing Home Exercise Experiences for Augmented Reality Head-mounted Displays	CHI	Figure9	154
+404	Snap, Sweat, and Sketch: Designing Home Exercise Experiences for Augmented Reality Head-mounted Displays	CHI	Figure10	154
+405	Snap, Sweat, and Sketch: Designing Home Exercise Experiences for Augmented Reality Head-mounted Displays	CHI	Figure11	154
+406	Snap, Sweat, and Sketch: Designing Home Exercise Experiences for Augmented Reality Head-mounted Displays	CHI	Figure12	154
+407	Socio-technical Dynamics: Cooperation of Emergent and Established Organisations in Crises and Disasters	CHI	Figure3	155
+408	Socio-technical Dynamics: Cooperation of Emergent and Established Organisations in Crises and Disasters	CHI	Figure4	155
+409	Spatial Hand Actions: Exploring the Hand Actions used to Represent Spatial Thinking for 3D Assembling Tasks	CHI	Figure4	156
+410	Spatial Hand Actions: Exploring the Hand Actions used to Represent Spatial Thinking for 3D Assembling Tasks	CHI	Figure5	156
+411	Spatial Hand Actions: Exploring the Hand Actions used to Represent Spatial Thinking for 3D Assembling Tasks	CHI	Figure6	156
+412	Spatial Hand Actions: Exploring the Hand Actions used to Represent Spatial Thinking for 3D Assembling Tasks	CHI	Table3	156
+413	Spatial Hand Actions: Exploring the Hand Actions used to Represent Spatial Thinking for 3D Assembling Tasks	CHI	Figure7	156
+414	Sprayable Sound: Exploring the Experiential and Design Potential of Physically Spraying Sound Interaction	CHI	Figure9	158
+415	Starving the Newsfeed for Social Media Detox: Effects of Strict and Self-regulated Facebook Newsfeed Diets	CHI	Table4	159
+416	Starving the Newsfeed for Social Media Detox: Effects of Strict and Self-regulated Facebook Newsfeed Diets	CHI	Figure4	159
+417	Sticky Goals: Understanding Goal Commitments for Behavioral Changes in the Wild	CHI	Table1	160
+418	Supervising Multiple Operating Rooms Using a Head-Worn display: A Longitudinal Evaluation of the Experience of Supervising Anesthesiologists and Their Co-Workers	CHI	Figure2	162
+419	Supervising Multiple Operating Rooms Using a Head-Worn display: A Longitudinal Evaluation of the Experience of Supervising Anesthesiologists and Their Co-Workers	CHI	Figure4	162
+420	Supervising Multiple Operating Rooms Using a Head-Worn display: A Longitudinal Evaluation of the Experience of Supervising Anesthesiologists and Their Co-Workers	CHI	Figure5	162
+421	Tactile Symbols with Continuous and Motion-Coupled Vibration: An Exploration of using Embodied Experiences for Hermeneutic Design	CHI	Table2	165
+422	Tactile Symbols with Continuous and Motion-Coupled Vibration: An Exploration of using Embodied Experiences for Hermeneutic Design	CHI	Table3	165
+423	The Design Space of Wearables for Sports and Fitness Practices	CHI	Figure1	168
+424	The Design Space of Wearables for Sports and Fitness Practices	CHI	Table2	168
+425	The Design Space of Wearables for Sports and Fitness Practices	CHI	Figure2	168
+426	The Effect of Orientation on the Readability and Comfort of 3D-Printed Braille	CHI	Table3	169
+427	The Effect of Orientation on the Readability and Comfort of 3D-Printed Braille	CHI	Table4	169
+428	The Gang's All Here: How People Used Games to cope with COVID19 Quarantine	CHI	Table1	171
+429	The Gang's All Here: How People Used Games to cope with COVID19 Quarantine	CHI	Table3	171
+430	The Last Decade of HCI Research on Children and Voice-based Conversational Agents	CHI	Table5	172
+431	The Race Towards Digital Wellbeing: Issues and Opportunities	CHI	Table2	173
+434	The Technology Is Enemy for Me at the Moment: How Smart Home Technologies Assert Control Beyond Intent	CHI	Table2	175
+435	This Game SUX: Why & How to Design Sh@*!y User Experiences	CHI	Table1	176
+436	This Game SUX: Why & How to Design Sh@*!y User Experiences	CHI	Figure3	176
+437	This Game SUX: Why & How to Design Sh@*!y User Experiences	CHI	Figure4	176
+438	This Game SUX: Why & How to Design Sh@*!y User Experiences	CHI	Figure5	176
+439	This Game SUX: Why & How to Design Sh@*!y User Experiences	CHI	Figure6	176
+440	Too Close and Crowded: Understanding Stress on Mobile Instant Messengers based on Proxemics	CHI	Figure1	178
+441	Too Close and Crowded: Understanding Stress on Mobile Instant Messengers based on Proxemics	CHI	Figure2	178
+442	Too Close and Crowded: Understanding Stress on Mobile Instant Messengers based on Proxemics	CHI	Figure3	178
+443	Too Close and Crowded: Understanding Stress on Mobile Instant Messengers based on Proxemics	CHI	Figure4	178
+444	Too Close and Crowded: Understanding Stress on Mobile Instant Messengers based on Proxemics	CHI	Figure5	178
+445	Too Close and Crowded: Understanding Stress on Mobile Instant Messengers based on Proxemics	CHI	Figure6	178
+446	Towards a Bedder Future: A Study of Using Virtual Reality while Lying Down	CHI	Figure7	180
+447	Towards a Bedder Future: A Study of Using Virtual Reality while Lying Down	CHI	Figure8	180
+448	Towards a Bedder Future: A Study of Using Virtual Reality while Lying Down	CHI	Figure9	180
+449	Towards a Bedder Future: A Study of Using Virtual Reality while Lying Down	CHI	Figure10	180
+450	Towards a Bedder Future: A Study of Using Virtual Reality while Lying Down	CHI	Table1	180
+451	Towards Designing Playful Bodily Extensions: Learning from Expert Interviews	CHI	Table2	181
+452	Towards Robotic Companions: Understanding Handler-Guide Dog Interactions for Informed Guide Dog Robot Design	CHI	Figure2	183
+453	Towards Understanding Family Privacy and Security Literacy Conversations at Home: Design Implications for Privacy Literacy Interfaces	CHI	Table2	184
+454	Understanding and Supporting Peer Review Using AI-reframed Positive Summary	CHI	Table4	186
+455	Understanding and Supporting Peer Review Using AI-reframed Positive Summary	CHI	Figure6	186
+456	Understanding and Supporting Peer Review Using AI-reframed Positive Summary	CHI	Table5	186
+457	Understanding Cultural and Religious Values Relating to Awareness of Women's Intimate Health among Arab Muslims	CHI	Table3	187
+458	Understanding Cyber Hostility, Gossip, Exclusion, and Social Support in Remote and Hybrid Work Settings: Benefits and Challenges of Remote Work	CHI	Table6	188
+459	Understanding How eHealth Coaches Tailor Support For Weight Loss: Towards the Design of Person-Centered Coaching Systems	CHI	Table1	190
+460	Understanding How eHealth Coaches Tailor Support For Weight Loss: Towards the Design of Person-Centered Coaching Systems	CHI	Figure2	190
+461	Understanding Screen-based Dining Practices through the Lens of Mindful Eating	CHI	Table4	191
+462	Understanding Screen-based Dining Practices through the Lens of Mindful Eating	CHI	Figure3	191
+463	Understanding Screen-based Dining Practices through the Lens of Mindful Eating	CHI	Figure4	191
+464	Understanding Screen-based Dining Practices through the Lens of Mindful Eating	CHI	Figure5	191
+465	Understanding Screen-based Dining Practices through the Lens of Mindful Eating	CHI	Figure6	191
+466	Understanding Screen-based Dining Practices through the Lens of Mindful Eating	CHI	Table5	191
+467	Understanding Screen-based Dining Practices through the Lens of Mindful Eating	CHI	Figure7	191
+468	Understanding Screen-based Dining Practices through the Lens of Mindful Eating	CHI	Figure8	191
+469	Understanding Screen-based Dining Practices through the Lens of Mindful Eating	CHI	Figure9	191
+470	Understanding Screen-based Dining Practices through the Lens of Mindful Eating	CHI	Figure10	191
+471	Understanding Screen-based Dining Practices through the Lens of Mindful Eating	CHI	Figure11	191
+472	Understanding Screen-based Dining Practices through the Lens of Mindful Eating	CHI	Table6	191
+473	Understanding the Online Social Support Dynamics for Postpartum Depression	CHI	Table4	192
+474	Understanding the Online Social Support Dynamics for Postpartum Depression	CHI	Figure4	192
+475	Understanding the Online Social Support Dynamics for Postpartum Depression	CHI	Table5	192
+476	Understanding the Online Social Support Dynamics for Postpartum Depression	CHI	Table6	192
+477	Understanding the Online Social Support Dynamics for Postpartum Depression	CHI	Table7	192
+478	Understanding User Experiences Across VR Walking-in-place Locomotion Methods	CHI	Figure3	193
+480	User Perspectives and Ethical Experiences of Apps for Depression: A Qualitative Analysis of User Reviews	CHI	Table1	194
+481	Using Job Characteristics to Inform Interface Design for Industrial Maintenance Procedures	CHI	Table1	195
+482	Using Job Characteristics to Inform Interface Design for Industrial Maintenance Procedures	CHI	Figure1	195
+483	Visualizing Instructions for Physical Training: Exploring Visual Cues to Support Movement Learning from Instructional Videos	CHI	Table1	198
+484	Visualizing Instructions for Physical Training: Exploring Visual Cues to Support Movement Learning from Instructional Videos	CHI	Table2	198
+485	Visualizing Instructions for Physical Training: Exploring Visual Cues to Support Movement Learning from Instructional Videos	CHI	Figure2	198
+486	Visualizing Instructions for Physical Training: Exploring Visual Cues to Support Movement Learning from Instructional Videos	CHI	Figure3	198
+487	Visualizing Instructions for Physical Training: Exploring Visual Cues to Support Movement Learning from Instructional Videos	CHI	Figure4	198
+488	Visualizing Instructions for Physical Training: Exploring Visual Cues to Support Movement Learning from Instructional Videos	CHI	Table3	198
+489	What is User Engagement?: A Systematic Review of 241 Research Articles in Human-Computer Interaction and Beyond	CHI	Table5	199
+490	What is User Engagement?: A Systematic Review of 241 Research Articles in Human-Computer Interaction and Beyond	CHI	Table6	199
+491	What is User Engagement?: A Systematic Review of 241 Research Articles in Human-Computer Interaction and Beyond	CHI	Table8	199
+492	What Matters in Professional Drone Pilots’ Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research	CHI	Figure2	200
+493	"Being Simple on Complex Issues" – Accounts on Visual Data Communication About Climate Change	VIS	Table5	201
+494	"I Came Across a Junk": Understanding Design Flaws of Data Visualization from the Public's Perspective	VIS	Figure3	202
+495	A Design Space for Applying the Freytag's Pyramid Structure to Data Stories	VIS	Figure4	204
+496	A Typology of Decision-Making Tasks for Visualization	VIS	Figure2	207
+497	Affective Learning Objectives for Communicative Visualizations	VIS	Figure3	210
+498	Affective Visualization Design: Leveraging the Emotional Impact of Data	VIS	Figure2	211
+499	Affective Visualization Design: Leveraging the Emotional Impact of Data	VIS	Figure4	211
+500	Affective Visualization Design: Leveraging the Emotional Impact of Data	VIS	Table1	211
+503	Are Metrics Enough? Guidelines for Communicating and Visualizing Predictive Models to Subject Matter Experts	VIS	Table2	215
+504	Augmenting Immersive Telepresence Experience with a Virtual Body	VIS	Figure4	217
+505	Augmenting Immersive Telepresence Experience with a Virtual Body	VIS	Figure5	217
+506	Augmenting Immersive Telepresence Experience with a Virtual Body	VIS	Figure6	217
+507	Augmenting Immersive Telepresence Experience with a Virtual Body	VIS	Figure7	217
+508	Average Estimates in Line Graphs Are Biased Toward Areas of Higher Variability	VIS	Table1	218
+509	Average Estimates in Line Graphs Are Biased Toward Areas of Higher Variability	VIS	Figure9	218
+510	Beyond Vision Impairments: Redefining the Scope of Accessible Data Representations	VIS	Figure2	221
+511	Beyond Vision Impairments: Redefining the Scope of Accessible Data Representations	VIS	Figure3	221
+512	Beyond Vision Impairments: Redefining the Scope of Accessible Data Representations	VIS	Table2	221
+513	Beyond Vision Impairments: Redefining the Scope of Accessible Data Representations	VIS	Table3	221
+514	Beyond Vision Impairments: Redefining the Scope of Accessible Data Representations	VIS	Table4	221
+515	Beyond Vision Impairments: Redefining the Scope of Accessible Data Representations	VIS	Table5	221
+516	Beyond Vision Impairments: Redefining the Scope of Accessible Data Representations	VIS	Table6	221
+517	Breaking the Fourth Wall of Data Stories through Interaction	VIS	Figure5	222
+521	Communicating Uncertainty in Digital Humanities Visualization Research	VIS	Figure3	227
+522	DataGarden: Formalizing Personal Sketches into Structured Visualization Templates	VIS	Figure9	231
+523	Deconstructing Categorization in Visualization Recommendation: A Taxonomy and Comparative Study	VIS	Figure6	232
+526	Designing for Mobile and Immersive Visual Analytics in the Field	VIS	Figure6	234
+528	Designing With Pictographs: Envision Topics Without Sacrificing Understanding	VIS	Table4	235
+530	Don't They Really Hear Us? A Design Space for Private Conversations in Social Virtual Reality	VIS	Figure3	236
+531	Don't They Really Hear Us? A Design Space for Private Conversations in Social Virtual Reality	VIS	Figure4	236
+532	Dupo: A Mixed-Initiative Authoring Tool for Responsive Visualization	VIS	Figure5	237
+533	Enhancing Data Literacy On-Demand: LLMs as Guides for Novices in Chart Interpretation	VIS	Figure6	240
+534	How Do Viewers Synthesize Conflicting Information from Data Visualizations?	VIS	Figure5	255
+535	How Immersion and Self-Avatars in VR Affect Learning Programming and Computational Thinking in Middle School Education	VIS	Figure10	256
+536	How Immersion and Self-Avatars in VR Affect Learning Programming and Computational Thinking in Middle School Education	VIS	Figure11	256
+537	Illuminating the Landscape of Differential Privacy: An Interview Study on the Use of Visualization in Real-World Deployments	VIS	Table2	258
+538	Illuminating the Landscape of Differential Privacy: An Interview Study on the Use of Visualization in Real-World Deployments	VIS	Table4	258
+539	Implicit Error, Uncertainty and Confidence in Visualization: An Archaeological Case Study	VIS	Figure3	260
+540	Implicit Error, Uncertainty and Confidence in Visualization: An Archaeological Case Study	VIS	Table2	260
+541	Introducing Layers of Meaning (LoM): A Framework to Reduce Semantic Distance of Visualization In Humanistic Research	VIS	Figure1	265
+542	Introducing Layers of Meaning (LoM): A Framework to Reduce Semantic Distance of Visualization In Humanistic Research	VIS	Figure4	265
+543	Introducing Layers of Meaning (LoM): A Framework to Reduce Semantic Distance of Visualization In Humanistic Research	VIS	Figure5	265
+544	Kineticharts: Augmenting Affective Expressiveness of Charts in Data Stories with Animation Design	VIS	Figure3	268
+545	Knowledge Graphs in Practice: Characterizing their Users, Challenges, and Visualization Opportunities	VIS	Table2	269
+546	Knowledge Graphs in Practice: Characterizing their Users, Challenges, and Visualization Opportunities	VIS	Figure2	269
+547	Litforager: Exploring Multimodal Literature Foraging Strategies in Immersive Sensemaking	VIS	Figure3	271
+549	Litforager: Exploring Multimodal Literature Foraging Strategies in Immersive Sensemaking	VIS	Table1	271
+550	LoCoMoTe – A Framework for Classification of Natural Locomotion in VR by Task, Technique and Modality	VIS	Figure1	273
+551	LoCoMoTe – A Framework for Classification of Natural Locomotion in VR by Task, Technique and Modality	VIS	Figure2	273
+552	LoCoMoTe – A Framework for Classification of Natural Locomotion in VR by Task, Technique and Modality	VIS	Figure4	273
+553	LoCoMoTe – A Framework for Classification of Natural Locomotion in VR by Task, Technique and Modality	VIS	Figure5	273
+554	LoCoMoTe – A Framework for Classification of Natural Locomotion in VR by Task, Technique and Modality	VIS	Figure6	273
+555	LoCoMoTe – A Framework for Classification of Natural Locomotion in VR by Task, Technique and Modality	VIS	Figure7	273
+556	LoCoMoTe – A Framework for Classification of Natural Locomotion in VR by Task, Technique and Modality	VIS	Figure8	273
+557	Measurement of Empathy in Virtual Reality with Head-Mounted Displays: A Systematic Review	VIS	Table1	274
+558	Measurement of Empathy in Virtual Reality with Head-Mounted Displays: A Systematic Review	VIS	Figure3	274
+560	Measurement of Empathy in Virtual Reality with Head-Mounted Displays: A Systematic Review	VIS	Figure4	274
+561	Measurement of Empathy in Virtual Reality with Head-Mounted Displays: A Systematic Review	VIS	Figure5	274
+562	Measurement of Empathy in Virtual Reality with Head-Mounted Displays: A Systematic Review	VIS	Figure6	274
+563	Measurement of Empathy in Virtual Reality with Head-Mounted Displays: A Systematic Review	VIS	Figure7	274
+564	Measurement of Empathy in Virtual Reality with Head-Mounted Displays: A Systematic Review	VIS	Figure9	274
+565	My Model is Unfair, Do People Even Care? Visual Design Affects Trust and Perceived Bias in Machine Learning	VIS	Figure4	276
+577	Radiance Fields in XR: A Survey on How Radiance Fields are Envisioned and Addressed for XR Research	VIS	Table1	284
+578	Radiance Fields in XR: A Survey on How Radiance Fields are Envisioned and Addressed for XR Research	VIS	Table2	284
+579	Sibyl: Understanding and Addressing the Usability Challenges of Machine Learning In High-Stakes Decision Making	VIS	Table4	292
+582	StuGPTViz: A Visual Analytics Approach to Understand Student-ChatGPT Interactions	VIS	Figure3	296
+583	Supporting Expressive and Faithful Pictorial Visualization Design with Visual Style Transfer	VIS	Figure7	297
+584	Survey on 3D Reconstruction Techniques: Large-Scale Urban City Reconstruction and Requirements	VIS	Figure3	298
+585	Survey on 3D Reconstruction Techniques: Large-Scale Urban City Reconstruction and Requirements	VIS	Table3	298
+586	Survey on 3D Reconstruction Techniques: Large-Scale Urban City Reconstruction and Requirements	VIS	Table4	298
+587	Survey on 3D Reconstruction Techniques: Large-Scale Urban City Reconstruction and Requirements	VIS	Figure4	298
+588	Survey on 3D Reconstruction Techniques: Large-Scale Urban City Reconstruction and Requirements	VIS	Table5	298
+589	Survey on 3D Reconstruction Techniques: Large-Scale Urban City Reconstruction and Requirements	VIS	Table6	298
+590	Telling Data Stories with the Hero's Journey: Design Guidance for Creating Data Videos	VIS	Figure3	300
+591	Telling Data Stories with the Hero's Journey: Design Guidance for Creating Data Videos	VIS	Figure4	300
+592	Telling Data Stories with the Hero's Journey: Design Guidance for Creating Data Videos	VIS	Figure5	300
+593	Telling Data Stories with the Hero's Journey: Design Guidance for Creating Data Videos	VIS	Figure6	300
+594	Telling Data Stories with the Hero's Journey: Design Guidance for Creating Data Videos	VIS	Figure7	300
+595	The Elicitation Interview Technique: Capturing People's Experiences of Data Representations	VIS	Table2	302
+597	The Quest for Omnioculars: Embedded Visualization for Augmenting Basketball Game Viewing Experiences	VIS	Figure3	303
+598	The Quest for Omnioculars: Embedded Visualization for Augmenting Basketball Game Viewing Experiences	VIS	Figure4	303
+599	The Unmet Data Visualization Needs of Decision Makers Within Organizations	VIS	Figure1	304
+600	The Unmet Data Visualization Needs of Decision Makers Within Organizations	VIS	Figure2	304
+601	Examining the Design Process for 3D Interactions in Performing Arts: A Spatial Augmented Reality Cyber-Opera Case Study	VIS	Figure6	244
+602	TimeSplines: Sketch-Based Authoring of Flexible and Idiosyncratic Timelines	VIS	Figure4	306
+603	Towards Visualization Thumbnail Designs That Entice Reading Data-Driven Articles	VIS	Table5	308
+604	Towards Visualization Thumbnail Designs That Entice Reading Data-Driven Articles	VIS	Table6	308
+605	TrustME: A Context-Aware Explainability Model to Promote User Trust in Guidance	VIS	Figure2	310
+606	TrustME: A Context-Aware Explainability Model to Promote User Trust in Guidance	VIS	Figure3	310
+607	TrustME: A Context-Aware Explainability Model to Promote User Trust in Guidance	VIS	Figure4	310
+608	TrustME: A Context-Aware Explainability Model to Promote User Trust in Guidance	VIS	Figure5	310
+609	TrustME: A Context-Aware Explainability Model to Promote User Trust in Guidance	VIS	Figure6	310
+610	TrustME: A Context-Aware Explainability Model to Promote User Trust in Guidance	VIS	Figure7	310
+611	TrustME: A Context-Aware Explainability Model to Promote User Trust in Guidance	VIS	Figure8	310
+612	Understanding Barriers to Network Exploration with Visualization: A Report from the Trenches	VIS	Figure1	311
+614	Understanding How In-Visualization Provenance Can Support Trade-Off Analysis	VIS	Figure5	313
+615	Understanding Visualization Authoring Techniques for Genomics Data in the Context of Personas and Tasks	VIS	Figure3	314
+616	Untidy Data: The Unreasonable Effectiveness of Tables	VIS	Figure1	315
+617	Visual Cue Effects on a Classification Accuracy Estimation Task in Immersive Scatterplots	VIS	Figure12	318
+618	Visualization According to Statisticians: An Interview Study on the Role of Visualization for Inferential Statistics	VIS	Table3	320
+619	Visualization According to Statisticians: An Interview Study on the Role of Visualization for Inferential Statistics	VIS	Table4	320
+620	Visualization According to Statisticians: An Interview Study on the Role of Visualization for Inferential Statistics	VIS	Table5	320
+621	Visualization According to Statisticians: An Interview Study on the Role of Visualization for Inferential Statistics	VIS	Table6	320
+622	Visualization According to Statisticians: An Interview Study on the Role of Visualization for Inferential Statistics	VIS	Table7	320
+623	Visualization According to Statisticians: An Interview Study on the Role of Visualization for Inferential Statistics	VIS	Table8	320
+624	Visualization Atlases: Explaining and Exploring Complex Topics Through Data, Visualization, and Narration	VIS	Figure2	321
+625	Visualization Atlases: Explaining and Exploring Complex Topics Through Data, Visualization, and Narration	VIS	Figure3	321
+626	Visualization Design Practices in a Crisis: Behind the Scenes with COVID-19 Dashboard Creators	VIS	Figure2	322
+633	You can't always sketch what you want: Understanding Sensemaking in Visual Query Systems	VIS	Figure3	327
+634	You can't always sketch what you want: Understanding Sensemaking in Visual Query Systems	VIS	Table2	327
+635	You can't always sketch what you want: Understanding Sensemaking in Visual Query Systems	VIS	Figure5	327
+636	Words of Estimative Correlation: Studying Verbalizations of Scatterplots	VIS	Table1	326
+637	Words of Estimative Correlation: Studying Verbalizations of Scatterplots	VIS	Table2	326
+638	Words of Estimative Correlation: Studying Verbalizations of Scatterplots	VIS	Figure4	326
+639	Words of Estimative Correlation: Studying Verbalizations of Scatterplots	VIS	Table3	326
+640	Words of Estimative Correlation: Studying Verbalizations of Scatterplots	VIS	Figure5	326
+641	Words of Estimative Correlation: Studying Verbalizations of Scatterplots	VIS	Figure6	326
+642	Words of Estimative Correlation: Studying Verbalizations of Scatterplots	VIS	Figure7	326
+644	From Jam Session to Recital: Synchronous Communication and Collaboration Around Data in Organizations	VIS	Table1	247
+647	Attached to "The Algorithm": Making Sense of Algorithmic Precarity on Instagram	CHI	Figure1	41
+648	Eliciting and Analysing Users' Envisioned Dialogues with Perfect Voice Assistants	CHI	Figure4	73
+649	Human-Precision Medicine Interaction: Public Perceptions of Polygenic Risk Score for Genetic Health Prediction	CHI	Table2	102
+650	Human-Precision Medicine Interaction: Public Perceptions of Polygenic Risk Score for Genetic Health Prediction	CHI	Table3	102
+651	Towards Visualization Thumbnail Designs That Entice Reading Data-Driven Articles	VIS	Figure6	308
+652	Exploring Modular Prompt Design for Emotion and Mental Health Recognition	CHI	Table4	82
+653	A Need-Finding Study with Users of Geospatial Data	CHI	Figure8	32
+654	A Need-Finding Study with Users of Geospatial Data	CHI	Figure9	32
+655	Folk Tales of IoT: Understanding the Impact of Stories on Users' Positive and Negative Perceptions of Smart Home IoT Devices	CHI	Table2	89
+656	Average Estimates in Line Graphs Are Biased Toward Areas of Higher Variability	VIS	Figure10	218
+657	Measurement of Empathy in Virtual Reality with Head-Mounted Displays: A Systematic Review	VIS	Table2	274
+659	Exploring Media Capture of Meaningful Experiences to Support Families Living with Dementia	CHI	Figure3	331
+660	Exploring Media Capture of Meaningful Experiences to Support Families Living with Dementia	CHI	Figure4	331
+661	Computing Students' Learning Difficulties in HCI Education	CHI	Table1	332
+662	Computing Students' Learning Difficulties in HCI Education	CHI	Table3	332
+663	Computing Students' Learning Difficulties in HCI Education	CHI	Table4	332
+664	Tag a Teacher: A Qualitative Analysis of WhatsApp-Based Teacher Networks in Low-Income Indian Schools	CHI	Figure2	336
+665	Tag a Teacher: A Qualitative Analysis of WhatsApp-Based Teacher Networks in Low-Income Indian Schools	CHI	Figure3	336
+666	Sketchnote Components, Design Space Dimensions, and Strategies for Effective Visual Note Taking	CHI	Figure2	337
+667	Sketchnote Components, Design Space Dimensions, and Strategies for Effective Visual Note Taking	CHI	Figure3	337
+668	Sketchnote Components, Design Space Dimensions, and Strategies for Effective Visual Note Taking	CHI	Figure4	337
+669	Sketchnote Components, Design Space Dimensions, and Strategies for Effective Visual Note Taking	CHI	Figure5	337
+670	Sketchnote Components, Design Space Dimensions, and Strategies for Effective Visual Note Taking	CHI	Figure6	337
+671	Sketchnote Components, Design Space Dimensions, and Strategies for Effective Visual Note Taking	CHI	Figure7	337
+672	Standardizing Reporting of Participant Compensation in HCI: A Systematic Literature Review and Recommendations for the Field	CHI	Table2	338
+673	Standardizing Reporting of Participant Compensation in HCI: A Systematic Literature Review and Recommendations for the Field	CHI	Table3	338
+674	Standardizing Reporting of Participant Compensation in HCI: A Systematic Literature Review and Recommendations for the Field	CHI	Table4	338
+675	How Will VR Enter University Classrooms? Multi-stakeholders Investigation of VR in Higher Education	CHI	Table3	340
+676	Different Researchers, Different Results? Analyzing the Influence of Researcher Experience and Data Type During Qualitative Analysis of an Interview and Survey Study on Security Advice	CHI	Figure4	342
+677	Different Researchers, Different Results? Analyzing the Influence of Researcher Experience and Data Type During Qualitative Analysis of an Interview and Survey Study on Security Advice	CHI	Figure5	342
+678	Different Researchers, Different Results? Analyzing the Influence of Researcher Experience and Data Type During Qualitative Analysis of an Interview and Survey Study on Security Advice	CHI	Figure7	342
+679	Different Researchers, Different Results? Analyzing the Influence of Researcher Experience and Data Type During Qualitative Analysis of an Interview and Survey Study on Security Advice	CHI	Figure8	342
+680	Different Researchers, Different Results? Analyzing the Influence of Researcher Experience and Data Type During Qualitative Analysis of an Interview and Survey Study on Security Advice	CHI	Figure9	342
+681	Different Researchers, Different Results? Analyzing the Influence of Researcher Experience and Data Type During Qualitative Analysis of an Interview and Survey Study on Security Advice	CHI	Figure10	342
+682	Different Researchers, Different Results? Analyzing the Influence of Researcher Experience and Data Type During Qualitative Analysis of an Interview and Survey Study on Security Advice	CHI	Figure11	342
+683	Different Researchers, Different Results? Analyzing the Influence of Researcher Experience and Data Type During Qualitative Analysis of an Interview and Survey Study on Security Advice	CHI	Figure12	342
+684	How Users Experience Closed Captions on Live Television: Quality Metrics Remain a Challenge	CHI	Figure7	345
+685	#PoetsOfInstagram: Navigating The Practices And Challenges Of Novice Poets On Instagram	CHI	Figure1	346
+686	#PoetsOfInstagram: Navigating The Practices And Challenges Of Novice Poets On Instagram	CHI	Figure2	346
+687	A Scoping Study of Evaluation Practices for Responsible AI Tools: Steps Towards Effectiveness Evaluations	CHI	Table5	347
+688	The Effects of Generative AI on Design Fixation and Divergent Thinking	CHI	Figure11	350
+689	The Effects of Generative AI on Design Fixation and Divergent Thinking	CHI	Figure12	350
+690	The Effects of Generative AI on Design Fixation and Divergent Thinking	CHI	Figure13	350
+691	The Effects of Generative AI on Design Fixation and Divergent Thinking	CHI	Figure14	350
+692	The Effects of Generative AI on Design Fixation and Divergent Thinking	CHI	Figure15	350
+693	Oral History and Qualitative Analysis with Youth: Cultivating Attachments to Create Publics	CHI	Table2	351
+694	Making the Write Connections: Linking Writing Support Tools with Writer Needs	CHI	Table4	352
+695	Making the Write Connections: Linking Writing Support Tools with Writer Needs	CHI	Table5	352
+696	Making the Write Connections: Linking Writing Support Tools with Writer Needs	CHI	Table6	352
+697	Making the Write Connections: Linking Writing Support Tools with Writer Needs	CHI	Figure6	352
+698	Data Bias Recognition in Museum Settings: Framework Development and Contributing Factors	CHI	Table1	356
+699	Data Bias Recognition in Museum Settings: Framework Development and Contributing Factors	CHI	Table2	356
+700	A Qualitative Analysis of Common Practices in Annotations: A Taxonomy and Design Space	VIS	Figure1	206
+701	A Qualitative Analysis of Common Practices in Annotations: A Taxonomy and Design Space	VIS	Figure2	206
+702	A Qualitative Analysis of Common Practices in Annotations: A Taxonomy and Design Space	VIS	Figure5	206
+703	A Qualitative Analysis of Common Practices in Annotations: A Taxonomy and Design Space	VIS	Table1	206
+704	A Qualitative Analysis of Common Practices in Annotations: A Taxonomy and Design Space	VIS	Figure6	206
+705	A Qualitative Analysis of Common Practices in Annotations: A Taxonomy and Design Space	VIS	Figure7	206

@@ -12,7 +12,7 @@ import {
   getVisualIconClass,
 } from './taxonomy'
 import type { AppFilters } from './types'
-import { IconActionButton, SummaryPill } from './ui'
+import { IconActionButton } from './ui'
 
 type FiltersPanelProps = {
   data: AppData
@@ -22,6 +22,7 @@ type FiltersPanelProps = {
   yearCounts: Array<{ year: number; count: number }>
   visiblePaperCount: number
   isPending: boolean
+  onClosePanel: () => void
   onReset: () => void
   onResetVenue: () => void
   onResetYear: () => void
@@ -46,6 +47,7 @@ export function FiltersPanel({
   yearCounts,
   visiblePaperCount,
   isPending,
+  onClosePanel,
   onReset,
   onResetVenue,
   onResetYear,
@@ -61,7 +63,6 @@ export function FiltersPanel({
   onToggleVisualGroup,
   onToggleMatrixCell,
 }: FiltersPanelProps) {
-  const [filtersOpen, setFiltersOpen] = useState(false)
   const filterPanelRef = useRef<HTMLElement | null>(null)
   const [sectionOpen, setSectionOpen] = useState({
     venue: false,
@@ -141,10 +142,10 @@ export function FiltersPanel({
       window.removeEventListener('resize', requestUpdate)
       window.removeEventListener('scroll', requestUpdate)
     }
-  }, [filtersOpen, sectionOpen])
+  }, [sectionOpen])
 
   return (
-    <section className="filter-panel filter-panel-top" ref={filterPanelRef}>
+    <section className="filter-panel" ref={filterPanelRef}>
       <div className="filter-panel-header">
         <div className="panel-title-row">
           <h2 className="panel-title">Filters</h2>
@@ -165,9 +166,9 @@ export function FiltersPanel({
             {filters.taxonomyMode.toUpperCase()}
           </button>
           <IconActionButton
-            iconClass={filtersOpen ? 'fa-chevron-up' : 'fa-chevron-down'}
-            label={filtersOpen ? 'Hide filters' : 'Show filters'}
-            onClick={() => setFiltersOpen((current) => !current)}
+            iconClass="fa-chevron-left"
+            label="Hide filters"
+            onClick={onClosePanel}
           />
           <IconActionButton
             iconClass="fa-rotate-right"
@@ -176,23 +177,7 @@ export function FiltersPanel({
           />
         </div>
       </div>
-      <div className="summary-pills filter-summary-pills">
-        <SummaryPill>
-          Venues {filters.venues.length === data.venues.length ? 'All' : filters.venues.length}
-        </SummaryPill>
-        <SummaryPill>
-          Years {filters.years.length === 0 ? 'All' : filters.years.length}
-        </SummaryPill>
-        <SummaryPill>
-          Data {filters.dataTags.length === 0 ? 'All' : filters.dataTags.length}
-        </SummaryPill>
-        <SummaryPill>
-          Visual {filters.visualTags.length === 0 ? 'All' : filters.visualTags.length}
-        </SummaryPill>
-      </div>
-
-      {filtersOpen ? (
-        <div className="filter-panel-body">
+      <div className="filter-panel-body">
           <section className="filter-section">
             <div className="section-header">
               <div className="section-header-top">
@@ -346,7 +331,6 @@ export function FiltersPanel({
             ) : null}
           </section>
         </div>
-      ) : null}
     </section>
   )
 }

@@ -11,10 +11,11 @@ import { loadAppData, type FigureRecord } from './data'
 import { ReferenceView } from './reference'
 import { FigureModal, SurveyView } from './survey'
 import type { AppFilters, TabId } from './types'
-import { TabButton } from './ui'
+import { SummaryPill, TabButton } from './ui'
 
 function App() {
   const [activeTab, setActiveTab] = useState<TabId>('survey')
+  const [isFilterDrawerOpen, setIsFilterDrawerOpen] = useState(false)
   const [data, setData] = useState<Awaited<ReturnType<typeof loadAppData>> | null>(null)
   const [filters, setFilters] = useState<AppFilters | null>(null)
   const [selectedFigure, setSelectedFigure] = useState<FigureRecord | null>(null)
@@ -128,175 +129,232 @@ function App() {
           </h1>
           <p className="hero-copy"></p>
         </div>
-        {/*
-        <div className="hero-stats">
-          <StatCard label="Venues" value={data.venues.length} />
-          <StatCard label="Years" value={`${data.years[0]}-${data.years.at(-1)}`} wide />
-          <StatCard label="Papers" value={data.totalPaperCount} />
-          <StatCard label="Figures" value={data.figures.length} />
+        
+        <div className="summary-pills app-filter-summary">
+          <SummaryPill>
+            Venues {deferredFilters.venues.length === data.venues.length ? 'All' : deferredFilters.venues.length}
+          </SummaryPill>
+          <SummaryPill>
+            Years {deferredFilters.years.length === 0 ? 'All' : deferredFilters.years.length}
+          </SummaryPill>
+          <SummaryPill>
+            Data {deferredFilters.dataTags.length === 0 ? 'All' : deferredFilters.dataTags.length}
+          </SummaryPill>
+          <SummaryPill>
+            Visual {deferredFilters.visualTags.length === 0 ? 'All' : deferredFilters.visualTags.length}
+          </SummaryPill>
         </div>
-        */}
       </section>
 
-      <FiltersPanel
-        data={data}
-        figures={visibleFigures}
-        filters={deferredFilters}
-        venueCounts={venueCounts}
-        yearCounts={yearCounts}
-        visiblePaperCount={visiblePaperCount}
-        isPending={isPending}
-        onReset={() =>
-          updateFilters((current) => ({
-            venues: data.venues,
-            years: [],
-            dataTags: [],
-            visualTags: [],
-            taxonomyMode: current.taxonomyMode,
-          }))
-        }
-        onResetVenue={() =>
-          updateFilters((current) => ({
-            ...current,
-            venues: data.venues,
-          }))
-        }
-        onResetYear={() =>
-          updateFilters((current) => ({
-            ...current,
-            years: [],
-          }))
-        }
-        onResetData={() =>
-          updateFilters((current) => ({
-            ...current,
-            dataTags: [],
-          }))
-        }
-        onResetVisual={() =>
-          updateFilters((current) => ({
-            ...current,
-            visualTags: [],
-          }))
-        }
-        onResetMatrix={() =>
-          updateFilters((current) => ({
-            ...current,
-            dataTags: [],
-            visualTags: [],
-          }))
-        }
-        onToggleVenue={(venue) =>
-          updateFilters((current) => ({
-            ...current,
-            venues: toggleValue(current.venues, venue),
-          }))
-        }
-        onToggleYear={(year) =>
-          updateFilters((current) => ({
-            ...current,
-            years: toggleValue(current.years, year),
-          }))
-        }
-        onToggleDataTag={(tagKey) =>
-          updateFilters((current) => ({
-            ...current,
-            dataTags: toggleValue(current.dataTags, tagKey),
-          }))
-        }
-        onToggleDataGroup={(tagKeys) =>
-          updateFilters((current) => ({
-            ...current,
-            dataTags: toggleGroupValues(current.dataTags, tagKeys),
-          }))
-        }
-        onToggleVisualTag={(tagKey) =>
-          updateFilters((current) => ({
-            ...current,
-            visualTags: toggleValue(current.visualTags, tagKey),
-          }))
-        }
-        onToggleVisualGroup={(tagKeys) =>
-          updateFilters((current) => ({
-            ...current,
-            visualTags: toggleGroupValues(current.visualTags, tagKeys),
-          }))
-        }
-        onToggleMatrixCell={(dataTagKey, visualTagKey) =>
-          updateFilters((current) => ({
-            ...current,
-            ...toggleMatrixValues(
-              current.dataTags,
-              current.visualTags,
-              dataTagKey,
-              visualTagKey,
-            ),
-          }))
-        }
-        onToggleTaxonomyMode={() =>
-          updateFilters((current) => ({
-            ...current,
-            taxonomyMode: current.taxonomyMode === 'and' ? 'or' : 'and',
-          }))
-        }
-      />
+    {/*
+      <div className="summary-pills app-filter-summary">
+        <SummaryPill>
+          Venues {deferredFilters.venues.length === data.venues.length ? 'All' : deferredFilters.venues.length}
+        </SummaryPill>
+        <SummaryPill>
+          Years {deferredFilters.years.length === 0 ? 'All' : deferredFilters.years.length}
+        </SummaryPill>
+        <SummaryPill>
+          Data {deferredFilters.dataTags.length === 0 ? 'All' : deferredFilters.dataTags.length}
+        </SummaryPill>
+        <SummaryPill>
+          Visual {deferredFilters.visualTags.length === 0 ? 'All' : deferredFilters.visualTags.length}
+        </SummaryPill>
+      </div>
+      */}
 
-      <nav className="tab-row" aria-label="Main tabs">
-        <TabButton
-          active={activeTab === 'survey'}
-          onClick={() => setActiveTab('survey')}
-        >
-          Survey
-        </TabButton>
-        <TabButton
-          active={activeTab === 'reference'}
-          onClick={() => setActiveTab('reference')}
-        >
-          Reference
-        </TabButton>
-        <TabButton
-          active={activeTab === 'about'}
-          onClick={() => setActiveTab('about')}
-        >
-          About
-        </TabButton>
-      </nav>
+      <div className={`workspace-layout${isFilterDrawerOpen ? ' is-filter-open' : ''}`}>
+        <aside className={`filter-drawer${isFilterDrawerOpen ? ' is-open' : ''}`}>
+          {isFilterDrawerOpen ? (
+            <div className="filter-drawer-panel">
+              <FiltersPanel
+                data={data}
+                figures={visibleFigures}
+                filters={deferredFilters}
+                venueCounts={venueCounts}
+                yearCounts={yearCounts}
+                visiblePaperCount={visiblePaperCount}
+                isPending={isPending}
+                onClosePanel={() => setIsFilterDrawerOpen(false)}
+                onReset={() =>
+                  updateFilters((current) => ({
+                    venues: data.venues,
+                    years: [],
+                    dataTags: [],
+                    visualTags: [],
+                    taxonomyMode: current.taxonomyMode,
+                  }))
+                }
+                onResetVenue={() =>
+                  updateFilters((current) => ({
+                    ...current,
+                    venues: data.venues,
+                  }))
+                }
+                onResetYear={() =>
+                  updateFilters((current) => ({
+                    ...current,
+                    years: [],
+                  }))
+                }
+                onResetData={() =>
+                  updateFilters((current) => ({
+                    ...current,
+                    dataTags: [],
+                  }))
+                }
+                onResetVisual={() =>
+                  updateFilters((current) => ({
+                    ...current,
+                    visualTags: [],
+                  }))
+                }
+                onResetMatrix={() =>
+                  updateFilters((current) => ({
+                    ...current,
+                    dataTags: [],
+                    visualTags: [],
+                  }))
+                }
+                onToggleVenue={(venue) =>
+                  updateFilters((current) => ({
+                    ...current,
+                    venues: toggleValue(current.venues, venue),
+                  }))
+                }
+                onToggleYear={(year) =>
+                  updateFilters((current) => ({
+                    ...current,
+                    years: toggleValue(current.years, year),
+                  }))
+                }
+                onToggleDataTag={(tagKey) =>
+                  updateFilters((current) => ({
+                    ...current,
+                    dataTags: toggleValue(current.dataTags, tagKey),
+                  }))
+                }
+                onToggleDataGroup={(tagKeys) =>
+                  updateFilters((current) => ({
+                    ...current,
+                    dataTags: toggleGroupValues(current.dataTags, tagKeys),
+                  }))
+                }
+                onToggleVisualTag={(tagKey) =>
+                  updateFilters((current) => ({
+                    ...current,
+                    visualTags: toggleValue(current.visualTags, tagKey),
+                  }))
+                }
+                onToggleVisualGroup={(tagKeys) =>
+                  updateFilters((current) => ({
+                    ...current,
+                    visualTags: toggleGroupValues(current.visualTags, tagKeys),
+                  }))
+                }
+                onToggleMatrixCell={(dataTagKey, visualTagKey) =>
+                  updateFilters((current) => ({
+                    ...current,
+                    ...toggleMatrixValues(
+                      current.dataTags,
+                      current.visualTags,
+                      dataTagKey,
+                      visualTagKey,
+                    ),
+                  }))
+                }
+                onToggleTaxonomyMode={() =>
+                  updateFilters((current) => ({
+                    ...current,
+                    taxonomyMode: current.taxonomyMode === 'and' ? 'or' : 'and',
+                  }))
+                }
+              />
+            </div>
+          ) : null}
+        </aside>
 
-      <section className="content-panel">
-        {activeTab === 'survey' ? (
-          <SurveyView
-            figures={visibleFigures}
-            filters={deferredFilters}
-            onToggleDataTag={(tagKey) =>
-              updateFilters((current) => ({
-                ...current,
-                dataTags: toggleValue(current.dataTags, tagKey),
-              }))
-            }
-            onToggleVisualTag={(tagKey) =>
-              updateFilters((current) => ({
-                ...current,
-                visualTags: toggleValue(current.visualTags, tagKey),
-              }))
-            }
-            onSelectFigure={setSelectedFigure}
-          />
-        ) : null}
+        <div className="workspace-main">
+          <nav className="tab-row" aria-label="Main tabs">
+            <button
+              aria-expanded={isFilterDrawerOpen}
+              aria-label={isFilterDrawerOpen ? 'Hide filters' : 'Show filters'}
+              className={`filter-tab-button${isFilterDrawerOpen ? ' is-active' : ''}`}
+              onClick={() => setIsFilterDrawerOpen((current) => !current)}
+              type="button"
+            >
+              <i
+                aria-hidden="true"
+                className={`fas ${isFilterDrawerOpen ? 'fa-chevron-left' : 'fa-filter'}`}
+              />
+              Filters
+            </button>
+            <TabButton
+              active={activeTab === 'survey'}
+              onClick={() => setActiveTab('survey')}
+            >
+              Survey
+            </TabButton>
+            <TabButton
+              active={activeTab === 'reference'}
+              onClick={() => setActiveTab('reference')}
+            >
+              Reference
+            </TabButton>
+            <TabButton
+              active={activeTab === 'about'}
+              onClick={() => setActiveTab('about')}
+            >
+              About
+            </TabButton>
+          </nav>
 
-        {activeTab === 'reference' ? (
-          <ReferenceView
-            includedPapers={visiblePapers}
-            excludedPapers={hiddenPapers}
-            totalPaperCount={data.totalPaperCount}
-          />
-        ) : null}
-        {activeTab === 'about' ? (
-          <AboutView
-            dataGroups={data.dataGroups}
-            visualGroups={data.visualGroups}
-          />
-        ) : null}
-      </section>
+          <section className="content-panel">
+            {activeTab === 'survey' ? (
+              <SurveyView
+                figures={visibleFigures}
+                filters={deferredFilters}
+                onToggleDataTag={(tagKey) =>
+                  updateFilters((current) => ({
+                    ...current,
+                    dataTags: toggleValue(current.dataTags, tagKey),
+                  }))
+                }
+                onToggleVisualTag={(tagKey) =>
+                  updateFilters((current) => ({
+                    ...current,
+                    visualTags: toggleValue(current.visualTags, tagKey),
+                  }))
+                }
+                onSelectFigure={setSelectedFigure}
+              />
+            ) : null}
+
+            {activeTab === 'reference' ? (
+              <ReferenceView
+                includedPapers={visiblePapers}
+                excludedPapers={hiddenPapers}
+                totalPaperCount={data.totalPaperCount}
+              />
+            ) : null}
+            {activeTab === 'about' ? (
+              <AboutView
+                dataGroups={data.dataGroups}
+                visualGroups={data.visualGroups}
+              />
+            ) : null}
+          </section>
+        </div>
+      </div>
+
+      {isFilterDrawerOpen ? (
+        <button
+          aria-label="Close filters"
+          className="filter-drawer-backdrop"
+          onClick={() => setIsFilterDrawerOpen(false)}
+          type="button"
+        />
+      ) : null}
 
       {selectedFigure ? (
         <FigureModal

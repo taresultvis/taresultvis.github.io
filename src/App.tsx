@@ -144,6 +144,9 @@ function App() {
             Visual {deferredFilters.visualTags.length === 0 ? 'All' : deferredFilters.visualTags.length}
           </SummaryPill>
         </div>
+        <p className="app-filter-meta">
+          {visibleFigures.length} figures from {visiblePaperCount} papers
+        </p>
       </section>
 
     {/*
@@ -169,11 +172,9 @@ function App() {
             <div className="filter-drawer-panel">
               <FiltersPanel
                 data={data}
-                figures={visibleFigures}
                 filters={deferredFilters}
                 venueCounts={venueCounts}
                 yearCounts={yearCounts}
-                visiblePaperCount={visiblePaperCount}
                 isPending={isPending}
                 onClosePanel={() => setIsFilterDrawerOpen(false)}
                 onReset={() =>
@@ -301,12 +302,14 @@ function App() {
             >
               Reference
             </TabButton>
+            {/*
             <TabButton
               active={activeTab === 'about'}
               onClick={() => setActiveTab('about')}
             >
               About
             </TabButton>
+            */}
           </nav>
 
           <section className="content-panel">

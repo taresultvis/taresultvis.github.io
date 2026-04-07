@@ -16,11 +16,9 @@ import { IconActionButton } from './ui'
 
 type FiltersPanelProps = {
   data: AppData
-  figures: FigureRecord[]
   filters: AppFilters
   venueCounts: Map<string, number>
   yearCounts: Array<{ year: number; count: number }>
-  visiblePaperCount: number
   isPending: boolean
   onClosePanel: () => void
   onReset: () => void
@@ -41,11 +39,9 @@ type FiltersPanelProps = {
 
 export function FiltersPanel({
   data,
-  figures,
   filters,
   venueCounts,
   yearCounts,
-  visiblePaperCount,
   isPending,
   onClosePanel,
   onReset,
@@ -149,9 +145,6 @@ export function FiltersPanel({
       <div className="filter-panel-header">
         <div className="panel-title-row">
           <h2 className="panel-title">Filters</h2>
-          <span className="panel-meta">
-            ({figures.length} figures from {visiblePaperCount} papers)
-          </span>
         </div>
         <div className="filter-panel-controls">
           {isPending ? <span className="pending-badge">Updating…</span> : null}

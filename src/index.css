@@ -176,10 +176,16 @@ img {
 }
 
 .tab-row {
+  position: sticky;
+  top: 0.55rem;
+  z-index: 13;
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
   margin: 0.55rem 0 0.7rem;
+  padding: 0.2rem 0;
+  background: rgba(244, 246, 248, 0.92);
+  backdrop-filter: blur(14px);
 }
 
 .filter-tab-button {
@@ -220,6 +226,9 @@ img {
 }
 
 .workspace-layout {
+  --nav-height: 52px;
+  --nav-sticky-top: 0.55rem;
+  --filter-panel-top: calc(var(--nav-sticky-top) + var(--nav-height) + 0.28rem);
   position: relative;
   margin-top: 0.75rem;
 }
@@ -1634,20 +1643,16 @@ img {
   }
 
   .filter-drawer.is-open {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
+    position: fixed;
+    left: 0.5rem;
+    top: var(--filter-panel-top);
+    width: min(calc(100vw - 1rem), 640px);
     z-index: 17;
   }
 
   .filter-drawer.is-open .filter-drawer-panel {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: min(calc(100vw - 1rem), 640px);
+    width: 100%;
     max-width: 640px;
-    z-index: 17;
   }
 
   .filter-drawer-backdrop {
@@ -1678,11 +1683,12 @@ img {
 
   .workspace-layout.is-filter-open .filter-drawer {
     position: sticky;
-    top: 0.65rem;
+    top: var(--filter-panel-top);
     display: flex;
     align-items: flex-start;
     gap: 0.75rem;
-    max-height: calc(100vh - 0.65rem);
+    margin-top: calc(var(--nav-height) + 0.28rem);
+    max-height: calc(100vh - var(--filter-panel-top));
   }
 
   .workspace-layout.is-filter-open .filter-drawer-panel {

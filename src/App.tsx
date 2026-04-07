@@ -1,4 +1,11 @@
-import { useDeferredValue, useEffect, useState, useTransition } from 'react'
+import {
+  useDeferredValue,
+  useEffect,
+  useRef,
+  useState,
+  useTransition,
+  type CSSProperties,
+} from 'react'
 import { AboutView } from './about'
 import {
   buildVenueCounts,
@@ -16,11 +23,13 @@ import { SummaryPill, TabButton } from './ui'
 function App() {
   const [activeTab, setActiveTab] = useState<TabId>('survey')
   const [isFilterDrawerOpen, setIsFilterDrawerOpen] = useState(false)
+  const [navHeight, setNavHeight] = useState(52)
   const [data, setData] = useState<Awaited<ReturnType<typeof loadAppData>> | null>(null)
   const [filters, setFilters] = useState<AppFilters | null>(null)
   const [selectedFigure, setSelectedFigure] = useState<FigureRecord | null>(null)
   const [errorMessage, setErrorMessage] = useState('')
   const [isPending, startTransition] = useTransition()
+  const navRef = useRef<HTMLElement | null>(null)
 
   useEffect(() => {
     let isMounted = true
@@ -59,6 +68,32 @@ function App() {
       isMounted = false
     }
   }, [])
+
+  useEffect(() => {
+    const nav = navRef.current
+
+    if (!nav) {
+      return
+    }
+
+    const updateNavHeight = () => {
+      setNavHeight(nav.getBoundingClientRect().height)
+    }
+
+    updateNavHeight()
+
+    const resizeObserver = new ResizeObserver(() => {
+      updateNavHeight()
+    })
+
+    resizeObserver.observe(nav)
+    window.addEventListener('resize', updateNavHeight)
+
+    return () => {
+      resizeObserver.disconnect()
+      window.removeEventListener('resize', updateNavHeight)
+    }
+  }, [activeTab, isFilterDrawerOpen])
 
   const deferredFilters = useDeferredValue(filters)
 
@@ -166,7 +201,14 @@ function App() {
       </div>
       */}
 
-      <div className={`workspace-layout${isFilterDrawerOpen ? ' is-filter-open' : ''}`}>
+      <div
+        className={`workspace-layout${isFilterDrawerOpen ? ' is-filter-open' : ''}`}
+        style={
+          {
+            '--nav-height': `${navHeight}px`,
+          } as CSSProperties
+        }
+      >
         <aside className={`filter-drawer${isFilterDrawerOpen ? ' is-open' : ''}`}>
           {isFilterDrawerOpen ? (
             <div className="filter-drawer-panel">
@@ -276,7 +318,7 @@ function App() {
         </aside>
 
         <div className="workspace-main">
-          <nav className="tab-row" aria-label="Main tabs">
+          <nav className="tab-row" aria-label="Main tabs" ref={navRef}>
             <button
               aria-expanded={isFilterDrawerOpen}
               aria-label={isFilterDrawerOpen ? 'Hide filters' : 'Show filters'}
